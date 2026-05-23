@@ -8,7 +8,7 @@ function applyMultiverseTheme() {
     if (currentPath.includes("celesta-public-archive")) {
         rootHtml.style.setProperty("--md-primary-fg-color", "#00D4FF", "important");       /* Signature Cyan */
         rootHtml.style.setProperty("--md-primary-fg-color--light", "#7ce9ffc9", "important");
-        rootHtml.style.setProperty("--md-primary-fg-color--dark", "#00333d", "important");   /* Deep Dark Cyan backdrop for contrast */
+        rootHtml.style.setProperty("--md-primary-fg-color--dark", "#00728a", "important");   /* Deep Dark Cyan backdrop for contrast */
         rootHtml.style.setProperty("--custom-nav-text-color", "#17191c", "important");     /* Dark text to contrast with bright Cyan */
         
         /* PAGE BACKGROUND SETTING */
