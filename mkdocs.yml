@@ -25,7 +25,8 @@ theme:
     
 plugins:
   - search
-  - literate-nav
+  - gen_nav:
+      enabled: true
     
 # Explicitly design your independent Google-Sites-style layout tabs
 nav:
