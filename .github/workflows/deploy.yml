@@ -24,4 +24,4 @@ jobs:
           
       - name: Build and Deploy to GitHub Pages
         run: |
-          mkdocs gh-deploy --force
+          mkdocs gh-deploy --force --clean
