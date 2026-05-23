@@ -3,22 +3,26 @@ title: Jessica Marie Peifer
 sidebar: 002 - Jessica Marie Peifer
 universe: rotc
 dob: 2000-11-10
+height: 5'5"
+sex: F
+maiden_name: Rachels
+species.name: Human
+species.url: https://en.wikipedia.org/wiki/Human
+ID: 2
 ---
-# #2 - Jessica Marie Peifer
+# #{ ID } - { title }
 
 ## Biometrics
 
 ### Biology
 
-Name: Jessica Marie Peifer (md. Rachels)  
+Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}
 Nickname(s): Jessi, Jess  
 Biological Age: {{ age }}
-
 Chronological Age: {{ chronological_age }} (b. { dob })
-
-Base Height: 5'5"  
-Base Species: Human  
-Sex: F  
+Base Height: { height }
+Base Species: [{ species.name }]({ species.url }) 
+Sex: { sex }
 Base Hair Color: Brown  
 Base Eye Color: Blue  
 Base Fur/Skin Color or Pattern: White  

@@ -3,23 +3,27 @@ title: Jeremy David Peifer
 sidebar: 001 - Jeremy David Peifer
 universe: rotc
 dob: 2000-10-30
+height: 5'9"
+sex: M
+maiden_name: N/A
+species.name: Human
+species.url: https://en.wikipedia.org/wiki/Human
+ID: 1
 ---
-# #1 - Jeremy David Peifer
+# #{ ID } - { title }
 
 ## Biometrics
 
 ### Biology
 
-Name: Jeremy David Peifer  
+Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}
 Nickname(s): Jer  
 Alias(es): peef, spiro, spiro9  
 Biological Age: {{ age }}
-
 Chronological Age: {{ chronological_age }} (b. { dob })
-
-Base Height: 5'9"  
-Base Species: Human  
-Sex: M  
+Base Height: { height }
+Base Species: [{ species.name }]({ species.url }) 
+Sex: { sex }
 Base Hair Color: Brown  
 Base Eye Color: Blue  
 Base Fur/Skin Color or Pattern: White + olive  

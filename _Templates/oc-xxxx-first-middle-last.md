@@ -3,22 +3,26 @@ title: Raw Character Name
 sidebar: NNN - Raw Character Name
 universe: rotc or tsr
 dob: 1999-01-01
+height: 5'10"
+sex: N
+maiden_name: N/A
+species.name: Human
+species.url: https://en.wikipedia.org/wiki/Human
+ID: 0
 ---
-# #0 - Character Name Here
+# #{ id } - { title }
 
 ## Biometrics
 
 ### Biology
 
-Name: Sum De Facto
+Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}
 Nickname(s): N/A
 Biological Age: {{ age }}
-
 Chronological Age: {{ chronological_age }} (b. { dob })
-
-Base Height: 5'9"  
-Base Species: Human  
-Sex: M  
+Base Height: { height }
+Base Species: [{ species.name }]({ species.url }) 
+Sex: { sex }
 Base Hair Color: Brown  
 Base Eye Color: Blue  
 Base Fur/Skin Color or Pattern: White + olive  
