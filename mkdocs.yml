@@ -26,11 +26,3 @@ theme:
 plugins:
   - search
   - awesome-pages
-    
-# Explicitly design your independent Google-Sites-style layout tabs
-nav:
-  - Ultraverse Flux (Home): index.md
-  - Celesta Public Archive: 
-    - celesta-public-archive/
-  - Stellar Republic Database:
-    - stellar-republic-database/
