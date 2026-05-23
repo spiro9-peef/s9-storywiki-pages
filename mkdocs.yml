@@ -16,7 +16,7 @@ theme:
   
   # 5. Replaces custom.css (MkDocs theme colors are natively customizable for free)
   palette:
-    primary: '#00D4FF' # Replaces your custom cyan CSS variables
+    primary: custom # Replaces your custom cyan CSS variables
     scheme: slate # Automatically sets a dark theme layout
     
   features:
@@ -25,7 +25,7 @@ theme:
     
 # Explicitly design your independent Google-Sites-style layout tabs
 nav:
-  - Home: Home.md
+  - Home: index.md
   - Celesta Public Archive: 
     - celesta-public-archive/homepage.md
   - Stellar Republic Database:
