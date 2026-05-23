@@ -2,9 +2,10 @@
  * If I knew what I was doing I wouldn't need this crap */
 
 /* ==========================================================================
-   1. DEFAULT SETTINGS & INTERACTION FALLBACKS (Homepage / Global)
+   1. DEFAULT SETTINGS & INTERACTION FALLBACKS
    ========================================================================== */
-:root[data-md-color-scheme="slate"] {
+html[data-md-color-scheme="slate"],
+body[data-md-color-scheme="slate"] {
     --md-primary-fg-color: #FF0048 !important;       /* Jessica Red */
     --md-primary-fg-color--light: #c27a8fc9 !important;
     --md-primary-fg-color--dark: #410012 !important;
@@ -12,10 +13,10 @@
 }
 
 /* ==========================================================================
-   2. RISE OF THE CHANGED (ROTC) DIRECTORY OVERRIDES (Steel Blue)
+   2. RISE OF THE CHANGED (ROTC) DIRECTORY OVERRIDES
    ========================================================================== */
-/* Scopes theme properties strictly when a folder in the Celesta path is active */
-html:has(.md-breadcrumbs__link[href*="celesta-public-archive"]),
+/* Scopes theme properties when any part of the active path includes the archive */
+html:has([class*="md-"] [href*="celesta-public-archive"]),
 html:has(.md-nav__link--active[href*="celesta-public-archive"]) {
     --md-primary-fg-color: #00D4FF !important;         /* Signature Cyan */
     --md-primary-fg-color--light: #7ce9ffc9 !important;
@@ -24,10 +25,10 @@ html:has(.md-nav__link--active[href*="celesta-public-archive"]) {
 }
 
 /* ==========================================================================
-   3. STELLAR REPUBLIC (TSR) DIRECTORY OVERRIDES (Crimson)
+   3. STELLAR REPUBLIC (TSR) DIRECTORY OVERRIDES
    ========================================================================== */
-/* Scopes theme properties strictly when a folder in the TSR path is active */
-html:has(.md-breadcrumbs__link[href*="stellar-republic-database"]),
+/* Scopes theme properties when any part of the active path includes the database */
+html:has([class*="md-"] [href*="stellar-republic-database"]),
 html:has(.md-nav__link--active[href*="stellar-republic-database"]) {
     --md-primary-fg-color: #3b6596 !important;       /* Republic Blue */
     --md-primary-fg-color--light: #6d85a0c9 !important;
@@ -36,9 +37,15 @@ html:has(.md-nav__link--active[href*="stellar-republic-database"]) {
 }
 
 /* ==========================================================================
-   4. STRUCTURAL UI ELEMENT MAPS (Applies Variables and Controls Transition Speeds)
+   4. STRUCTURAL UI ELEMENT MAPS
    ========================================================================== */
-/* Styles main theme navigation layouts without touching your in-page Markdown headings */
+/* Force header backgrounds, tabs, and active text states to use our scoped variables */
+.md-header {
+    background-color: var(--md-primary-fg-color) !important;
+}
+.md-tabs {
+    background-color: var(--md-primary-fg-color--dark) !important;
+}
 .md-header__topic,
 .md-tabs__link,
 .md-search__input::placeholder,
@@ -47,4 +54,8 @@ html:has(.md-nav__link--active[href*="stellar-republic-database"]) {
 .md-nav__link:hover {
     color: var(--custom-text-color) !important;
     transition: color 250ms ease-in-out;
+}
+/* Ensure links and buttons use the primary variable */
+a:hover {
+    color: var(--md-primary-fg-color) !important;
 }
