@@ -35,3 +35,6 @@ extra:
   timeline_years:
     rotc: dynamic    # Automatically matches whatever year it is in real life
     tsr: 2155
+
+extra_css:
+  - stylesheets/sitestyles.css

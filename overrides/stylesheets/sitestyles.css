@@ -1,0 +1,20 @@
+/* Custom Variable Setup */
+:root[data-md-color-scheme="slate"] {
+    --is-celesta: var(--md-nav__link--active[href*="celesta-public-archive"]);
+    --is-stellar: var(--md-nav__link--active[href*="stellar-republic-database"]);
+
+    --md-primary-fg-color: var(--is-celesta, #00D4FF) var(--is-stellar, #3b6596) #FF0048;
+    --md-primary-fg-color--light: var(--is-celesta, #7ce9ffc9) var(--is-stellar, #6d85a0c9) #c27a8fc9;
+    --md-primary-fg-color--dark: var(--is-celesta, #00333d) var(--is-stellar, #1e344d) #410012;
+
+    --custom-text-color: var(--is-celesta, #1e293b) var(--is-stellar, #9abbc4) #ffffff;
+}
+
+/* Structural Element Formatting Override */
+.md-header__topic,
+.md-tabs__link,
+.md-search__input::placeholder,
+.md-search__icon,
+.md-header__button {
+    color: var(--custom-text-color) !important;
+}
