@@ -1,0 +1,33 @@
+name: Publish Retype
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    name: Publish to GitHub Pages
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: retypeapp/action-build@v3
+        id: retype
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'public'
+
+      - uses: actions/deploy-pages@v4
+        id: deployment
