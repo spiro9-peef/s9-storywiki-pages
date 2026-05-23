@@ -25,27 +25,13 @@ theme:
     
 plugins:
   - search
-  - gen_nav:
-      enabled: true
-      # This tells the plugin to open the file and look for titles natively
-      parse_titles: true
-      # Dictates where it looks for the title string
-      title_priority: ['front_matter', 'h1']
-      # FIX: Force the plugin to ONLY look inside specific folders, 
-      # matching your top-level layout tabs
-      nav_directories:
-        - celesta-public-archive
-        - stellar-republic-database
-      # FIX: Tells the plugin to preserve hyphens instead of turning them into spaces
-      use_hyphens: true
-    
-# Explicitly design your independent Google-Sites-style layout tabs
+  - awesome-pages
+  
+# Gemini is drunk as hell. I have changed this so many times it isn't funny.
 nav:
   - Ultraverse Flux (Home): index.md
-  - Celesta Public Archive: 
-    - celesta-public-archive/
-  - Stellar Republic Database:
-    - stellar-republic-database/
+  - Celesta Public Archive: ...
+  - Stellar Republic Database: ...
     
 hooks:
   - hooks.py
