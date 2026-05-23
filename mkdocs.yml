@@ -36,6 +36,6 @@ plugins:
 nav:
   - Ultraverse Flux (Home): index.md
   - Celesta Public Archive: 
-    - celesta-public-archive/
+    - !gen_nav celesta-public-archive
   - Stellar Republic Database:
-    - stellar-republic-database/
+    - !gen_nav stellar-republic-database
