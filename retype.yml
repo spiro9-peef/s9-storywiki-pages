@@ -1,5 +1,9 @@
 input: .
 output: public
 branding:
-  title: Homepage for Spiro's Story Wikis
+  title: Spiro's Story Wikis
   # logo: https://githubusercontent.com # Optional
+
+# Clean up top-level routing elements
+breadcrumb:
+  home: false   # Removes the default "Home" trail from the top bar
