@@ -1,13 +1,14 @@
 ---
 title: Central Portal Hub
 ---
+<!--
 <style>
 :root {
 --RETYPE_BUTTON_PRIMARY_BG: #00D4FF !important;
 --RETYPE_LINK_COLOR: #00D4FF !important;
 --RETYPE_MENU_ITEM_ACTIVE_COLOR: #00D4FF !important;
 }
-</style>
+</style> -->
 # s9-storywiki-pages
 Markdown pages for multiple story universe wikis.
 Assets can be found [here](https://github.com/spiro9-peef/s9-storywiki-assets).
