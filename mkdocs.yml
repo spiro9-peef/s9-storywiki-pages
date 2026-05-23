@@ -27,6 +27,10 @@ plugins:
   - search
   - gen_nav:
       enabled: true
+      # This tells the plugin to open the file and look for titles natively
+      parse_titles: true
+      # Dictates where it looks for the title string
+      title_priority: ['front_matter', 'h1']
     
 # Explicitly design your independent Google-Sites-style layout tabs
 nav:
