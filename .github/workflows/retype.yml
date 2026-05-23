@@ -22,6 +22,8 @@ jobs:
 
       - uses: retypeapp/action-build@v3
         id: retype
+        with:
+            output: public
 
       - uses: actions/configure-pages@v4
 
