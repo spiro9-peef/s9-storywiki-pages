@@ -16,7 +16,7 @@ ID: 1
 
 ### Biology
 
-Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}  
+Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
 Nickname(s): Jer  
 Alias(es): peef, spiro, spiro9  
 Biological Age: { age }  

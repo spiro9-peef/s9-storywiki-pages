@@ -16,7 +16,7 @@ ID: 2
 
 ### Biology
 
-Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}  
+Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
 Nickname(s): Jessi, Jess  
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
