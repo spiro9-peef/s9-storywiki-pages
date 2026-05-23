@@ -2,52 +2,49 @@
  * If I knew what I was doing I wouldn't need this crap */
 
 /* ==========================================================================
-   1. DEFAULT/HOMEPAGE LAYOUT OVERRIDES 
+   1. DEFAULT SETTINGS & INTERACTION FALLBACKS (Homepage / Global)
    ========================================================================== */
-.md-header, 
-.md-tabs {
-    background-color: #00D4FF !important; /* Your crisp cyan */
+:root[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #FF0048 !important;       /* Jessica Red */
+    --md-primary-fg-color--light: #c27a8fc9 !important;
+    --md-primary-fg-color--dark: #410012 !important;
+    --custom-text-color: #ffffff !important;
 }
 
+/* ==========================================================================
+   2. RISE OF THE CHANGED (ROTC) DIRECTORY OVERRIDES (Steel Blue)
+   ========================================================================== */
+/* Scopes theme properties strictly when a folder in the Celesta path is active */
+html:has(.md-breadcrumbs__link[href*="celesta-public-archive"]),
+html:has(.md-nav__link--active[href*="celesta-public-archive"]) {
+    --md-primary-fg-color: #00D4FF !important;         /* Signature Cyan */
+    --md-primary-fg-color--light: #7ce9ffc9 !important;
+    --md-primary-fg-color--dark: #00333d !important;
+    --custom-text-color: #1e293b !important;
+}
+
+/* ==========================================================================
+   3. STELLAR REPUBLIC (TSR) DIRECTORY OVERRIDES (Crimson)
+   ========================================================================== */
+/* Scopes theme properties strictly when a folder in the TSR path is active */
+html:has(.md-breadcrumbs__link[href*="stellar-republic-database"]),
+html:has(.md-nav__link--active[href*="stellar-republic-database"]) {
+    --md-primary-fg-color: #3b6596 !important;       /* Republic Blue */
+    --md-primary-fg-color--light: #6d85a0c9 !important;
+    --md-primary-fg-color--dark: #1e344d !important;
+    --custom-text-color: #9abbc4 !important;
+}
+
+/* ==========================================================================
+   4. STRUCTURAL UI ELEMENT MAPS (Applies Variables and Controls Transition Speeds)
+   ========================================================================== */
+/* Styles main theme navigation layouts without touching your in-page Markdown headings */
 .md-header__topic,
 .md-tabs__link,
 .md-search__input::placeholder,
-.md-search__icon,
-.md-header__button {
-    color: #1e293b !important; /* Crisp charcoal gray from your image */
-}
-
-
-/* ==========================================================================
-   2. CELESTA DIRECTORY CONDITIONAL SWAP
-   ========================================================================== */
-/* Checks if the body has a rendered link matching the directory slug */
-html:has(a[href*="celesta-public-archive"]) .md-header,
-html:has(a[href*="celesta-public-archive"]) .md-tabs {
-    background-color: #3b6596 !important; /* Celesta primary palette */
-}
-
-html:has(a[href*="celesta-public-archive"]) .md-header__topic,
-html:has(a[href*="celesta-public-archive"]) .md-tabs__link,
-html:has(a[href*="celesta-public-archive"]) .md-search__input::placeholder,
-html:has(a[href*="celesta-public-archive"]) .md-search__icon,
-html:has(a[href*="celesta-public-archive"]) .md-header__button {
-    color: #9abbc4 !important; /* Celesta custom text color */
-}
-
-
-/* ==========================================================================
-   3. STELLAR DIRECTORY CONDITIONAL SWAP
-   ========================================================================== */
-html:has(a[href*="stellar-republic-database"]) .md-header,
-html:has(a[href*="stellar-republic-database"]) .md-tabs {
-    background-color: #FF0048 !important; /* Stellar primary palette */
-}
-
-html:has(a[href*="stellar-republic-database"]) .md-header__topic,
-html:has(a[href*="stellar-republic-database"]) .md-tabs__link,
-html:has(a[href*="stellar-republic-database"]) .md-search__input::placeholder,
-html:has(a[href*="stellar-republic-database"]) .md-search__icon,
-html:has(a[href*="stellar-republic-database"]) .md-header__button {
-    color: #ffffff !important; /* Stellar custom text color */
+.md-nav__link--active,
+.md-nav__link:focus,
+.md-nav__link:hover {
+    color: var(--custom-text-color) !important;
+    transition: color 250ms ease-in-out;
 }
