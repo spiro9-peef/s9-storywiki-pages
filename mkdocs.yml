@@ -32,13 +32,9 @@ extra:
   timeline_years:
     rotc: dynamic    # Automatically matches whatever year it is in real life
     tsr: 2155
-    
-  analytics:
-    # This block injects the CSS tokens globally, cutting off Material's overrides
-    custom_properties:
-      --md-primary-fg-color: "#FF0048"
-      --md-primary-fg-color--light: "#c27a8fc9"
-      --md-primary-fg-color--dark: "#410012"
 
 extra_css:
   - stylesheets/sitestyles.css
+
+extra_javascript:
+  - javascripts/theme-engine.js

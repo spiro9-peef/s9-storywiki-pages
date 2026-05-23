@@ -2,52 +2,40 @@
  * If I knew what I was doing I wouldn't need this crap */
 
 /* ==========================================================================
-   1. DEFAULT SETTINGS & INTERACTION FALLBACKS (Homepage / Global)
+   STRUCTURAL UI ELEMENT MAPS (Explicitly binding color and background)
    ========================================================================== */
-:root[data-md-color-scheme="slate"] {
-    --md-primary-fg-color: #FF0048 !important;       /* Jessica Red */
-    --md-primary-fg-color--light: #c27a8fc9 !important;
-    --md-primary-fg-color--dark: #410012 !important;
-    --custom-text-color: #ffffff !important;
-}
 
-/* ==========================================================================
-   2. RISE OF THE CHANGED (ROTC) DIRECTORY OVERRIDES (Signature Cyan)
-   ========================================================================== */
-/* Automatically applies to the main archive folder and ALL of its subpages */
-html:has(input[id*="celesta-public-archive"]:checked),
-html:has(input[id*="celesta-public-archive"]) {
-    --md-primary-fg-color: #00D4FF !important;         /* Signature Cyan */
-    --md-primary-fg-color--light: #7ce9ffc9 !important;
-    --md-primary-fg-color--dark: #00333d !important;
-    --custom-text-color: #1e293b !important;
-}
-
-/* ==========================================================================
-   3. STELLAR REPUBLIC (TSR) DIRECTORY OVERRIDES (Republic Blue)
-   ========================================================================== */
-/* Automatically applies to the main database folder and ALL of its subpages */
-html:has(input[id*="stellar-republic-database"]:checked),
-html:has(input[id*="stellar-republic-database"]) {
-    --md-primary-fg-color: #3b6596 !important;       /* Republic Blue */
-    --md-primary-fg-color--light: #6d85a0c9 !important;
-    --md-primary-fg-color--dark: #1e344d !important;
-    --custom-text-color: #9abbc4 !important;
-}
-
-/* ==========================================================================
-   4. STRUCTURAL UI ELEMENT MAPS (Forcing Layout Components to Redraw)
-   ========================================================================== */
+/* 1. Header Layer Overrides */
 .md-header {
     background-color: var(--md-primary-fg-color) !important;
 }
+/* Explicitly enforce text color on header titles and links */
+.md-header .md-header__topic, 
+.md-header .md-header__title,
+.md-header a, 
+.md-header button,
+.md-header__button {
+    color: var(--custom-nav-text-color) !important;
+}
+
+/* 2. Top Tabs Navigation Layer Overrides */
 .md-tabs {
     background-color: var(--md-primary-fg-color--dark) !important;
 }
-.md-header__topic,
-.md-search__input::placeholder,
-.md-nav__link--active,
-.md-nav__link:focus,
-.md-nav__link:hover {
-    color: var(--custom-text-color) !important;
+/* Explicitly enforce text color and state changes on structural navigation tabs */
+.md-tabs__link {
+    color: var(--custom-nav-text-color) !important;
+    opacity: 0.85 !important;
+    transition: opacity 250ms ease-in-out, color 250ms ease-in-out;
+}
+.md-tabs__item--active .md-tabs__link,
+.md-tabs__link:hover {
+    opacity: 1.0 !important;
+    font-weight: 700;
+}
+
+/* 3. Search Bar Placeholder Tonal Contrast */
+.md-search__input::placeholder {
+    color: var(--custom-nav-text-color) !important;
+    opacity: 0.7;
 }
