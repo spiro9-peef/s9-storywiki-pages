@@ -34,6 +34,16 @@
     font-weight: 700;
 }
 
+/* 2. Main Page Body Canvas Layouts */
+body, 
+.md-container, 
+.md-main,
+.md-content,
+.md-sidebar {
+    background-color: var(--md-bg-color) !important;
+    transition: background-color 250ms ease-in-out;
+}
+
 /* 3. Search Bar Placeholder Tonal Contrast */
 .md-search__input::placeholder {
     color: var(--custom-nav-text-color) !important;
