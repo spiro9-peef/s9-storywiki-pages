@@ -1,5 +1,5 @@
 ---
-title: Homepage - spiro9 Ultraverse Wikis
+title: Ultraverse Flux Zone (Homepage)
 ---
 <style> 
 :root [data-md-color-scheme="slate"] { 
