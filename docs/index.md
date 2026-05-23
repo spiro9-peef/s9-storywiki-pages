@@ -13,7 +13,6 @@ title: Homepage - spiro9 Ultraverse Wikis
 .md-search__icon,
 .md-header__button { 
 	color: #1e293b !important; /* Forces text & icons to turn crisp charcoal gray */ 
-	opacity: 1 !important; 
 }}
 </style>
 # Welcome to the Ultraverse!
