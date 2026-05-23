@@ -7,12 +7,16 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
     steps:
       - uses: actions/checkout@v4
       
       - uses: actions/setup-python@v5
         with:
-          python-node-version: '3.x'
+          python-version: '3.x'
           
       - name: Install MkDocs and Material Theme
         run: |

@@ -22,3 +22,11 @@ theme:
   features:
     - navigation.tabs # Optional: Creates a top bar to switch sub-wikis like Google Sites
     - navigation.indexes # Makes clicking a folder automatically load its index/Home file
+    
+# Explicitly design your independent Google-Sites-style layout tabs
+nav:
+  - Home: Home.md
+  - Celesta Public Archive: 
+    - celesta-public-archive/homepage.md
+  - Stellar Republic Database:
+    - stellar-republic-database/homepage.md
