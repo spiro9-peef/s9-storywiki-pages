@@ -11,13 +11,10 @@ docs_dir: docs
 theme:
   name: material
   
-  # 4. Replaces # Logo: (Uncomment and add your path if you want an image logo)
-  # logo: https://githubusercontent.com... 
-  
-  # 5. Replaces custom.css (MkDocs theme colors are natively customizable for free)
   palette:
-    primary: custom # Replaces your custom cyan CSS variables
-    scheme: slate # Automatically sets a dark theme layout
+    - scheme: slate
+      primary: custom
+      accent: custom
     
   features:
     - navigation.tabs # Optional: Creates a top bar to switch sub-wikis like Google Sites
@@ -35,6 +32,13 @@ extra:
   timeline_years:
     rotc: dynamic    # Automatically matches whatever year it is in real life
     tsr: 2155
+    
+  analytics:
+    # This block injects the CSS tokens globally, cutting off Material's overrides
+    custom_properties:
+      --md-primary-fg-color: "#FF0048"
+      --md-primary-fg-color--light: "#c27a8fc9"
+      --md-primary-fg-color--dark: "#410012"
 
 extra_css:
   - stylesheets/sitestyles.css
