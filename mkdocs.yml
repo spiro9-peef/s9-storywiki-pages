@@ -26,12 +26,6 @@ theme:
 plugins:
   - search
   - awesome-pages
-  
-# Gemini is drunk as hell. I have changed this so many times it isn't funny.
-nav:
-  - Ultraverse Flux (Home): index.md
-  - Celesta Public Archive: ...
-  - Stellar Republic Database: ...
     
 hooks:
   - hooks.py
