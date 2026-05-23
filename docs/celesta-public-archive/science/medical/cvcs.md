@@ -1,4 +1,7 @@
-## Complex-Concentrated Volume Change Syndrome
+---
+title: CVCS
+---
+# Complex-Concentrated Volume Change Syndrome
 
 ## Synopsis
 
