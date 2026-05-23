@@ -13,7 +13,9 @@ dob: 2000-11-10
 Name: Jessica Marie Peifer (md. Rachels)  
 Nickname(s): Jessi, Jess  
 Biological Age: {{ age }}
-Chronological Age: {{ chronological_age }} (b. {{ dob }})
+
+Chronological Age: {{ chronological_age }} (b. { dob })
+
 Base Height: 5'5"  
 Base Species: Human  
 Sex: F  

@@ -1,6 +1,8 @@
 ---
 title: Raw Character Name
 sidebar: NNN - Raw Character Name
+universe: rotc or tsr
+dob: 1999-01-01
 ---
 # #0 - Character Name Here
 
@@ -10,8 +12,10 @@ sidebar: NNN - Raw Character Name
 
 Name: Sum De Facto
 Nickname(s): N/A
-Biological Age: 25  
-Chronological Age: 25 (b. 10/30/2000)  
+Biological Age: {{ age }}
+
+Chronological Age: {{ chronological_age }} (b. { dob })
+
 Base Height: 5'9"  
 Base Species: Human  
 Sex: M  

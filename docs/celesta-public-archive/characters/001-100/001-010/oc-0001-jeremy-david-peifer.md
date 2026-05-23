@@ -14,7 +14,9 @@ Name: Jeremy David Peifer
 Nickname(s): Jer  
 Alias(es): peef, spiro, spiro9  
 Biological Age: {{ age }}
-Chronological Age: {{ chronological_age }} (b. {{ dob }})
+
+Chronological Age: {{ chronological_age }} (b. { dob })
+
 Base Height: 5'9"  
 Base Species: Human  
 Sex: M  
