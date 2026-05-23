@@ -49,3 +49,21 @@ body,
     color: var(--custom-nav-text-color) !important;
     opacity: 0.7;
 }
+
+/* ==========================================================================
+   5. NAVIGATION SIDEBAR CLEANUP (Removing Item Halo / Overlay Gradients)
+   ========================================================================== */
+/* Nuke the default background highlight and border shadows on active nav group titles */
+.md-nav__item--active > .md-nav__link,
+.md-nav__link--active,
+.md-nav__item--nested > .md-nav__link {
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+/* Optional: If you want a subtle, clean underline or indent instead of a massive box halo */
+.md-nav__item--active > .md-nav__link {
+    border-left: 2px solid var(--md-primary-fg-color);
+    padding-left: 0.5rem;
+}
