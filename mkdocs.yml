@@ -8,6 +8,8 @@ site_name: Spiro's Story Wikis
 # MkDocs automatically looks for the /docs/ folder and builds to standard site paths
 docs_dir: docs
 
+use_directory_urls: true
+
 theme:
   name: material
   
@@ -16,7 +18,7 @@ theme:
   
   # 5. Replaces custom.css (MkDocs theme colors are natively customizable for free)
   palette:
-    primary: cyan # Replaces your custom cyan CSS variables
+    primary: '#00D4FF' # Replaces your custom cyan CSS variables
     scheme: slate # Automatically sets a dark theme layout
     
   features:
