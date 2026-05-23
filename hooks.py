@@ -1,9 +1,12 @@
 import os
 import yaml
+import re
+from datetime import datetime, date
 from mkdocs.structure.nav import Section, Page
 
+# --- 1. SIDEBAR NAME & FOLDER DUPLICATION CLEANUP ---
 def read_front_matter(abs_path):
-    """Extracts front-matter dict from a markdown file."""
+    """Safely extracts front-matter metadata from a markdown file."""
     if not os.path.exists(abs_path):
         return {}
     try:
@@ -19,33 +22,95 @@ def read_front_matter(abs_path):
         pass
     return {}
 
-def process_and_flatten(items):
-    """Applies distinct sidebar titles and flattens folder duplicates."""
-    cleaned_items = []
+def fix_navigation_inplace(items):
+    """
+    Modifies titles and flattens nested folder paths directly on the existing 
+    navigation objects in-place to protect custom CSS layout rules.
+    """
     for item in items:
         if isinstance(page := item, Page):
+            # Read metadata natively from the file asset
             meta = read_front_matter(page.file.abs_src_path)
-
-            # Overwrite ONLY the sidebar node text if 'sidebar' metadata is specified
+            
+            # Prioritize 'sidebar' for the organizational structure text string
             if 'sidebar' in meta:
                 page.title = str(meta['sidebar'])
-            # Fallback: If no explicit sidebar tag, use standard front-matter title
             elif 'title' in meta:
                 page.title = str(meta['title'])
-
-            cleaned_items.append(page)
-
+                
         elif isinstance(section := item, Section):
-            section.children = process_and_flatten(section.children)
-
-            if len(section.children) == 1 and isinstance(section.children[0], Section):
-                sub_section = section.children[0]
-                section.children = sub_section.children
-
-            cleaned_items.append(section)
-
-    return cleaned_items
+            # Recursively descend through deeper sub-folders first
+            if section.children:
+                fix_navigation_inplace(section.children)
+                
+                # Check for redundant folder nested layers (e.g., Folder > Folder > File)
+                if len(section.children) == 1 and isinstance(sub_section := section.children[0], Section):
+                    # Lift children from the sub-section without creating a new container array
+                    section.children = sub_section.children
 
 def on_nav(nav, config, files):
-    nav.items = process_and_flatten(nav.items)
+    """
+    Triggers the safe mutation function across the entire global navigation tree.
+    """
+    fix_navigation_inplace(nav.items)
     return nav
+
+
+# --- 2. IN-UNIVERSE TIMELINE MATH ---
+def parse_date(date_input):
+    if not date_input: return None
+    if isinstance(date_input, str):
+        try: return datetime.strptime(date_input, "%Y-%m-%d").date()
+        except ValueError: return None
+    if isinstance(date_input, (date, datetime)):
+        return date_input if isinstance(date_input, date) else date_input.date()
+    return None
+
+def calculate_chronological_years(birth_date, death_date, current_year_setting):
+    """Calculates elapsed timeline years up to today or a frozen checkpoint."""
+    if str(current_year_setting).lower() == 'dynamic':
+        end_date = death_date if death_date else date.today()
+        has_had_birthday = (end_date.month, end_date.day) >= (birth_date.month, birth_date.day)
+        return end_date.year - birth_date.year - (0 if has_had_birthday else 1)
+    else:
+        try:
+            target_year = int(current_year_setting)
+            if death_date and death_date.year < target_year:
+                return death_date.year - birth_date.year
+            return target_year - birth_date.year
+        except (ValueError, TypeError):
+            return None
+
+def on_page_markdown(markdown, page, config, files):
+    meta = page.meta
+    if not meta or 'dob' not in meta or 'universe' not in meta:
+        return markdown
+
+    universe = meta['universe']
+    timeline_years = config.get('extra', {}).get('timeline_years', {})
+    universe_setting = timeline_years.get(universe)
+    
+    birth_date = parse_date(meta.get('dob'))
+    death_date = parse_date(meta.get('dod'))
+    age_offset = int(meta.get('age_offset', 0))
+
+    if birth_date:
+        chron_years = calculate_chronological_years(birth_date, death_date, universe_setting)
+        
+        if chron_years is not None:
+            # Bio Age = Chronological Years + Age Offset
+            bio_years = chron_years + age_offset
+            
+            # Inject standard text substitutions inline
+            markdown = re.sub(r'{{\s*age\s*}}', str(bio_years), markdown)
+            markdown = re.sub(r'{{\s*bio_age\s*}}', str(bio_years), markdown)
+            markdown = re.sub(r'{{\s*chronological_age\s*}}', str(chron_years), markdown)
+
+    # Clean up secondary structural field keys
+    for key, value in meta.items():
+        if isinstance(value, (str, int, float, date, datetime)):
+            display_value = value.strftime("%Y-%m-%d") if isinstance(value, (date, datetime)) else str(value)
+            placeholder = rf'{{\s*{re.escape(key)}\s*}}'
+            markdown = re.sub(placeholder, display_value.strip(), markdown)
+
+    return markdown

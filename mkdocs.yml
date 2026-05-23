@@ -42,3 +42,8 @@ nav:
     
 hooks:
   - hooks.py
+  
+extra:
+  timeline_years:
+    rotc: dynamic    # Automatically matches whatever year it is in real life
+    tsr: 2155
