@@ -1,20 +1,17 @@
 ---
-title: Jeremy David Peifer
-sidebar: 001 - Jeremy David Peifer
-universe: rotc
-dob: 2000-10-30
+title: Raw Character Name
+sidebar: NNN - Raw Character Name
 ---
-# #1 - Jeremy David Peifer
+# #0 - Character Name Here
 
 ## Biometrics
 
 ### Biology
 
-Name: Jeremy David Peifer  
-Nickname(s): Jer  
-Alias(es): peef, spiro, spiro9  
-Biological Age: {{ age }}
-Chronological Age: {{ chronological_age }} (b. {{ dob }})
+Name: Sum De Facto
+Nickname(s): N/A
+Biological Age: 25  
+Chronological Age: 25 (b. 10/30/2000)  
 Base Height: 5'9"  
 Base Species: Human  
 Sex: M  

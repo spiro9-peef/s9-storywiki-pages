@@ -1,6 +1,8 @@
 ---
 title: Jessica Marie Peifer
 sidebar: 002 - Jessica Marie Peifer
+universe: rotc
+dob: 2000-11-10
 ---
 # #2 - Jessica Marie Peifer
 
@@ -10,8 +12,8 @@ sidebar: 002 - Jessica Marie Peifer
 
 Name: Jessica Marie Peifer (md. Rachels)  
 Nickname(s): Jessi, Jess  
-Biological Age: 25  
-Chronological Age: 25 (b. 11/10/2000)  
+Biological Age: {{ age }}
+Chronological Age: {{ chronological_age }} (b. {{ dob }})
 Base Height: 5'5"  
 Base Species: Human  
 Sex: F  
