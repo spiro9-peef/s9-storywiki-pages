@@ -1,16 +1,28 @@
-/* Custom Variable Setup */
+/* 1. DEFAULT HOMEPAGE VALUES */
 :root[data-md-color-scheme="slate"] {
-    --is-celesta: var(--md-nav__link--active[href*="celesta-public-archive"]);
-    --is-stellar: var(--md-nav__link--active[href*="stellar-republic-database"]);
-
-    --md-primary-fg-color: var(--is-celesta, #00D4FF) var(--is-stellar, #3b6596) #FF0048;
-    --md-primary-fg-color--light: var(--is-celesta, #7ce9ffc9) var(--is-stellar, #6d85a0c9) #c27a8fc9;
-    --md-primary-fg-color--dark: var(--is-celesta, #00333d) var(--is-stellar, #1e344d) #410012;
-
-    --custom-text-color: var(--is-celesta, #1e293b) var(--is-stellar, #9abbc4) #ffffff;
+    --md-primary-fg-color: #00D4FF;
+    --md-primary-fg-color--light: #7ce9ffc9;
+    --md-primary-fg-color--dark: #00333d;
+    --custom-text-color: #1e293b;
 }
 
-/* Structural Element Formatting Override */
+/* 2. CELESTA DIRECTORY CONDITIONAL SWAP */
+html:has(a.md-nav__link--active[href*="celesta-public-archive"]) {
+    --md-primary-fg-color: #3b6596;
+    --md-primary-fg-color--light: #6d85a0c9;
+    --md-primary-fg-color--dark: #1e344d;
+    --custom-text-color: #9abbc4;
+}
+
+/* 3. STELLAR DIRECTORY CONDITIONAL SWAP */
+html:has(a.md-nav__link--active[href*="stellar-republic-database"]) {
+    --md-primary-fg-color: #FF0048;
+    --md-primary-fg-color--light: #c27a8fc9;
+    --md-primary-fg-color--dark: #410012;
+    --custom-text-color: #ffffff;
+}
+
+/* 4. STRUCTURAL ELEMENT FORMATTING OVERRIDE */
 .md-header__topic,
 .md-tabs__link,
 .md-search__input::placeholder,
