@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"Home/","title":"Welcome to the Ultraverse!","text":"<p>Select a multiverse below: * Go to \"Rise of the Changed\" (MV-1) * Go to the \"Terran Stellar Republic\" (MV-2)</p>"}]}
