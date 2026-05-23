@@ -7,7 +7,7 @@ from datetime import datetime, date
 CHARACTER_DIR = "docs/celesta-public-archive"
 PUBLIC_CELEBRATION_WEBHOOK = "https://discord.com/api/webhooks/1476473537681162300/l9NP-zJH3Xa-UXwFIgymu2SFb8oMf0-ftu0VGqJtFZj-xnCqquOd9mn89K3qzN7Fhc1w?thread_id=1476475882658074655"
 YOUR_NAME = "Jeremy David Peifer"
-SITE_BASE_URL = "https://spiro9-peef.github.io/s9-storywiki-pages/"  # Base URL for automated links
+SITE_BASE_URL = "https://spiro9-peef.github.io/s9-storywiki-pages/"  # Your automated site deployment base URL
 
 def parse_date(date_input):
     if not date_input: return None
@@ -26,7 +26,6 @@ def execute_anniversary_run():
         print(f"Error: Target directory '{CHARACTER_DIR}' could not be located.")
         return
 
-    # Deep scan the character folder tree
     for root, _, files in os.walk(CHARACTER_DIR):
         for file in files:
             if file.endswith(".md"):
@@ -47,10 +46,9 @@ def execute_anniversary_run():
                         death_date = parse_date(meta.get('dod'))
                         age_offset = int(meta.get('age_offset', 0))
                         
-                        # Prioritize 'title' metadata for the formal character display name
+                        # Correct alignment: Focus strictly on title metadata for the character's name
                         name = meta.get('title', meta.get('sidebar', file.replace('.md', '')))
 
-                        # Check if it's their birthday today
                         if birth_date and birth_date.month == today.month and birth_date.day == today.day:
                             
                             # Chronological Age Calculation
@@ -61,16 +59,14 @@ def execute_anniversary_run():
                                 chron_years -= 1
                                 
                             bio_years = chron_years + age_offset
-                            
                             fmt = lambda d: f"{d.month}/{d.day}/{d.year}"
                             ref_str = f"(b. {fmt(birth_date)}{' - d. ' + fmt(death_date) if death_date else ''})"
                             
-                            # Generate native URL cleanly using the file structure
-                            # Replaces sub-folder backslashes to match standard web path layout
+                            # Automate site link creation based entirely on relative path location
                             relative_path = os.path.relpath(file_path, "docs/").replace(".md", "/").replace("\\", "/")
                             wiki_url = f"{SITE_BASE_URL.rstrip('/')}/{relative_path.lstrip('/')}"
 
-                            # --- PUBLIC CELEBRATION LOGIC ---
+                            # Public Webhook Structural Arrays (Using safe native .append methods)
                             if name != YOUR_NAME:
                                 if death_date:
                                     public_embeds.append({
@@ -97,7 +93,6 @@ def execute_anniversary_run():
                 except Exception as e:
                     print(f"Skipping malformed profile asset {file}: {e}")
 
-    # DELIVERY OPERATIONS
     if public_embeds:
         payload = {"content": "🎊 **Archive Anniversary Detected!**", "embeds": public_embeds}
         requests.post(PUBLIC_CELEBRATION_WEBHOOK, json=payload)

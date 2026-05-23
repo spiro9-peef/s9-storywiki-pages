@@ -6,9 +6,7 @@ from mkdocs.structure.nav import Section, Page
 
 # --- 1. SIDEBAR NAME & FOLDER DUPLICATION CLEANUP ---
 def read_front_matter(abs_path):
-    """Safely extracts front-matter metadata from a markdown file."""
-    if not os.path.exists(abs_path):
-        return {}
+    if not os.path.exists(abs_path): return {}
     try:
         with open(abs_path, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -16,43 +14,30 @@ def read_front_matter(abs_path):
                 parts = content.split('---', 2)
                 if len(parts) >= 3:
                     meta = yaml.safe_load(parts[1])
-                    if isinstance(meta, dict):
-                        return meta
-    except Exception:
-        pass
+                    if isinstance(meta, dict): return meta
+    except Exception: pass
     return {}
 
-def fix_navigation_inplace(items):
+def fix_navigation_titles_inplace(items):
     """
-    Modifies titles and flattens nested folder paths directly on the existing 
-    navigation objects in-place to protect custom CSS layout rules.
+    Safely updates display titles directly on existing objects.
+    Does NOT alter array structures, preserving the top navbar layout.
     """
     for item in items:
         if isinstance(page := item, Page):
-            # Read metadata natively from the file asset
             meta = read_front_matter(page.file.abs_src_path)
-            
-            # Prioritize 'sidebar' for the organizational structure text string
-            if 'sidebar' in meta:
+            # Apply your naming rules cleanly without moving the page object
+            if 'sidebar' in meta: 
                 page.title = str(meta['sidebar'])
-            elif 'title' in meta:
+            elif 'title' in meta: 
                 page.title = str(meta['title'])
-                
         elif isinstance(section := item, Section):
-            # Recursively descend through deeper sub-folders first
             if section.children:
-                fix_navigation_inplace(section.children)
-                
-                # Check for redundant folder nested layers (e.g., Folder > Folder > File)
-                if len(section.children) == 1 and isinstance(sub_section := section.children[0], Section):
-                    # Lift children from the sub-section without creating a new container array
-                    section.children = sub_section.children
+                fix_navigation_titles_inplace(section.children)
 
 def on_nav(nav, config, files):
-    """
-    Triggers the safe mutation function across the entire global navigation tree.
-    """
-    fix_navigation_inplace(nav.items)
+    # Only change properties inside the elements; do not assign a new list layout
+    fix_navigation_titles_inplace(nav.items)
     return nav
 
 
