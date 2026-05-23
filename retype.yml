@@ -1,5 +1,8 @@
 url: spiro9-peef.github.io/s9-storywiki-pages
 
+custom:
+  css: custom.css
+
 input: .
 output: public
 branding:

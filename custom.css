@@ -1,0 +1,19 @@
+/* --- HOMEPAGE / GLOBAL DEFAULT (Cyan) --- */
+:root {
+    --RETYPE_LINK_COLOR: #00D4FF !important;
+    --RETYPE_MENU_ITEM_ACTIVE_COLOR: #00D4FF !important;
+}
+
+/* --- CELESTA PUBLIC ARCHIVE (Red Example) --- */
+/* This rule only activates when the URL contains "celesta-public-archive" */
+html[data-url*="celesta-public-archive"] {
+    --RETYPE_LINK_COLOR: #FF4A4A !important;
+    --RETYPE_MENU_ITEM_ACTIVE_COLOR: #FF4A4A !important;
+}
+
+/* --- STELLAR REPUBLIC DATABASE (Purple Example) --- */
+/* This rule only activates when the URL contains "stellar-republic-database" */
+html[data-url*="stellar-republic-database"] {
+    --RETYPE_LINK_COLOR: #A04AFF !important;
+    --RETYPE_MENU_ITEM_ACTIVE_COLOR: #A04AFF !important;
+}
