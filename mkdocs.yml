@@ -8,9 +8,6 @@ site_name: Spiro's Story Wikis
 # MkDocs automatically looks for the /docs/ folder and builds to standard site paths
 docs_dir: docs
 
-use_directory_urls: true
-remote_branch: gh-pages
-
 theme:
   name: material
   
