@@ -1,4 +1,6 @@
-/* 1. DEFAULT HOMEPAGE VALUES */
+/* ==========================================================================
+   1. DEFAULT HOMEPAGE VALUES
+   ========================================================================== */
 :root[data-md-color-scheme="slate"] {
     --md-primary-fg-color: #00D4FF;
     --md-primary-fg-color--light: #7ce9ffc9;
@@ -6,27 +8,44 @@
     --custom-text-color: #1e293b;
 }
 
-/* 2. CELESTA DIRECTORY CONDITIONAL SWAP */
-html:has(a.md-nav__link--active[href*="celesta-public-archive"]) {
+/* ==========================================================================
+   2. CELESTA DIRECTORY CONDITIONAL SWAP
+   ========================================================================== */
+/* Targets based on top search links, content main tags, or table of contents wrappers */
+html:has(main [href*="celesta-public-archive"]),
+html:has(.md-content [href*="celesta-public-archive"]),
+html:has(.md-breadcrumbs [href*="celesta-public-archive"]) {
     --md-primary-fg-color: #3b6596;
     --md-primary-fg-color--light: #6d85a0c9;
     --md-primary-fg-color--dark: #1e344d;
     --custom-text-color: #9abbc4;
 }
 
-/* 3. STELLAR DIRECTORY CONDITIONAL SWAP */
-html:has(a.md-nav__link--active[href*="stellar-republic-database"]) {
+/* ==========================================================================
+   3. STELLAR DIRECTORY CONDITIONAL SWAP
+   ========================================================================== */
+html:has(main [href*="stellar-republic-database"]),
+html:has(.md-content [href*="stellar-republic-database"]),
+html:has(.md-breadcrumbs [href*="stellar-republic-database"]) {
     --md-primary-fg-color: #FF0048;
     --md-primary-fg-color--light: #c27a8fc9;
     --md-primary-fg-color--dark: #410012;
     --custom-text-color: #ffffff;
 }
 
-/* 4. STRUCTURAL ELEMENT FORMATTING OVERRIDE */
+/* ==========================================================================
+   4. STRUCTURAL ELEMENT FORMATTING OVERRIDE
+   ========================================================================== */
 .md-header__topic,
 .md-tabs__link,
 .md-search__input::placeholder,
 .md-search__icon,
 .md-header__button {
     color: var(--custom-text-color) !important;
+}
+
+:root {
+    --md-primary-fg-color: var(--md-primary-fg-color) !important;
+    --md-primary-fg-color--light: var(--md-primary-fg-color--light) !important;
+    --md-primary-fg-color--dark: var(--md-primary-fg-color--dark) !important;
 }
