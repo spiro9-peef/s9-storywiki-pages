@@ -1,0 +1,24 @@
+# 1. Replaces url:
+site_url: https://github.io
+
+# 2. Replaces branding.title:
+site_name: Spiro's Story Wikis
+
+# 3. Replaces input: . and output: public
+# MkDocs automatically looks for the /docs/ folder and builds to standard site paths
+docs_dir: docs
+
+theme:
+  name: material
+  
+  # 4. Replaces # Logo: (Uncomment and add your path if you want an image logo)
+  # logo: https://githubusercontent.com... 
+  
+  # 5. Replaces custom.css (MkDocs theme colors are natively customizable for free)
+  palette:
+    primary: cyan # Replaces your custom cyan CSS variables
+    scheme: slate # Automatically sets a dark theme layout
+    
+  features:
+    - navigation.tabs # Optional: Creates a top bar to switch sub-wikis like Google Sites
+    - navigation.indexes # Makes clicking a folder automatically load its index/Home file

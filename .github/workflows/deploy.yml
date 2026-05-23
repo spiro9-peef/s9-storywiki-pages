@@ -1,33 +1,23 @@
-name: Publish Retype
+name: Deploy MkDocs to Pages
 on:
   push:
     branches:
       - main
 
 jobs:
-  publish:
-    name: Publish to GitHub Pages
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - uses: actions/checkout@v4
-
-      - uses: retypeapp/action-build@v3
-        id: retype
-
-      - uses: actions/configure-pages@v4
-
-      - uses: actions/upload-pages-artifact@v3
+      
+      - uses: actions/setup-python@v5
         with:
-          path: ${{ steps.retype.outputs.retype-output-path }}
-
-      - uses: actions/deploy-pages@v4
-        id: deployment
+          python-node-version: '3.x'
+          
+      - name: Install MkDocs and Material Theme
+        run: |
+          pip install mkdocs-material
+          
+      - name: Build and Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force
