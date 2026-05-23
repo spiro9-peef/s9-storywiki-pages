@@ -10,7 +10,6 @@ docs_dir: docs
 
 theme:
   name: material
-  custom_dir: overrides
   
   # 4. Replaces # Logo: (Uncomment and add your path if you want an image logo)
   # logo: https://githubusercontent.com... 
