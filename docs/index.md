@@ -6,8 +6,15 @@ title: Homepage - spiro9 Ultraverse Wikis
 --md-primary-fg-color: #00D4FF !important;
 --md-primary-fg-color--light: rgba(0, 212, 255, 0.7) !important;
 --md-primary-fg-color--dark: #00a0c4 !important;
---md-header-fg-color: #1e293b !important;
-}
+
+.md-header__topic,
+.md-tabs__link,
+.md-search__input::placeholder,
+.md-search__icon,
+.md-header__button { 
+	color: #1e293b !important; /* Forces text & icons to turn crisp charcoal gray */ 
+	opacity: 1 !important; 
+}}
 </style>
 # Welcome to the Ultraverse!
 Select a multiverse below:
