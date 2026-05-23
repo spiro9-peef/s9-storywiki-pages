@@ -1,5 +1,5 @@
 ---
-title: "CPA | #2 - Jessica Marie Peifer"
+title: "#2 - Jessica Marie Peifer"
 source:
 author:
 published:

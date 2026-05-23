@@ -23,6 +23,10 @@ theme:
     - navigation.tabs # Optional: Creates a top bar to switch sub-wikis like Google Sites
     - navigation.indexes # Makes clicking a folder automatically load its index/Home file
     
+plugins:
+  - search
+  - awesome-pages
+    
 # Explicitly design your independent Google-Sites-style layout tabs
 nav:
   - Ultraverse Flux (Home): index.md

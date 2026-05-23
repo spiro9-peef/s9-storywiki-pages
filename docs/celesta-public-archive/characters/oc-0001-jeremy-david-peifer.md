@@ -1,5 +1,5 @@
 ---
-title: "CPA | #1 - Jeremy David Peifer"
+title: "#1 - Jeremy David Peifer"
 source:
 author:
 published:

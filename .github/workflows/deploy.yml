@@ -19,7 +19,9 @@ jobs:
           python-version: '3.x'
           
       - name: Install Dependencies
-        run: pip install mkdocs-material
+        run: 
+            pip install mkdocs-material
+            pip install mkdocs-awesome-pages-plugin 
           
       - name: Build Web Application
         run: mkdocs build --site-dir site
