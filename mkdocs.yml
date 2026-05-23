@@ -25,8 +25,8 @@ theme:
     
 # Explicitly design your independent Google-Sites-style layout tabs
 nav:
-  - Home: index.md
+  - Ultraverse Flux (Home): index.md
   - Celesta Public Archive: 
-    - celesta-public-archive/homepage.md
+    - celesta-public-archive/
   - Stellar Republic Database:
-    - stellar-republic-database/homepage.md
+    - stellar-republic-database/
