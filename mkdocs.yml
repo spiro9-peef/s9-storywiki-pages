@@ -9,6 +9,7 @@ site_name: Spiro's Story Wikis
 docs_dir: docs
 
 use_directory_urls: true
+remote_branch: gh-pages
 
 theme:
   name: material
