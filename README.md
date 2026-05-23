@@ -1,6 +1,6 @@
 ---
-branding.title: Central Portal Hub
-branding.baseColor: "#00D4FF"
+title: Central Portal Hub
+color: "#00D4FF"
 ---
 # s9-storywiki-pages
 Markdown pages for multiple story universe wikis.
