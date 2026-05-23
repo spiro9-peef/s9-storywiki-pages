@@ -1,4 +1,3 @@
-
 ---
 branding:
   title: Central Portal Hub
