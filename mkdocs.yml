@@ -25,7 +25,8 @@ theme:
     
 plugins:
   - search
-  - awesome-pages
+  - awesome-pages:
+        filename: nav.yml
     
 hooks:
   - hooks.py
