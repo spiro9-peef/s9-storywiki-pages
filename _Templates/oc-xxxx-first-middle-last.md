@@ -16,13 +16,13 @@ ID: 0
 
 ### Biology
 
-Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}
+Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}  
 Nickname(s): N/A
-Biological Age: {{ age }}
-Chronological Age: {{ chronological_age }} (b. { dob })
-Base Height: { height }
-Base Species: [{ species.name }]({ species.url }) 
-Sex: { sex }
+Biological Age: { age }  
+Chronological Age: { chronological_age } (b. { dob })  
+Base Height: { height }  
+Base Species: [{ species.name }]({ species.url })   
+Sex: { sex }  
 Base Hair Color: Brown  
 Base Eye Color: Blue  
 Base Fur/Skin Color or Pattern: White + olive  
