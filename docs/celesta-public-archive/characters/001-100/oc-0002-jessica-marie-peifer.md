@@ -1,11 +1,6 @@
 ---
-title: "#2 - Jessica Marie Peifer"
-source:
-author:
-published:
-created: 2026-05-22
-description:
-tags:
+title: Jessica Marie Peifer
+sidebar: 002 - Jessica Marie Peifer
 ---
 # #2 - Jessica Marie Peifer
 

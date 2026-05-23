@@ -1,11 +1,6 @@
 ---
-title: "#1 - Jeremy David Peifer"
-source:
-author:
-published:
-created: 2026-05-22
-description:
-tags:
+title: Jeremy David Peifer
+sidebar: 001 - Jeremy David Peifer
 ---
 # #1 - Jeremy David Peifer
 <sub>[self-insert]</sub>
