@@ -40,7 +40,7 @@ body,
 .md-main,
 .md-content,
 .md-sidebar {
-    background-color: var(--md-default-bg-color) !important;
+    background-color: var(--md-bg-color) !important;
     transition: background-color 250ms ease-in-out;
 }
 
