@@ -106,20 +106,7 @@ def on_page_markdown(markdown, page, config, files):
     meta = page.meta
     context = dict(meta) if meta else {}
 
-    # --- NEW: AUTOMATIC DIRECTORY DETECTION ---
-    # Only assign a theme if the user hasn't explicitly set one in frontmatter
-    theme_key = meta.get('page_theme')
-    
-    if not theme_key:
-        path = page.file.src_path.lower()
-        if "celesta-public-archive" in path:
-            theme_key = "celesta-archive"
-        elif "stellar-republic-database" in path:
-            theme_key = "stellar-republic"
-        else:
-            theme_key = "default"
-
-    # 1. Age Calculation Logic
+    # 1. Age Calculation Logic (Keep existing)
     universe = meta.get('universe')
     dob = meta.get('dob')
     if universe and dob:
@@ -135,28 +122,43 @@ def on_page_markdown(markdown, page, config, files):
                 bio_years = chron_years + age_offset
                 context.update({'age': bio_years, 'bio_age': bio_years, 'chronological_age': chron_years})
 
-    # 2. Theme Injection
-    if theme_key:
-        palette = get_palette_config(theme_key)
-        if palette:
-            # Use an unindented string to ensure it is not rendered as a code block
-            style_injection = (
-            "<style>\n"
-            ":root {\n"
-            f"    --md-primary-fg-color: {palette['primary']} !important;\n"
-            f"    --md-primary-fg-color--light: {palette['light']} !important;\n"
-            f"    --md-primary-fg-color--dark: {palette['dark']} !important;\n"
-            f"    --md-default-bg-color: {palette['bg']} !important;\n"
-            f"    --custom-nav-text-color: {palette['text']} !important;\n"
-            "}\n"
-            "</style>" )
-            markdown = style_injection + "\n" + markdown
+    # 2. Path-based Theme Detection (Resolve key first)
+    theme_key = meta.get('page_theme')
+    if not theme_key:
+        path = page.file.src_path.lower()
+        if "celesta-public-archive" in path:
+            theme_key = "celesta-archive"
+        elif "stellar-republic-database" in path:
+            theme_key = "stellar-republic"
+        else:
+            theme_key = "default"
 
-    # 3. Processing Markdown content (shielding code blocks)
+    # 3. Processing Markdown content (Shielded loop)
+    # We process the markdown variables/conditionals BEFORE injecting the style block
     parts = re.split(r'(```[\s\S]*?```|`[^`\n]+`)', markdown)
     for i in range(len(parts)):
         if not parts[i].startswith('`'):
             parts[i] = process_conditionals(parts[i], context)
             parts[i] = process_variables(parts[i], context)
+    
+    markdown = "".join(parts)
+
+    # 4. FINAL STEP: Theme Injection
+    # We inject the style block AFTER processing, so it is never touched by the regex
+    palette = get_palette_config(theme_key)
+    if palette:
+        style_injection = (
+            "<style>\n"
+            ":root {\n"
+            f"    --md-primary-fg-color: {palette['primary']} !important;\n"
+            f"    --md-primary-fg-color--light: {palette['light']} !important;\n"
+            f"    --md-primary-fg-color--dark: {palette['dark']} !important;\n"
+            f"    --md-bg-color: {palette['bg']} !important;\n"
+            f"    --md-bg-color--light: {palette['bg_light']} !important;\n"
+            f"    --custom-nav-text-color: {palette['nav_text']} !important;\n"
+            "}\n"
+            "</style>\n"
+        )
+        markdown = style_injection + markdown
             
-    return "".join(parts)
+    return markdown

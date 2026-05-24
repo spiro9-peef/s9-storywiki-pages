@@ -3,15 +3,15 @@
     "primary": "#151515",
     "light": "#929292c9",
     "dark": "#151515",
-    "text": "#ffffff",
+    "nav_text": "#ffffff",
     "bg": "#070707",
     "bg_light": "#9292920f"
   },
   "celesta-archive": {
     "primary": "#00D4FF",
     "light": "#7ce9ffc9",
-    "dark": "#00333d",
-    "text": "#17191c",
+    "dark": "#00BCE2",
+    "nav_text": "#17191c",
     "bg": "#011114",
     "bg_light": "#7ce9ff0f"
   },
@@ -19,7 +19,7 @@
     "primary": "#3b6596",
     "light": "#6d85a0c9",
     "dark": "#1e344d",
-    "text": "#9abbc4",
+    "nav_text": "#9abbc4",
     "bg": "#0b0f19",
     "bg_light": "#6d85a00f"
   },
@@ -27,7 +27,7 @@
     "primary": "#FF0048",
     "light": "#c27a8fc9",
     "dark": "#410012",
-    "text": "#ffffff",
+    "nav_text": "#ffffff",
     "bg": "#140006",
     "bg_light": "#c27a8f0f"
   }
