@@ -18,7 +18,7 @@ async function loadAndApplyTheme() {
     try {
         // 2. Fetch your centralized JSON color lookup database
         // Adjust the path below to match where your file is hosted relative to the base URL
-        const response = await fetch('/javascripts/theme-palettes.json');
+        const response = await fetch('/javascripts/theme-lookup.json');
         const themes = await response.json();
         
         // Pick the selected profile configuration or use default
