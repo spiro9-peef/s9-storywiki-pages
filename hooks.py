@@ -94,20 +94,26 @@ def process_variables(text, context):
     return text
 
 # --- 4. MARKDOWN PARSING HOOK ---
-def get_palette_config(theme_key, palettes):
-    theme = palettes.get(theme_key)
-    if not theme:
-        return palettes.get('default')
-    
-    # If this theme has a parent, merge values
-    if 'parent' in theme:
-        parent_theme = get_palette_config(theme['parent'], palettes)
-        # Create a copy, then update with child-specific values
-        merged = parent_theme.copy()
-        merged.update({k: v for k, v in theme.items() if k != 'parent'})
-        return merged
-    
-    return theme
+def get_palette_config(theme_key):
+    try:
+        with open('docs/javascripts/theme-lookup.json', 'r') as f:
+            palettes = json.load(f)
+        
+            theme = palettes.get(theme_key)
+            if not theme:
+                return palettes.get('default')
+            
+            # If this theme has a parent, merge values
+            if 'parent' in theme:
+                parent_theme = get_palette_config(theme['parent'], palettes)
+                # Create a copy, then update with child-specific values
+                merged = parent_theme.copy()
+                merged.update({k: v for k, v in theme.items() if k != 'parent'})
+                return merged
+            
+            return theme
+    except Exception:
+        return None
 
 def on_page_markdown(markdown, page, config, files):
     meta = page.meta
