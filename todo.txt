@@ -1,2 +1,0 @@
-Create formatting for title-subtitle pairs
-Change theme a bit more perhaps? Might be nice to have different color schema esp. per-page

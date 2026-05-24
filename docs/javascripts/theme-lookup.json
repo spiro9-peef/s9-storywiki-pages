@@ -8,6 +8,8 @@
     "bg_light": "#8F9FA80f"
   },
   "celesta-archive": {
+    "parent": "default",
+    
     "primary": "#00D4FF",
     "light": "#7ce9ffc9",
     "dark": "#00BCE2",
@@ -16,6 +18,8 @@
     "bg_light": "#7ce9ff0f"
   },
   "stellar-republic": {
+    "parent": "default",
+    
     "primary": "#3b6596",
     "light": "#6d85a0c9",
     "dark": "#1e344d",
@@ -24,6 +28,8 @@
     "bg_light": "#6d85a00f"
   },
   "jessica": {
+    "parent": "celesta-archive",
+    
     "primary": "#FF0048",
     "light": "#c27a8fc9",
     "dark": "#410012",
