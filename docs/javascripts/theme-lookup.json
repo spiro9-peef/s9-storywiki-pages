@@ -1,11 +1,11 @@
 {
   "default": {
-    "primary": "#333333",
-    "light": "#929292c9",
-    "dark": "#151515",
-    "nav_text": "#ffffff",
-    "bg": "#070707",
-    "bg_light": "#9292920f"
+    "primary": "#224153",
+    "light": "#8F9FA8c9",
+    "dark": "#10212A",
+    "nav_text": "#ECE0D5",
+    "bg": "#0D1A21",
+    "bg_light": "#8F9FA80f"
   },
   "celesta-archive": {
     "primary": "#00D4FF",
