@@ -36,5 +36,6 @@ extra:
 extra_css:
   - stylesheets/sitestyles.css
 
-extra_javascript:
-  - javascripts/theme-engine.js
+# DEPRECATED
+# extra_javascript:
+#  - javascripts/theme-engine.js

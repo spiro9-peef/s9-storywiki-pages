@@ -1,6 +1,7 @@
 import os
 import yaml
 import re
+import json
 from datetime import datetime, date
 from mkdocs.structure.nav import Section, Page
 
@@ -19,14 +20,9 @@ def read_front_matter(abs_path):
     return {}
 
 def fix_navigation_titles_inplace(items):
-    """
-    Safely updates display titles directly on existing objects.
-    Does NOT alter array structures, preserving the top navbar layout.
-    """
     for item in items:
         if isinstance(page := item, Page):
             meta = read_front_matter(page.file.abs_src_path)
-            # Apply your naming rules cleanly without moving the page object
             if 'sidebar' in meta: 
                 page.title = str(meta['sidebar'])
             elif 'title' in meta: 
@@ -36,10 +32,8 @@ def fix_navigation_titles_inplace(items):
                 fix_navigation_titles_inplace(section.children)
 
 def on_nav(nav, config, files):
-    # Only change properties inside the elements; do not assign a new list layout
     fix_navigation_titles_inplace(nav.items)
     return nav
-
 
 # --- 2. IN-UNIVERSE TIMELINE MATH ---
 def parse_date(date_input):
@@ -52,7 +46,6 @@ def parse_date(date_input):
     return None
 
 def calculate_chronological_years(birth_date, death_date, current_year_setting):
-    """Calculates elapsed timeline years up to today or a frozen checkpoint."""
     if str(current_year_setting).lower() == 'dynamic':
         end_date = death_date if death_date else date.today()
         has_had_birthday = (end_date.month, end_date.day) >= (birth_date.month, birth_date.day)
@@ -66,93 +59,27 @@ def calculate_chronological_years(birth_date, death_date, current_year_setting):
         except (ValueError, TypeError):
             return None
 
-def on_page_markdown(markdown, page, config, files):
-    meta = page.meta
-    if not meta or 'dob' not in meta or 'universe' not in meta:
-        return markdown
-
-    universe = meta['universe']
-    timeline_years = config.get('extra', {}).get('timeline_years', {})
-    universe_setting = timeline_years.get(universe)
-    
-    birth_date = parse_date(meta.get('dob'))
-    death_date = parse_date(meta.get('dod'))
-    age_offset = int(meta.get('age_offset', 0))
-
-    if birth_date:
-        chron_years = calculate_chronological_years(birth_date, death_date, universe_setting)
-        
-        if chron_years is not None:
-            # Bio Age = Chronological Years + Age Offset
-            bio_years = chron_years + age_offset
-            
-            # Inject standard text substitutions inline
-            markdown = re.sub(r'{{\s*age\s*}}', str(bio_years), markdown)
-            markdown = re.sub(r'{{\s*bio_age\s*}}', str(bio_years), markdown)
-            markdown = re.sub(r'{{\s*chronological_age\s*}}', str(chron_years), markdown)
-
-    # Clean up secondary structural field keys
-    for key, value in meta.items():
-        if isinstance(value, (str, int, float, date, datetime)):
-            display_value = value.strftime("%Y-%m-%d") if isinstance(value, (date, datetime)) else str(value)
-            placeholder = rf'{{\s*{re.escape(key)}\s*}}'
-            markdown = re.sub(placeholder, display_value.strip(), markdown)
-
-    return markdown
-
 # --- 3. CONDITIONAL PARSER ENGINE ---
 def evaluate_condition(cond, context):
-    """
-    Evaluates condition strings against the page context.
-    Supports:
-      - 'key' (checks if key is truthy)
-      - 'key == "value"' or 'key == value'
-      - 'key != "value"'
-      - 'not key' or '!key'
-    """
     cond = cond.strip()
-    
-    # Check for equality mapping
     if '==' in cond:
         left, right = cond.split('==', 1)
-        left = left.strip()
-        right = right.strip().strip("'\"")
-        val = context.get(left)
-        return str(val).strip() == right if val is not None else right == 'None'
-        
-    # Check for inequality mapping
+        val = context.get(left.strip())
+        return str(val).strip() == right.strip().strip("'\"") if val is not None else right.strip().strip("'\"") == 'None'
     elif '!=' in cond:
         left, right = cond.split('!=', 1)
-        left = left.strip()
-        right = right.strip().strip("'\"")
-        val = context.get(left)
-        return str(val).strip() != right if val is not None else right != 'None'
-        
-    # Check for negation operators
-    elif cond.startswith('not '):
-        key = cond[4:].strip()
+        val = context.get(left.strip())
+        return str(val).strip() != right.strip().strip("'\"") if val is not None else right.strip().strip("'\"") != 'None'
+    elif cond.startswith('not ') or cond.startswith('!'):
+        key = cond[4:].strip() if cond.startswith('not ') else cond[1:].strip()
         return not bool(context.get(key))
-    elif cond.startswith('!'):
-        key = cond[1:].strip()
-        return not bool(context.get(key))
-        
-    # Fallback to direct truthy evaluation
     return bool(context.get(cond))
 
 def process_conditionals(text, context):
-    """
-    Replaces {% if condition %}...{% endif %} blocks dynamically.
-    Loops recursively to support nested statements safely.
-    """
     pattern = r'{%\s*if\s+(.*?)\s*%\}([\s\S]*?){%\s*endif\s*%}'
-    
     def replace_match(match):
-        cond = match.group(1)
-        content = match.group(2)
-        if evaluate_condition(cond, context):
-            return content
-        return ""
-        
+        return match.group(2) if evaluate_condition(match.group(1), context) else ""
+    
     old_text = None
     while old_text != text:
         old_text = text
@@ -160,38 +87,44 @@ def process_conditionals(text, context):
     return text
 
 def process_variables(text, context):
-    """
-    Substitutes all standard {{ key }} wrappers using the context data map.
-    """
     for key, value in context.items():
-        if value is None:
-            display_value = ""
-        elif isinstance(value, (date, datetime)):
-            display_value = value.strftime("%Y-%m-%d")
-        else:
-            display_value = str(value)
-            
-        placeholder = rf'{{\s*{re.escape(key)}\s*}}'
+        display_value = value.strftime("%Y-%m-%d") if isinstance(value, (date, datetime)) else str(value) if value is not None else ""
+        placeholder = rf'{{\s*{re.escape(str(key))}\s*}}'
         text = re.sub(placeholder, display_value.strip(), text)
     return text
 
 # --- 4. MARKDOWN PARSING HOOK ---
+def get_palette_config(theme_key):
+    try:
+        with open('docs/javascripts/theme-lookup.json', 'r') as f:
+            palettes = json.load(f)
+            return palettes.get(theme_key, palettes.get('default'))
+    except Exception:
+        return None
+
 def on_page_markdown(markdown, page, config, files):
     meta = page.meta
+    context = dict(meta) if meta else {}
+
+    # --- NEW: AUTOMATIC DIRECTORY DETECTION ---
+    # Only assign a theme if the user hasn't explicitly set one in frontmatter
+    theme_key = meta.get('page_theme')
     
-    # 1. Build a unified variable context map for this page
-    context = {}
-    if meta:
-        context.update(meta)
+    if not theme_key:
+        path = page.file.src_path.lower()
+        if "celesta-public-archive" in path:
+            theme_key = "celesta-archive"
+        elif "stellar-republic-database" in path:
+            theme_key = "stellar-republic"
+        else:
+            theme_key = "default"
 
-    # 2. Safely calculate dynamic age fields if both dob & universe are present
-    universe = meta.get('universe') if meta else None
-    dob = meta.get('dob') if meta else None
-
+    # 1. Age Calculation Logic
+    universe = meta.get('universe')
+    dob = meta.get('dob')
     if universe and dob:
         timeline_years = config.get('extra', {}).get('timeline_years', {})
         universe_setting = timeline_years.get(universe)
-        
         birth_date = parse_date(dob)
         death_date = parse_date(meta.get('dod'))
         age_offset = int(meta.get('age_offset', 0))
@@ -200,19 +133,30 @@ def on_page_markdown(markdown, page, config, files):
             chron_years = calculate_chronological_years(birth_date, death_date, universe_setting)
             if chron_years is not None:
                 bio_years = chron_years + age_offset
-                context['age'] = bio_years
-                context['bio_age'] = bio_years
-                context['chronological_age'] = chron_years
+                context.update({'age': bio_years, 'bio_age': bio_years, 'chronological_age': chron_years})
 
-    # 3. Split the document by code elements to shield backticks and codeblocks
+    # 2. Theme Injection
+    if theme_key:
+        palette = get_palette_config(theme_key)
+        if palette:
+            style_injection = f"""
+            <style>
+            :root {{
+                --md-primary-fg-color: {palette['primary']} !important;
+                --md-primary-fg-color--light: {palette['light']} !important;
+                --md-primary-fg-color--dark: {palette['dark']} !important;
+                --md-default-bg-color: {palette['bg']} !important;
+                --custom-nav-text-color: {palette['text']} !important;
+            }}
+            </style>
+            """
+            markdown = style_injection + "\n" + markdown
+
+    # 3. Processing Markdown content (shielding code blocks)
     parts = re.split(r'(```[\s\S]*?```|`[^`\n]+`)', markdown)
-    
     for i in range(len(parts)):
-        # If this segment is raw markdown prose (not starting with a backtick boundary)...
         if not parts[i].startswith('`'):
-            # First clean up conditional structures
             parts[i] = process_conditionals(parts[i], context)
-            # Then perform variable replacements inside links, templates, and text flow
             parts[i] = process_variables(parts[i], context)
             
     return "".join(parts)
