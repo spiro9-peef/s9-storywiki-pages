@@ -29,8 +29,9 @@ async function loadAndApplyTheme() {
         rootHtml.style.setProperty("--md-primary-fg-color--light", palette.light, "important");
         rootHtml.style.setProperty("--md-primary-fg-color--dark", palette.dark, "important");
         rootHtml.style.setProperty("--custom-nav-text-color", palette.text, "important");
-        rootHtml.style.setProperty("--md-bg-color", palette.bg, "important");
-        rootHtml.style.setProperty("--md-bg-color--light", palette.bg_light, "important");
+        rootHtml.style.setProperty("--md-default-bg-color", palette.bg, "important");
+        rootHtml.style.setProperty("--md-default-bg-color--light", palette.bg_light, "important");
+        rootHtml.style.setProperty("--md-code-bg-color", palette.bg_light, "important");
 
     } catch (error) {
         console.error("Multiverse Theme Engine failed to load palette configuration:", error);
