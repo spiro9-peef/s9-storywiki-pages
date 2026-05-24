@@ -105,7 +105,7 @@ def get_palette_config(theme_key):
             
             # If this theme has a parent, merge values
             if 'parent' in theme:
-                parent_theme = get_palette_config(theme['parent'], palettes)
+                parent_theme = get_palette_config(theme['parent'])
                 # Create a copy, then update with child-specific values
                 merged = parent_theme.copy()
                 merged.update({k: v for k, v in theme.items() if k != 'parent'})
