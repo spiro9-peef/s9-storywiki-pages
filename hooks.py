@@ -139,17 +139,17 @@ def on_page_markdown(markdown, page, config, files):
     if theme_key:
         palette = get_palette_config(theme_key)
         if palette:
-            style_injection = f"""
-            <style>
-            :root {{
-                --md-primary-fg-color: {palette['primary']} !important;
-                --md-primary-fg-color--light: {palette['light']} !important;
-                --md-primary-fg-color--dark: {palette['dark']} !important;
-                --md-default-bg-color: {palette['bg']} !important;
-                --custom-nav-text-color: {palette['text']} !important;
-            }}
-            </style>
-            """
+            # Use an unindented string to ensure it is not rendered as a code block
+            style_injection = (
+            "<style>\n"
+            ":root {\n"
+            f"    --md-primary-fg-color: {palette['primary']} !important;\n"
+            f"    --md-primary-fg-color--light: {palette['light']} !important;\n"
+            f"    --md-primary-fg-color--dark: {palette['dark']} !important;\n"
+            f"    --md-default-bg-color: {palette['bg']} !important;\n"
+            f"    --custom-nav-text-color: {palette['text']} !important;\n"
+            "}\n"
+            "</style>" )
             markdown = style_injection + "\n" + markdown
 
     # 3. Processing Markdown content (shielding code blocks)
