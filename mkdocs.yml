@@ -25,6 +25,8 @@ plugins:
   - awesome-pages:
         filename: nav.yml
   - macros
+  - ezlinks:
+      fallback_to_root: true
     
 hooks:
   - hooks.py
