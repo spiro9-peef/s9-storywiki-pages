@@ -25,7 +25,7 @@ plugins:
   - awesome-pages:
         filename: nav.yml
   - macros
-  - ezlinks: {}
+  - roamlinks
     
 hooks:
   - hooks.py
