@@ -24,6 +24,7 @@ plugins:
   - search
   - awesome-pages:
         filename: nav.yml
+  - macros
     
 hooks:
   - hooks.py

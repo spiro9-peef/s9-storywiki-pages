@@ -2,10 +2,11 @@
 title: CVCS
 ---
 # Complex-Concentrated Volume Change Syndrome
+#### Genetic Condition
 
 ## Synopsis
 
-Complex-Coordinated Volume Change Syndrome (CVCS or C/CVCS), or convoluminosis, is a genetic condition unique to the ROTC universe. It is caused by [celestium radiation interference](https://sites.google.com/view/celestapublicarchive-rotcwiki/science/chemistry/celestium?authuser=0) with an individual's DNA, and can be passed down between generations. It is generally unique to any given individual regardless of if they are biologically related, which means that any two given people with the condition can have dramatically different cases.
+**Complex-Coordinated Volume Change Syndrome (CVCS or C/CVCS)**, or **convoluminosis**, is a genetic condition unique to the ROTC universe. It is caused by [celestium radiation interference](/celesta-public-archive/science/chemistry/celestium/index.md) with an individual's DNA, and can be passed down between generations. It is generally unique to any given individual regardless of if they are biologically related, which means that any two given people with the condition can have dramatically different cases.
 
 As a condition, CVCS affects the body's response to stimuli. Due to the influence of celestium radiation, this manifests by dramatically increasing or decreasing how the body changes based on hormones, diet, exercise, etc., and can target specific regions of the body or the entire body itself. In simpler terms, it changes the healthy baseline of the bodily form - by redistributing, adding or removing fat and muscle (typically in 50-50 ratio, and intermeshed in a way unique to CVCS) to those targeted regions. This has the side effect of not impeding an individual's health or movement as consequence, though the same cannot necessarily be said for their social life.
 
@@ -15,7 +16,7 @@ Because of the dramatic differences between individual cases, CVCS has a unique 
 
 CVCS Type IDs are a loose system of measurement that functions similarly to cup and fit measurements for both men's and women's clothing and form. These can be described as loose as they are not entirely specific, used instead to give a general ballpark of case severity and to measure the impact of a given case on an individual's appearance. The system uses two types of identifier - uncategorized and categorized.
 
-Categorized identifiers are the primary and most common form of type identifier - they consist of a letter for severity bracket, and a number for more fine identification. For instance, A0 would mean a shift in form not outside of baseline, but pronounced enough to be considered abnormally greater than average. -A2, likewise, would be a shift in form below baseline, and borders especially on what one might consider a pronounced petite. The letter ranges are -A, A, B, and C, each with a subrange of 0-2 determining how far into that lettered bracket the case is. Generally speaking, for the positive (unsigned) brackets, each subrange of 2 is typically twice as noticeable/pronounced as the last bracket's subrange 2. Visual examples here. (TODO)
+Categorized identifiers are the primary and most common form of type identifier - they consist of a letter for severity bracket, and a number for more fine identification. For instance, A0 would mean a shift in form not outside of baseline, but pronounced enough to be considered abnormally greater than average. -A2, likewise, would be a shift in form below baseline, and borders especially on what one might consider a pronounced petite. The letter ranges are -A, A, B, and C, each with a subrange of 0-2 determining how far into that lettered bracket the case is. Generally speaking, for the positive (unsigned) brackets, each subrange of 2 is typically twice as noticeable/pronounced as the last bracket's subrange 2. ~~Visual examples here.~~ (TODO)
 
 Uncategorized identifiers are the other form of type identifier, used to cover uncommon or barely-noticeable cases that make accurate identification difficult or not worth categorization (too rare). These fill in the blanks of categorized identifiers and form a loose scale that goes as follows:
 
