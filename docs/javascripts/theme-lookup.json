@@ -36,5 +36,15 @@
     "nav_text": "#ffffff",
     "bg": "#140006",
     "bg_light": "#c27a8f0f"
+  },
+  "soviet": {
+    "parent": "celesta-archive",
+    
+    "primary": "#EE1B24",
+    "light": "#CE8A8Dc9",
+    "dark": "#A8141B",
+    "nav_text": "#FFF301",
+    "bg": "#380609",
+    "bg_light": "#CE8A8D0f"
   }
 }
