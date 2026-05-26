@@ -38,11 +38,6 @@ validation:
   links:
     absolute_links: relative_to_docs
 
-markdown_extensions:
-  - pymdownx.snippets:
-      check_paths: true
-      base_path: docs
-      
 extra_css:
   - stylesheets/sitestyles.css
 
