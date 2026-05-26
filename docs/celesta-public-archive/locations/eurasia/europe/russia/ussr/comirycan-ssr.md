@@ -1,4 +1,6 @@
 ---
 title: Comirycan SSR
 ---
-{% include "celesta-public-archive/locations/rhylian-continent/comiryca/index.md" %}
+{% filter ignore_frontmatter %} 
+{% include "celesta-public-archive/locations/rhylian-continent/comiryca/index.md" %} 
+{% endfilter %}
