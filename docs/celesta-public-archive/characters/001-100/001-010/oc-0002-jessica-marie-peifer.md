@@ -30,7 +30,7 @@ Base Fur/Skin Color or Pattern: White
 Country/Place of Birth/Primary Heritage: Celesta, CA, USA  
 
 Disabilities & Conditions  
-[CVCS](/celesta-public-archive/science/medical/cvcs.md) Type Normal-High, Bottom-Heavy  
+[CVCS](celesta-public-archive/science/medical/cvcs.md) Type Normal-High, Bottom-Heavy  
 Slight nearsightedness  
   
 Additional Notes  
@@ -69,7 +69,7 @@ Even with federal oversight and security, the family was not immune to disaster.
 
 In the following few years, driven by vague memories of her twin sister and the emotional baggage of losing her, alongside her naturally high IQ and an early diagnosis of Asperger's Syndrome, Jessica would quickly breeze through elementary, middle and high school, showing aptitudes for the arts and STEM fields. By 2016 she had established herself as a top student for higher education institutions across the world, and chose CSLA for its emphasis on celestium sciences, seeing this research as a possible in-road to bringing Symphony back, enrolling fall of that year - still unaware that Symphony was a passenger.
 
-In 2017, she would meet [Jeremy Peifer](oc-0001-jeremy-david-peifer.md) on Discord, under his alias at that time (peefTube#9100 in 2017). They quickly made friends due to sharing creative aptitudes, shared interests in technology and gaming, a mutual diagnosis of Asperger's Syndrome, and even some shared loneliness. The two would develop a shared crush on each other that wouldn't go anywhere for nearly two years, due to factors in Jeremy's life that prevented him from pursuing it. In August of 2019 this changed, and the two became much closer friends, quite literally in fact as Jeremy's family moved to Celesta around that time. In September of 2019, the two officially began dating, and on Christmas Day 2019 Jeremy would propose to her, which she ultimately accepted. The two would be married on [March 16, 2020](/celesta-public-archive/history/changewave-1.md).
+In 2017, she would meet [Jeremy Peifer](oc-0001-jeremy-david-peifer.md) on Discord, under his alias at that time (peefTube#9100 in 2017). They quickly made friends due to sharing creative aptitudes, shared interests in technology and gaming, a mutual diagnosis of Asperger's Syndrome, and even some shared loneliness. The two would develop a shared crush on each other that wouldn't go anywhere for nearly two years, due to factors in Jeremy's life that prevented him from pursuing it. In August of 2019 this changed, and the two became much closer friends, quite literally in fact as Jeremy's family moved to Celesta around that time. In September of 2019, the two officially began dating, and on Christmas Day 2019 Jeremy would propose to her, which she ultimately accepted. The two would be married on [March 16, 2020](celesta-public-archive/history/changewave-1.md).
 
 ### Section 2
 

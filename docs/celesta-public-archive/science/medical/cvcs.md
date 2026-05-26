@@ -6,7 +6,7 @@ title: CVCS
 
 ## Synopsis
 
-**Complex-Coordinated Volume Change Syndrome (CVCS or C/CVCS)**, or **convoluminosis**, is a genetic condition unique to the ROTC universe. It is caused by [celestium radiation interference](/celesta-public-archive/science/chemistry/celestium/index.md) with an individual's DNA, and can be passed down between generations. It is generally unique to any given individual regardless of if they are biologically related, which means that any two given people with the condition can have dramatically different cases.
+**Complex-Coordinated Volume Change Syndrome (CVCS or C/CVCS)**, or **convoluminosis**, is a genetic condition unique to the ROTC universe. It is caused by [celestium radiation interference](celesta-public-archive/science/chemistry/celestium/index.md) with an individual's DNA, and can be passed down between generations. It is generally unique to any given individual regardless of if they are biologically related, which means that any two given people with the condition can have dramatically different cases.
 
 As a condition, CVCS affects the body's response to stimuli. Due to the influence of celestium radiation, this manifests by dramatically increasing or decreasing how the body changes based on hormones, diet, exercise, etc., and can target specific regions of the body or the entire body itself. In simpler terms, it changes the healthy baseline of the bodily form - by redistributing, adding or removing fat and muscle (typically in 50-50 ratio, and intermeshed in a way unique to CVCS) to those targeted regions. This has the side effect of not impeding an individual's health or movement as consequence, though the same cannot necessarily be said for their social life.
 
