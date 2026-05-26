@@ -10,7 +10,7 @@ species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 0
 ---
-# #{ id } - { title }
+# #{ ID } - { title }
 
 ## Biometrics
 
