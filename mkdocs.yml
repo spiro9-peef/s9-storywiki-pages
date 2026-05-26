@@ -25,7 +25,6 @@ plugins:
   - awesome-pages:
         filename: nav.yml
   - macros
-  - roamlinks
     
 hooks:
   - hooks.py
@@ -34,6 +33,10 @@ extra:
   timeline_years:
     rotc: dynamic    # Automatically matches whatever year it is in real life
     tsr: 2155
+
+validation:
+  links:
+    absolute_links: relative_to_docs
 
 extra_css:
   - stylesheets/sitestyles.css

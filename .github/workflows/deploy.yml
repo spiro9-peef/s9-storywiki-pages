@@ -20,7 +20,7 @@ jobs:
           
       - name: Install Dependencies
         run: 
-            pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-macros-plugin mkdocs-roamlinks-plugin
+            pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-macros-plugin
           
       - name: Build Web Application
         run: mkdocs build --site-dir site
