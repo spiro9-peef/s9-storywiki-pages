@@ -169,6 +169,7 @@ def on_page_markdown(markdown, page, config, files):
             f"    --md-bg-color: {palette['bg']} !important;\n"
             f"    --md-bg-color--light: {palette['bg_light']} !important;\n"
             f"    --custom-nav-text-color: {palette['nav_text']} !important;\n"
+            f"    --custom-side-text-color: {palette['side_text']} !important;\n"
             "}\n"
             "</style>\n"
         )

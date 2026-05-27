@@ -60,6 +60,7 @@ body,
     background-color: transparent !important;
     background-image: none !important;
     box-shadow: none !important;
+    color: var(--custom-side-text-color) !important;
 }
 
 /* Optional: If you want a subtle, clean underline or indent instead of a massive box halo */

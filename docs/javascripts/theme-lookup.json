@@ -5,7 +5,8 @@
     "dark": "#10212A",
     "nav_text": "#ECE0D5",
     "bg": "#0D1A21",
-    "bg_light": "#8F9FA80f"
+    "bg_light": "#8F9FA80f",
+    "side_text": "#ECE0D5"
   },
   "celesta-archive": {
     "parent": "default",
@@ -15,7 +16,8 @@
     "dark": "#00BCE2",
     "nav_text": "#17191c",
     "bg": "#011114",
-    "bg_light": "#7ce9ff0f"
+    "bg_light": "#7ce9ff0f",
+    "side_text": "#ffffff"
   },
   "stellar-republic": {
     "parent": "default",
@@ -25,7 +27,8 @@
     "dark": "#1e344d",
     "nav_text": "#9abbc4",
     "bg": "#0b0f19",
-    "bg_light": "#6d85a00f"
+    "bg_light": "#6d85a00f",
+    "side_text": "#ffffff"
   },
   "jessica": {
     "parent": "celesta-archive",
@@ -45,7 +48,8 @@
     "dark": "#A8141B",
     "nav_text": "#FFF301",
     "bg": "#380609",
-    "bg_light": "#CE8A8D0f"
+    "bg_light": "#CE8A8D0f",
+    "side_text": "#FFF301"
   },
   "rhylian": {
     "parent": "celesta-archive",
@@ -54,7 +58,8 @@
     "light": "#E4EA92c9",
     "dark": "#514CA4",
     "nav_text": "#E6E8CC",
-    "bg": "#4F616C",
-    "bg_light": "#82A6A30f"
+    "bg": "#AF2A40",
+    "bg_light": "#82A6A30f",
+    "side_text": "#E6E8CC"
   }
 }
