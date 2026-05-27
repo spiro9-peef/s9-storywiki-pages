@@ -1,5 +1,6 @@
 ---
 title: Kingdom of Rhylia
+page_theme: rhylian
 ---
 # Kingdom of Rhylia
 #### Nation | c. 1150 BC - present day
