@@ -5,7 +5,10 @@ title: Riley Clothing Conglomerate
 
 Years of Operation: March 8, 2019 - present  
 Original Corporate HQ: 107 Williams Street, [Celesta, CA](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) 93419  
-Current Corporate HQ: 1 Riley Plaza, [Celesta, CA](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) 93419
+Current Corporate HQ: 1 Riley Plaza, [Celesta, CA](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) 93419  
+Founder: Olivia Skye Riley  
+Current CEO: Olivia Skye Riley (2019 - present)  
+Industrial Sector of Focus: Textiles & clothing
 
 ## History
 
