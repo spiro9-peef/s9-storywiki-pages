@@ -23,18 +23,3 @@ jobs:
 
       - name: Run Birthday Script
         run: python bday_check.py
-        
-        # --- KEEP-ALIVE STEP ---
-      - name: Commit and push activity log
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "GitHub Action Bot"
-          git config --global user.email "action@github.com"
-          
-          date -u > last_checked.txt
-          git add last_checked.txt
-          git diff --quiet && git diff --staged --quiet || git commit -m "[skip ci] KEEP ALIVE"
-          
-          # Push using the token explicitly to bypass permission blocks
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
