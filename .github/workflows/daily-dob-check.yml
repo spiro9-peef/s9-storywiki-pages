@@ -23,3 +23,9 @@ jobs:
 
       - name: Run Birthday Script
         run: python bday_check.py
+        
+        # --- KEEP-ALIVE STEP ---
+      - name: Prevent inactivity shutdown
+        uses: gautamkrishnar/keepalive-workflow@v2
+        with:
+          use_api: true # Uses the GitHub API instead of dummy commits to avoid cluttering your git log
