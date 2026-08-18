@@ -3,8 +3,8 @@ title: Riley Clothing Conglomerate
 ---
 ## Basic Data
 
-Years of Operation: March 8, 2019 - present
-Original Corporate HQ: 107 Williams Street, [Celesta, CA](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) 93419
+Years of Operation: March 8, 2019 - present  
+Original Corporate HQ: 107 Williams Street, [Celesta, CA](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) 93419  
 Current Corporate HQ: 1 Riley Plaza, [Celesta, CA](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) 93419
 
 ## History
