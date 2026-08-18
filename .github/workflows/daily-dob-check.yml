@@ -9,6 +9,12 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    
+    # You must explicitly declare 'contents: read' (or 'write') 
+    # so the runner is allowed to look at your repository files.
+    permissions:
+      contents: write
+      
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
