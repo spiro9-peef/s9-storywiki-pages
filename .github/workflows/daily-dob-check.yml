@@ -9,12 +9,6 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-    
-    # You must explicitly declare 'contents: read' (or 'write') 
-    # so the runner is allowed to look at your repository files.
-    permissions:
-      contents: write
-      
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -31,7 +25,16 @@ jobs:
         run: python bday_check.py
         
         # --- KEEP-ALIVE STEP ---
-      - name: Prevent inactivity shutdown
-        uses: gautamkrishnar/keepalive-workflow@v2
-        with:
-          use_api: true # Uses the GitHub API instead of dummy commits to avoid cluttering your git log
+      - name: Commit and push activity log
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          
+          date -u > last_checked.txt
+          git add last_checked.txt
+          git diff --quiet && git diff --staged --quiet || git commit -m "Automated keepalive: update last checked timestamp"
+          
+          # Push using the token explicitly to bypass permission blocks
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
