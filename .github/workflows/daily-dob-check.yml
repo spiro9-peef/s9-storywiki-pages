@@ -34,7 +34,7 @@ jobs:
           
           date -u > last_checked.txt
           git add last_checked.txt
-          git diff --quiet && git diff --staged --quiet || git commit -m "Automated keepalive: update last checked timestamp"
+          git diff --quiet && git diff --staged --quiet || git commit -m "[skip ci] KEEP ALIVE"
           
           # Push using the token explicitly to bypass permission blocks
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
