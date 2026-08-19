@@ -7,7 +7,7 @@ title: Changewave-1
 
 2:15 PM PST - [Jeremy Peifer](/celesta-public-archive/characters/001-100/001-010/oc-0001-jeremy-david-peifer.md) and [Jessica Rachels](/celesta-public-archive/characters/001-100/001-010/oc-0002-jessica-marie-peifer.md) get married.  
 4:40 PM PST - The newly-wed couple adopts a Labrador - Golden Retriever - Cocker Spaniel mix puppy and names her Ettisynne.  
-6:15 PM PST - With help from friends, the couple finishes moving into the penthouse suite gifted them by Jessica's childhood friend [Katrina](nocontent.md).
+6:15 PM PST - With help from friends, the couple finishes moving into the penthouse suite gifted them by Jessica's childhood friend [Katrina](/celesta-public-archive/characters/001-100/001-010/oc-0003-katrina-elizabeth-pryor.md).
 
 ### March 17, 2020
 
