@@ -1,14 +1,14 @@
 ---
-title: Raw Character Name
-sidebar: NNN - Raw Character Name
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+title: Katrina Elizabeth Pryor
+sidebar: 003 - Katrina Elizabeth Pryor
+universe: rotc
+dob: 2001-06-21
+height: 5'2"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
-ID: 0
+ID: 3
 ---
 # #{ ID } - { title }
 
@@ -23,9 +23,9 @@ Chronological Age: { chronological_age } (b. { dob })
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
 Sex: { sex }  
-Base Hair Color: Brown  
-Base Eye Color: Brown  
-Base Fur/Skin Color or Pattern: White  
+Base Hair Color: Ginger  
+Base Eye Color: Heterochromia - Blue | Hazel  
+Base Fur/Skin Color or Pattern: White, mildly tanned  
 Country/Place of Birth/Primary Heritage: United States  
   
 Disabilities & Conditions  
@@ -36,22 +36,22 @@ N/A
 
 ### Psyche
 
-Intellectual Quotient: TBD  
-Emotional Quotient: TBD  
-Temperament: TBD  
-Cognitive Style: TBD  
+Intellectual Quotient: 125  
+Emotional Quotient: 124  
+Temperament: Bubbly, active, goofy, kind, generous  
+Cognitive Style: Relaxed  
   
 Disabilities & Conditions  
-N/A
+N/A  
 
 ### Personal Style
 
-Main/Preferred Outfit: TBD  
-Preferred Fashion Choices: TBD  
-Preferred Color Schemes: TBD  
+Main/Preferred Outfit: Purple scarf, gray [CSLA](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/csla/index.md) sweater (loose-hang over shoulders), purple bell-bottom jeans, purple bead bracelets  
+Preferred Fashion Choices: Fancy casual  
+Preferred Color Schemes: Gray and purple  
   
 Additional Outfits  
-N/A
+If it's modest, she'll wear it.
 
 ## Biography
 
