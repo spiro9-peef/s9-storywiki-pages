@@ -2,5 +2,5 @@ title: "Celesta"
 nav:
   - index.md
   - CSLA: csla
-  - CPL: celesta-pokemon-league
-  - CPML: celesta-public-library
+  - CPL: celesta-pokemon-league.md
+  - CPML: celesta-public-library.md
