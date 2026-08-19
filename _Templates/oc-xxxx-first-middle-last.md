@@ -17,7 +17,7 @@ ID: 0
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-Nickname(s): N/A
+Nickname(s): N/A  
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
