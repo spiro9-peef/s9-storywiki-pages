@@ -40,6 +40,16 @@
     "bg": "#140006",
     "bg_light": "#c27a8f0f"
   },
+  "katrina": {
+    "parent": "celesta-archive",
+    
+    "primary": "#784CC0",
+    "light": "#9F92B3c9",
+    "dark": "#281D3A",
+    "nav_text": "#ffffff",
+    "bg": "#15121B",
+    "bg_light": "#9F92B30f"
+  },
   "soviet": {
     "parent": "celesta-archive",
     

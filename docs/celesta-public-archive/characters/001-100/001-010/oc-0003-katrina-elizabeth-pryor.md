@@ -9,6 +9,7 @@ maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 3
+page_theme: katrina
 ---
 # #{ ID } - { title }
 
