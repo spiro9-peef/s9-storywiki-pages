@@ -1,6 +1,8 @@
 ---
 title: Cylia Felicia Forrester
 sidebar: 006 - Cylia Felicia Forrester
+nicknames: Cece, Cee, Farmer Girl
+online_aliases: N/A
 universe: rotc
 dob: 2001-09-17
 height: 4'9"
@@ -17,7 +19,8 @@ ID: 6
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-Nickname(s): Cece, Cee, Farmer Girl  
+{% if nicknames != "N/A" %}Nickname(s): { nicknames } {% endif %} 
+{% if online_aliases != "N/A" %}Alias(es): { online_aliases } {% endif %} 
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

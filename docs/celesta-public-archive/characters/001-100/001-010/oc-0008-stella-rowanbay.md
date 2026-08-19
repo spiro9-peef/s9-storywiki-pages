@@ -1,6 +1,8 @@
 ---
 title: Stella Rowan-Bay
 sidebar: 008 - Stella Rowan-Bay
+nicknames: Stell
+online_aliases: N/A
 universe: rotc
 dob: 2003-03-05
 height: 5'8" (biped/kemono) | 6'2" (centaur)
@@ -17,7 +19,8 @@ ID: 8
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-Nickname(s): Stell  
+{% if nicknames != "N/A" %}Nickname(s): { nicknames } {% endif %} 
+{% if online_aliases != "N/A" %}Alias(es): { online_aliases } {% endif %} 
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

@@ -1,6 +1,8 @@
 ---
 title: Jeremy David Peifer
 sidebar: 001 - Jeremy David Peifer
+nicknames: Jer
+online_aliases: peef, spiro, spiro9
 universe: rotc
 dob: 2000-10-30
 height: 5'9"
@@ -17,8 +19,8 @@ ID: 1
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-Nickname(s): Jer  
-Alias(es): peef, spiro, spiro9  
+{% if nicknames != "N/A" %}Nickname(s): { nicknames } {% endif %} 
+{% if online_aliases != "N/A" %}Alias(es): { online_aliases } {% endif %} 
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

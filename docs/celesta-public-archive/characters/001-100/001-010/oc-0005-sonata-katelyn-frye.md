@@ -1,6 +1,8 @@
 ---
 title: Sonata Katelyn Frye
 sidebar: 005 - Sonata Katelyn Frye
+nicknames: Sona, Nata, Soni, Sonia
+online_aliases: N/A
 universe: rotc
 dob: 2004-01-02
 height: 4'11"
@@ -17,7 +19,8 @@ ID: 5
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-Nickname(s): Sona, Nata, Soni, Sonia  
+{% if nicknames != "N/A" %}Nickname(s): { nicknames } {% endif %} 
+{% if online_aliases != "N/A" %}Alias(es): { online_aliases } {% endif %} 
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

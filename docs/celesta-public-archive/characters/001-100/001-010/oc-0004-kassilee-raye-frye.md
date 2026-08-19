@@ -1,6 +1,8 @@
 ---
 title: Kassilee Raye Frye
 sidebar: 004 - Kassilee Raye Frye
+nicknames: Kass, Kassi, Cici
+online_aliases: N/A
 universe: rotc
 dob: 1998-01-14
 height: 5'3"
@@ -17,7 +19,8 @@ ID: 4
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-Nickname(s): Kass, Kassi, Cici  
+{% if nicknames != "N/A" %}Nickname(s): { nicknames } {% endif %} 
+{% if online_aliases != "N/A" %}Alias(es): { online_aliases } {% endif %} 
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
