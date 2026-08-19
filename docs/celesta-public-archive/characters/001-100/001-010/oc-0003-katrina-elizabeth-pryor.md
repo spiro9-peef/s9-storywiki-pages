@@ -27,7 +27,7 @@ Sex: { sex }
 Base Hair Color: Ginger  
 Base Eye Color: Heterochromia - Blue | Hazel  
 Base Fur/Skin Color or Pattern: White, mildly tanned  
-Country/Place of Birth/Primary Heritage: United States  
+Country/Place of Birth/Primary Heritage: [Celesta, CA,](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) [USA](/celesta-public-archive/locations/americas/north-america/usa/index.md)  
   
 Disabilities & Conditions  
 N/A  

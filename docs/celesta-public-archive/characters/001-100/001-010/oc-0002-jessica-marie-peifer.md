@@ -27,7 +27,7 @@ Sex: { sex }
 Base Hair Color: Brown  
 Base Eye Color: Blue  
 Base Fur/Skin Color or Pattern: White  
-Country/Place of Birth/Primary Heritage: Celesta, CA, USA  
+Country/Place of Birth/Primary Heritage: [Celesta, CA,](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) [USA](/celesta-public-archive/locations/americas/north-america/usa/index.md)  
 
 Disabilities & Conditions  
 [CVCS](/celesta-public-archive/science/medical/cvcs.md) Type Normal-High, Bottom-Heavy  

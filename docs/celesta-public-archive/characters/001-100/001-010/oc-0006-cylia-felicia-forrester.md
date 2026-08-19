@@ -26,7 +26,7 @@ Sex: { sex }
 Base Hair Color: Black, dyed cobalt blue  
 Base Eye Color: Goldenrod  
 Base Fur/Skin Color or Pattern: Olive, tanned  
-Country/Place of Birth/Primary Heritage: United States  
+Country/Place of Birth/Primary Heritage: [Celesta, CA,](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) [USA](/celesta-public-archive/locations/americas/north-america/usa/index.md)  
   
 Disabilities & Conditions  
 N/A  
