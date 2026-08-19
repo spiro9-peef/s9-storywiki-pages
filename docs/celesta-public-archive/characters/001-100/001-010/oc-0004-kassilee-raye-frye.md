@@ -1,15 +1,14 @@
 ---
-title: Katrina Elizabeth Pryor
-sidebar: 003 - Katrina Elizabeth Pryor
+title: Kassilee Raye Frye
+sidebar: 004 - Kassilee Raye Frye
 universe: rotc
-dob: 2001-06-21
-height: 5'2"
+dob: 1998-01-14
+height: 5'3"
 sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
-ID: 3
-page_theme: katrina
+species.name: Dog (Labrador Retriever)
+species.url: https://en.wikipedia.org/wiki/Labrador_Retriever
+ID: 4
 ---
 # #{ ID } - { title }
 
@@ -18,16 +17,16 @@ page_theme: katrina
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-Nickname(s): Kat, Trina, Tina  
+Nickname(s): Kass, Kassi, Cici  
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
 Sex: { sex }  
-Base Hair Color: Ginger  
-Base Eye Color: Heterochromia - Blue | Hazel  
-Base Fur/Skin Color or Pattern: White, mildly tanned  
-Country/Place of Birth/Primary Heritage: United States  
+Base Hair Color: Sandy Blonde  
+Base Eye Color: Blue
+Base Fur/Skin Color or Pattern: Yellow (Labrador)  
+Country/Place of Birth/Primary Heritage: United Kingdom  
   
 Disabilities & Conditions  
 N/A  
@@ -37,22 +36,22 @@ Freckled
 
 ### Psyche
 
-Intellectual Quotient: 125  
-Emotional Quotient: 124  
-Temperament: Bubbly, active, goofy, kind, generous  
-Cognitive Style: Relaxed  
+Intellectual Quotient: 133  
+Emotional Quotient: 105  
+Temperament: Calm, quiet, helpful  
+Cognitive Style: Focused, methodical  
   
 Disabilities & Conditions  
 N/A  
 
 ### Personal Style
 
-Main/Preferred Outfit: Purple scarf, gray [CSLA](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/csla/index.md) sweater (loose-hang over shoulders), purple bell-bottom jeans, purple bead bracelets  
-Preferred Fashion Choices: Fancy casual  
-Preferred Color Schemes: Gray and purple  
+Main/Preferred Outfit: N/A (Not established)  
+Preferred Fashion Choices: N/A (Not established)  
+Preferred Color Schemes: Blue  
   
 Additional Outfits  
-If it's modest, she'll wear it.
+Librarian Work Uniform: Blue diamond sweater vest, white button-up with blue stripes and tie (color-coded), black slacks
 
 ## Biography
 
