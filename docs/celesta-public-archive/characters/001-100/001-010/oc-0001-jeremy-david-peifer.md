@@ -19,8 +19,8 @@ ID: 1
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-{% if nicknames != "N/A" %}Nickname(s): { nicknames } {% endif %} 
-{% if online_aliases != "N/A" %}Alias(es): { online_aliases } {% endif %} 
+{% if nicknames != "N/A" %}Nickname(s): { nicknames }  {% endif %}
+{% if online_aliases != "N/A" %}Alias(es): { online_aliases }  {% endif %}
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
