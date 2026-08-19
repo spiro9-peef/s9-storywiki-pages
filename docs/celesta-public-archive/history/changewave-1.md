@@ -1,9 +1,9 @@
 ---
 title: Changewave-1
 ---
-# Timeline
+## Timeline
 
-## March 16, 2020
+### March 16, 2020
 
 2:15 PM PST - [Jeremy Peifer](/celesta-public-archive/characters/001-100/001-010/oc-0001-jeremy-david-peifer.md) and [Jessica Rachels](/celesta-public-archive/characters/001-100/001-010/oc-0002-jessica-marie-peifer.md) get married.  
 4:40 PM PST - The newly-wed couple adopts a Labrador - Golden Retriever - Cocker Spaniel mix puppy and names her Ettisynne.  
