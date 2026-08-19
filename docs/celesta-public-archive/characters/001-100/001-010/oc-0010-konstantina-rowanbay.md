@@ -32,7 +32,7 @@ Disabilities & Conditions
 N/A  
   
 Additional Notes  
-Freckled
+Freckled  
 Typically seen either in a kemonomimi form, or a centaur form.
 
 ### Psyche

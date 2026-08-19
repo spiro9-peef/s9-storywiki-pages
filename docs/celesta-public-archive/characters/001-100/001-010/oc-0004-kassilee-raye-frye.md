@@ -26,7 +26,7 @@ Sex: { sex }
 Base Hair Color: Sandy Blonde  
 Base Eye Color: Blue
 Base Fur/Skin Color or Pattern: Yellow (Labrador)  
-Country/Place of Birth/Primary Heritage: United Kingdom  
+Country/Place of Birth/Primary Heritage: [United Kingdom](/celesta-public-archive/locations/eurasia/europe/uk/index.md)  
   
 Disabilities & Conditions  
 N/A  

@@ -1,14 +1,14 @@
 ---
-title: Vivianna Rowan-Bay
-sidebar: 009 - Vivianna Rowan-Bay
+title: Bridgette May McAllister
+sidebar: 011 - Bridgette May McAllister
 universe: rotc
-dob: 2003-03-05
-height: 5'8" (biped/kemono) | 6'2" (centaur)
+dob: 2002-09-07
+height: 6'4"
 sex: F
 maiden_name: N/A
-species.name: Horse
-species.url: https://en.wikipedia.org/wiki/Horse
-ID: 9
+species.name: Fox
+species.url: https://en.wikipedia.org/wiki/Red_fox
+ID: 11
 ---
 # #{ ID } - { title }
 
@@ -17,30 +17,29 @@ ID: 9
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-Nickname(s): Vi, Vivi, ViAnn, Anna, Anna Vi  
+Nickname(s): Konnie, Stannie, Koko  
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
 Sex: { sex }  
-Base Hair Color: Auburn  
+Base Hair Color: Ginger  
 Base Eye Color: Green  
-Base Fur/Skin Color or Pattern: White (skin), white with black spots (horse fur)  
-Country/Place of Birth/Primary Heritage: [Celesta, CA,](/celesta-public-archive/locations/americas/north-america/usa/california/celesta/index.md) [USA](/celesta-public-archive/locations/americas/north-america/usa/index.md)  
+Base Fur/Skin Color or Pattern: Crimson, white underbelly  
+Country/Place of Birth/Primary Heritage: Canada
   
 Disabilities & Conditions  
 N/A  
   
 Additional Notes  
-Freckled  
-Typically seen either in a kemonomimi form, or a centaur form.
+N/A
 
 ### Psyche
 
-Intellectual Quotient: 107  
-Emotional Quotient: 99  
-Temperament: Relaxed  
-Cognitive Style: Focused  
+Intellectual Quotient: 104  
+Emotional Quotient: 138  
+Temperament: Boisterous & sassy  
+Cognitive Style: Scatterbrained  
   
 Disabilities & Conditions  
 N/A  
@@ -48,7 +47,7 @@ N/A
 ### Personal Style
 
 Main/Preferred Outfit: N/A  
-Preferred Fashion Choices: Generic casual  
+Preferred Fashion Choices: Long, tight-fitting clothes, with a leather jacket and leather boots  
 Preferred Color Schemes: N/A  
   
 Additional Outfits  
