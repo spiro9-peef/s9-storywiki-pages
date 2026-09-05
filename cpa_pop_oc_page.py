@@ -39,12 +39,13 @@ def get_batch_folder(char_id: int) -> Path:
     
     return BASE_CHAR_DIR / hundred_folder_name / ten_folder_name
 
-def main():
+def main(firstAttempt = True):
     if not TEMPLATE_PATH.exists():
         print(f"Error: Template not found at {TEMPLATE_PATH.resolve()}")
         return
 
-    print("--- OC Page Generator ---")
+    if firstAttempt:
+        print("--- OC Page Generator ---")
     
     # Prompt for ID
     try:
@@ -52,13 +53,13 @@ def main():
         char_id = int(id_input)
     except ValueError:
         print("Error: Invalid ID. Please enter a whole number.")
-        return
+        main(firstAttempt = False) # Try again.
 
     # Prompt for Name
     name = input("Enter Character Name (e.g., Jeremy David Peifer): ").strip()
     if not name:
         print("Error: Name cannot be empty.")
-        return
+        main(firstAttempt = False) # Try again.
 
     # Formatting
     id_padded_internal = f"{char_id:04d}"
@@ -84,6 +85,7 @@ def main():
     new_content = new_content.replace("Raw Character Name", name)
     new_content = new_content.replace("ID: 0", f"ID: {char_id}")
     new_content = new_content.replace("sidebar: NNN", f"sidebar: {id_padded_frontfacing}")
+    new_content = new_content.replace("universe: rotc or tsr", "universe: rotc")
     
     # Write out the new file
     file_path.write_text(new_content, encoding="utf-8")

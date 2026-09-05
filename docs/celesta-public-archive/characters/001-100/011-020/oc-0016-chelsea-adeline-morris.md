@@ -3,13 +3,13 @@ title: Chelsea Adeline Morris
 sidebar: 016 - Chelsea Adeline Morris
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
+universe: rotc
+dob: 2004-08-02
+height: 5'1"
 sex: N
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Cat (calico)
+species.url: https://en.wikipedia.org/wiki/Cat
 ID: 16
 ---
 # #{ ID } - { title }

@@ -1,16 +1,16 @@
 ---
-title: Aspen Anna Austen
-sidebar: 015 - Aspen Anna Austen
+title: Gabby
+sidebar: 320 - Gabby
 nicknames: N/A
 online_aliases: N/A
-universe: rotc
-dob: 2000-07-07
-height: 5'5"
-sex: F
+universe: rotc or tsr
+dob: 1999-01-01
+height: 5'10"
+sex: N
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
-ID: 15
+ID: 320
 ---
 # #{ ID } - { title }
 

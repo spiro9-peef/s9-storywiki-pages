@@ -3,13 +3,13 @@ title: Lisara Madelyn Brier
 sidebar: 017 - Lisara Madelyn Brier
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2004-02-08
+height: 6'4"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: High Elf
+species.url: celesta-public-archive/science/biology/elves/high-elves.md
 ID: 17
 ---
 # #{ ID } - { title }

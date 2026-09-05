@@ -3,13 +3,13 @@ title: Lora Briana Sucre
 sidebar: 021 - Lora Briana Sucre
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2002-08-26
+height: 5'4"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Manifestant (Lime)
+species.url: celesta-public-archive/science/biology/changed/manifestants.md
 ID: 21
 ---
 # #{ ID } - { title }

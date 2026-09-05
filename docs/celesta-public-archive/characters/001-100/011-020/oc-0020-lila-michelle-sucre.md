@@ -3,13 +3,13 @@ title: Lila Michelle Sucre
 sidebar: 020 - Lila Michelle Sucre
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
+universe: rotc
+dob: 2000-04-04
 height: 5'10"
-sex: N
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Manifestant (Banana)
+species.url: celesta-public-archive/science/biology/changed/manifestants.md
 ID: 20
 ---
 # #{ ID } - { title }

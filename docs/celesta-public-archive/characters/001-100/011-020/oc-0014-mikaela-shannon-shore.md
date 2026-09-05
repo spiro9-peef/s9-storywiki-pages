@@ -3,13 +3,13 @@ title: Mikaela Shannon Shore
 sidebar: 014 - Mikaela Shannon Shore
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
+universe: rotc
+dob: 2001-05-24
 height: 5'10"
-sex: N
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Slime
+species.url: celesta-public-archive/science/biology/slimes/index.md
 ID: 14
 ---
 # #{ ID } - { title }

@@ -3,13 +3,13 @@ title: Corey Dominic Snyder
 sidebar: 019 - Corey Dominic Snyder
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2001-01-05
+height: 5'6"
+sex: M
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Rabbit
+species.url: https://en.wikipedia.org/wiki/Rabbit
 ID: 19
 ---
 # #{ ID } - { title }
