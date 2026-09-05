@@ -9,7 +9,7 @@ height: 6'4"
 sex: F
 maiden_name: N/A
 species.name: High Elf
-species.url: celesta-public-archive/science/biology/elves/high-elves.md
+species.url: /celesta-public-archive/science/biology/elves/high-elves.md
 ID: 17
 ---
 # #{ ID } - { title }

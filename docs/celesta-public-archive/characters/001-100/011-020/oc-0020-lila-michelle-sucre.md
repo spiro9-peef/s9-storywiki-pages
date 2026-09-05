@@ -9,7 +9,7 @@ height: 5'10"
 sex: F
 maiden_name: N/A
 species.name: Manifestant (Banana)
-species.url: celesta-public-archive/science/biology/changed/manifestants.md
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 20
 ---
 # #{ ID } - { title }

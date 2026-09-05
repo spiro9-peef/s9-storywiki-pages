@@ -9,7 +9,7 @@ height: 6'8"
 sex: F
 maiden_name: N/A
 species.name: Dragon (Ice)
-species.url: celesta-public-archive/science/biology/dragons/index.md
+species.url: /celesta-public-archive/science/biology/dragons/index.md
 ID: 13
 ---
 # #{ ID } - { title }

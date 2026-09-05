@@ -9,7 +9,7 @@ height: 5'10"
 sex: F
 maiden_name: N/A
 species.name: Slime
-species.url: celesta-public-archive/science/biology/slimes/index.md
+species.url: /celesta-public-archive/science/biology/slimes/index.md
 ID: 14
 ---
 # #{ ID } - { title }

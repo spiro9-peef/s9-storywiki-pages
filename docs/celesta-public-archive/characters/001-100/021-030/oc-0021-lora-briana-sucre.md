@@ -9,7 +9,7 @@ height: 5'4"
 sex: F
 maiden_name: N/A
 species.name: Manifestant (Lime)
-species.url: celesta-public-archive/science/biology/changed/manifestants.md
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 21
 ---
 # #{ ID } - { title }
