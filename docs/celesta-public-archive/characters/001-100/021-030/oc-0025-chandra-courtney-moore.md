@@ -3,13 +3,13 @@ title: Chandra Courtney Moore
 sidebar: 025 - Chandra Courtney Moore
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2001-08-26
+height: 4'2"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Mouse
+species.url: https://en.wikipedia.org/wiki/Mouse
 ID: 25
 ---
 # #{ ID } - { title }

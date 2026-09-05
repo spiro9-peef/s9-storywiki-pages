@@ -3,13 +3,13 @@ title: Dahlia Rose Romano
 sidebar: 028 - Dahlia Rose Romano
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2001-08-16
+height: 4'8"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Manifestant (Dahlia, pink)
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 28
 ---
 # #{ ID } - { title }

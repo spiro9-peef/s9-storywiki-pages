@@ -4,12 +4,12 @@ sidebar: 026 - Minerva Ava Skye
 nicknames: N/A
 online_aliases: N/A
 universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2004-03-02
+height: 5'9"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Bald Eagle
+species.url: https://en.wikipedia.org/wiki/Bald_eagle
 ID: 26
 ---
 # #{ ID } - { title }

@@ -3,13 +3,13 @@ title: Mallory Mikayla Burns
 sidebar: 024 - Mallory Mikayla Burns
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2001-01-04
+height: 5'7"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Starborn
+species.url: /celesta-public-archive/science/biology/starborn.md
 ID: 24
 ---
 # #{ ID } - { title }

@@ -3,13 +3,13 @@ title: Miriam Sybil Cambridge
 sidebar: 022 - Miriam Sybil Cambridge
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2002-08-02
+height: 3'11"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Mountain Bluebird
+species.url: https://en.wikipedia.org/wiki/Mountain_bluebird
 ID: 22
 ---
 # #{ ID } - { title }

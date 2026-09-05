@@ -3,13 +3,13 @@ title: Giselle Dawn Brighton
 sidebar: 029 - Giselle Dawn Brighton
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2000-12-22
+height: 5'11"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Brown Bear
+species.url: https://en.wikipedia.org/wiki/Brown_bear
 ID: 29
 ---
 # #{ ID } - { title }

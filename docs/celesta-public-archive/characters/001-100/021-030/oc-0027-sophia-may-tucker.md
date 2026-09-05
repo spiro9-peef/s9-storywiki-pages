@@ -4,12 +4,12 @@ sidebar: 027 - Sophia May Tucker
 nicknames: N/A
 online_aliases: N/A
 universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2002-09-20
+height: 5'2"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Snake
+species.url: https://en.wikipedia.org/wiki/Snake
 ID: 27
 ---
 # #{ ID } - { title }
