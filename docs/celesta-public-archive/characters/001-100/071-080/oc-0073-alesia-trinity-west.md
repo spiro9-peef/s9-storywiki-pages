@@ -3,13 +3,13 @@ title: Alesia Trinity West
 sidebar: 073 - Alesia Trinity West
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2003-07-29
+height: 4'7"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Faerie (Cat)
+species.url: /celesta-public-archive/science/biology/faerie.md
 ID: 73
 ---
 # #{ ID } - { title }
