@@ -3,13 +3,13 @@ title: Anastasia Genevieve Darcy
 sidebar: 062 - Anastasia Genevieve Darcy
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2002-07-18
+height: 4'6"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Lilligant
+species.url: https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)
 ID: 62
 ---
 # #{ ID } - { title }

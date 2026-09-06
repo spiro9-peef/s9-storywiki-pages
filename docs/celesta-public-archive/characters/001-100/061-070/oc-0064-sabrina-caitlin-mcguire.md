@@ -3,13 +3,13 @@ title: Sabrina Caitlin McGuire
 sidebar: 064 - Sabrina Caitlin McGuire
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2001-02-16
+height: 5'7" (biped/kemono) | 6'5" (centaur)
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Horse
+species.url: https://en.wikipedia.org/wiki/Horse
 ID: 64
 ---
 # #{ ID } - { title }

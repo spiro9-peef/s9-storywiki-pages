@@ -3,13 +3,13 @@ title: Tundra May Chambers
 sidebar: 050 - Tundra May Chambers
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2005-01-22
+height: 5'8"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Reindeer
+species.url: https://en.wikipedia.org/wiki/Reindeer
 ID: 50
 ---
 # #{ ID } - { title }

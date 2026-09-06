@@ -3,10 +3,10 @@ title: Sapphire Mariana Crowley
 sidebar: 065 - Sapphire Mariana Crowley
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 1995-01-15
+height: 5'9"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

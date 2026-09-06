@@ -3,13 +3,13 @@ title: Century Taylor Murray
 sidebar: 072 - Century Taylor Murray
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2002-09-10
+height: 5'11"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Cat
+species.url: https://en.wikipedia.org/wiki/Cat
 ID: 72
 ---
 # #{ ID } - { title }

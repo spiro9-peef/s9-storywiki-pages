@@ -3,13 +3,13 @@ title: Allen Jake Quincy
 sidebar: 060 - Allen Jake Quincy
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
+universe: rotc
+dob: 1999-11-28
 height: 5'10"
-sex: N
+sex: M
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Dog (Labrador Retriever)
+species.url: https://en.wikipedia.org/wiki/Labrador_Retriever
 ID: 60
 ---
 # #{ ID } - { title }

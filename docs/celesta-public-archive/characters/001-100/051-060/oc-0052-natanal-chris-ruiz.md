@@ -1,12 +1,12 @@
 ---
-title: Natanal Chris Ruiz
-sidebar: 052 - Natanal Chris Ruiz
+title: Natañal Chris Ruiz
+sidebar: 052 - Natañal Chris Ruiz
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 1996-01-19
+height: 5'7"
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

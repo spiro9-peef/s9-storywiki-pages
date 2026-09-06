@@ -3,13 +3,13 @@ title: Misako Kira Nakamura
 sidebar: 040 - Misako Kira Nakamura
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2003-08-06
+height: 4'11"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Dog (Shiba Inu)
+species.url: https://en.wikipedia.org/wiki/Shiba_Inu
 ID: 40
 ---
 # #{ ID } - { title }

@@ -1,12 +1,12 @@
 ---
-title: Kanee Hestia Coolidge
-sidebar: 043 - Kanee Hestia Coolidge
+title: Kaneé Hestia Coolidge
+sidebar: 043 - Kaneé Hestia Coolidge
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2003-01-31
+height: 6'
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

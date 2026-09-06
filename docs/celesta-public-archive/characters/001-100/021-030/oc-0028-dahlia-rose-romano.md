@@ -8,7 +8,7 @@ dob: 2001-08-16
 height: 4'8"
 sex: F
 maiden_name: N/A
-species.name: Manifestant (Dahlia, pink)
+species.name: Manifestant (Dahlia)
 species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 28
 ---

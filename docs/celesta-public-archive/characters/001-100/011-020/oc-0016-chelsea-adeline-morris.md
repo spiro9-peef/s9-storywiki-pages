@@ -8,7 +8,7 @@ dob: 2004-08-02
 height: 5'1"
 sex: N
 maiden_name: N/A
-species.name: Cat (calico)
+species.name: Cat
 species.url: https://en.wikipedia.org/wiki/Cat
 ID: 16
 ---

@@ -3,13 +3,13 @@ title: Leiza Maria Somers
 sidebar: 033 - Leiza Maria Somers
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2003-01-22
+height: 5'1"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Eevee
+species.url: https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)
 ID: 33
 ---
 # #{ ID } - { title }

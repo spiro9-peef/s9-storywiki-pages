@@ -3,13 +3,13 @@ title: Loryn Misako Knowles
 sidebar: 051 - Loryn Misako Knowles
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2008-11-06
+height: 6'5"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Dog (Alusky)
+species.url: https://a-z-animals.com/animals/alusky/
 ID: 51
 ---
 # #{ ID } - { title }

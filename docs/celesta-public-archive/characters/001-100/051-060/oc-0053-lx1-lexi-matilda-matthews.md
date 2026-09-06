@@ -3,13 +3,13 @@ title: LX-1 (Lexi Matilda Matthews)
 sidebar: 053 - LX-1 (Lexi Matilda Matthews)
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2004-05-15
+height: 6'
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Synthetic
+species.url: /celesta-public-archive/science/biology/changed/synthetics.md
 ID: 53
 ---
 # #{ ID } - { title }

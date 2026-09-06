@@ -3,13 +3,13 @@ title: Mayenta Tamara Cordova
 sidebar: 066 - Mayenta Tamara Cordova
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2001-08-17
+height: 5'9"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Panther
+species.url: https://en.wikipedia.org/wiki/Black_panther
 ID: 66
 ---
 # #{ ID } - { title }

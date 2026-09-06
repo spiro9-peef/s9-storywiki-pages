@@ -3,13 +3,13 @@ title: Leticia Harmony Pruitt
 sidebar: 054 - Leticia Harmony Pruitt
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2001-09-10
+height: 5'7"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Alligator
+species.url: https://en.wikipedia.org/wiki/Alligator
 ID: 54
 ---
 # #{ ID } - { title }

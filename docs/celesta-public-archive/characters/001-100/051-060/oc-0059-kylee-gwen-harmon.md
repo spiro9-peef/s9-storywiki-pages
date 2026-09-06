@@ -3,13 +3,13 @@ title: Kylee Gwen Harmon
 sidebar: 059 - Kylee Gwen Harmon
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2000-12-09
+height: 5'3"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Turtle
+species.url: https://en.wikipedia.org/wiki/Turtle
 ID: 59
 ---
 # #{ ID } - { title }

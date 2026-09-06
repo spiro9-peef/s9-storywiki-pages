@@ -3,13 +3,13 @@ title: Saga Michelle Cacciatori
 sidebar: 048 - Saga Michelle Cacciatori
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2003-05-23
+height: 4'8" (biped/kemono) | 5'7" (centaur)
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Fox
+species.url: https://en.wikipedia.org/wiki/Red_fox
 ID: 48
 ---
 # #{ ID } - { title }

@@ -1,4 +1,5 @@
 import os
+import re
 from pathlib import Path
 
 # --- CONFIGURATION ---
@@ -61,6 +62,22 @@ def main(firstAttempt = True):
         print("Error: Name cannot be empty.")
         main(firstAttempt = False) # Try again.
 
+    # Prompt for Sex
+    sex = input("Sex (e.g. M/F): ").strip()
+    if not sex:
+        print("Error: Sex cannot be empty.")
+        main(firstAttempt = False) # Try again.
+
+    # Pattern for Male (matches: m, M, male, Male, MALE, man)
+    if re.fullmatch(r"m(ale)?|man", sex, re.IGNORECASE):
+        sex = "M"
+    # Pattern for Female (matches: f, F, female, Female, FEMALE, woman)
+    elif re.fullmatch(r"f(emale)?|woman", sex, re.IGNORECASE):
+        sex = "F"
+    else:
+        print("Error: Sex value not valid. Must be male or female.")
+        main(firstAttempt = False) # Try again.
+
     # Formatting
     id_padded_internal = f"{char_id:04d}"
     id_padded_frontfacing = f"{char_id:03d}"
@@ -86,6 +103,7 @@ def main(firstAttempt = True):
     new_content = new_content.replace("ID: 0", f"ID: {char_id}")
     new_content = new_content.replace("sidebar: NNN", f"sidebar: {id_padded_frontfacing}")
     new_content = new_content.replace("universe: rotc or tsr", "universe: rotc")
+    new_content = new_content.replace("sex: N", f"sex: {sex}")
     
     # Write out the new file
     file_path.write_text(new_content, encoding="utf-8")

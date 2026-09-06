@@ -3,13 +3,13 @@ title: Tonya Jazmyn Smith
 sidebar: 032 - Tonya Jazmyn Smith
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2002-08-17
+height: 4'11" (biped/kemono) | 5'7" (centaur)
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Horse
+species.url: https://en.wikipedia.org/wiki/Horse
 ID: 32
 ---
 # #{ ID } - { title }

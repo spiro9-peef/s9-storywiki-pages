@@ -3,10 +3,10 @@ title: Leon Donovan Cottelly
 sidebar: 071 - Leon Donovan Cottelly
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2000-10-17
+height: 5'4"
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

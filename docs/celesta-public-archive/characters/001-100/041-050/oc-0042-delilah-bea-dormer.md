@@ -3,13 +3,13 @@ title: Delilah Bea Dormer
 sidebar: 042 - Delilah Bea Dormer
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 1997-09-07
+height: 6'2"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Honeybee
+species.url: https://en.wikipedia.org/wiki/Honeybee
 ID: 42
 ---
 # #{ ID } - { title }

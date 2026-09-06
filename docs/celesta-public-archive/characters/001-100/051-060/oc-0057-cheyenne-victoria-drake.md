@@ -3,10 +3,10 @@ title: Cheyenne Victoria Drake
 sidebar: 057 - Cheyenne Victoria Drake
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2001-12-30
+height: 5'
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

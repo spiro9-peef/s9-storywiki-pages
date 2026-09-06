@@ -3,13 +3,13 @@ title: Alayne Fiona Cord
 sidebar: 047 - Alayne Fiona Cord
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2000-09-25
+height: 4'6"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Fennec Fox
+species.url: https://en.wikipedia.org/wiki/Fennec_fox
 ID: 47
 ---
 # #{ ID } - { title }

@@ -3,13 +3,13 @@ title: Neva Kathryn Weiss
 sidebar: 035 - Neva Kathryn Weiss
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2002-08-20
+height: 4'7"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Inkling
+species.url: https://splatoonwiki.org/wiki/Inkling
 ID: 35
 ---
 # #{ ID } - { title }

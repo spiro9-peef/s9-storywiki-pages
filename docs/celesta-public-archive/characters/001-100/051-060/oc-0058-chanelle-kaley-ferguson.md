@@ -3,13 +3,13 @@ title: Chanelle Kaley Ferguson
 sidebar: 058 - Chanelle Kaley Ferguson
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2000-04-04
+height: 4'11"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Frog
+species.url: https://en.wikipedia.org/wiki/Frog
 ID: 58
 ---
 # #{ ID } - { title }

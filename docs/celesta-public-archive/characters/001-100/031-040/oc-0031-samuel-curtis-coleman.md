@@ -3,13 +3,13 @@ title: Samuel Curtis Coleman
 sidebar: 031 - Samuel Curtis Coleman
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2005-02-26
+height: 5'6"
+sex: M
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Fox
+species.url: https://en.wikipedia.org/wiki/Red_fox
 ID: 31
 ---
 # #{ ID } - { title }

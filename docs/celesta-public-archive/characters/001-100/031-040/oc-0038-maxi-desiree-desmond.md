@@ -3,13 +3,13 @@ title: Maxi Desiree Desmond
 sidebar: 038 - Maxi Desiree Desmond
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2000-12-28
+height: 5'7"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Slime
+species.url: /celesta-public-archive/science/biology/slimes/index.md
 ID: 38
 ---
 # #{ ID } - { title }

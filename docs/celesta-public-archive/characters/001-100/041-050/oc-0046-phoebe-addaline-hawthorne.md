@@ -3,13 +3,13 @@ title: Phoebe Addaline Hawthorne
 sidebar: 046 - Phoebe Addaline Hawthorne
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2002-06-02
+height: 7'10"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Liger
+species.url: https://en.wikipedia.org/wiki/Liger
 ID: 46
 ---
 # #{ ID } - { title }

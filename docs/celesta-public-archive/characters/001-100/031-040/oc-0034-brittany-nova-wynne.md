@@ -3,13 +3,13 @@ title: Brittany Nova Wynne
 sidebar: 034 - Brittany Nova Wynne
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2002-08-05
+height: 5'2"
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Lopunny
+species.url: https://bulbapedia.bulbagarden.net/wiki/Lopunny_(Pok%C3%A9mon)
 ID: 34
 ---
 # #{ ID } - { title }

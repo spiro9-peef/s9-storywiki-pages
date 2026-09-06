@@ -3,10 +3,10 @@ title: Kane Clark Cowan
 sidebar: 044 - Kane Clark Cowan
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2003-02-16
+height: 5'11"
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
