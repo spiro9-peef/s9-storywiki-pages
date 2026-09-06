@@ -1,7 +1,7 @@
 ---
 title: Century Taylor Murray
 sidebar: 072 - Century Taylor Murray
-nicknames: N/A
+nicknames: Cen
 online_aliases: N/A
 universe: rotc
 dob: 2002-09-10
