@@ -4,9 +4,9 @@ sidebar: 148 - Kevan Rainn Corley
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-12-11
+height: 6'
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
@@ -24,6 +24,7 @@ Biological Age: { age }
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
+{% if current_species.name != "N/A" && current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
 Base Hair Color: Brown  
 Base Eye Color: Brown  

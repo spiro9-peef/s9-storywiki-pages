@@ -4,9 +4,9 @@ sidebar: 120 - Promise Natalia Rachels
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
+dob: 2017-10-15
 height: 5'10"
-sex: N
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
@@ -24,6 +24,7 @@ Biological Age: { age }
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
+{% if current_species.name != "N/A" && current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
 Base Hair Color: Brown  
 Base Eye Color: Brown  

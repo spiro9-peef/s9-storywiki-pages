@@ -4,12 +4,16 @@ sidebar: 169 - Friday Makayla Werzman
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
+dob: 2004-12-08
 height: 5'10"
-sex: N
+sex: F
 maiden_name: N/A
 species.name: Human
+species.note: "WARNING: URL NEEDS CHECKING"
 species.url: https://en.wikipedia.org/wiki/Human
+current_species.name: Elf
+current_species.note: "WARNING: URL NEEDS CHECKING"
+current_species.url: N/A
 ID: 169
 ---
 # #{ ID } - { title }
@@ -24,6 +28,7 @@ Biological Age: { age }
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
+{% if current_species.name != "N/A" && current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
 Base Hair Color: Brown  
 Base Eye Color: Brown  

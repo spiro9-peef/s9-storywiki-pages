@@ -4,11 +4,13 @@ sidebar: 160 - Solaria Lucy Stellana
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 0001-04-02
+age_offset: -2000
+height: 858964'9" (normal) | 8'2" (social)
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Manifestant (Star)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 160
 ---
@@ -24,6 +26,7 @@ Biological Age: { age }
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
+{% if current_species.name != "N/A" && current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
 Base Hair Color: Brown  
 Base Eye Color: Brown  

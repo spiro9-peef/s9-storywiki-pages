@@ -2,6 +2,7 @@ import os
 import re
 import sys
 from pathlib import Path
+from datetime import date
 
 # --- CONFIGURATION ---
 TEMPLATE_PATH = Path("_Templates/oc-xxxx-first-middle-last.md")
@@ -129,6 +130,28 @@ def batch_clean_all():
             if tp01 not in content:
                 cleaned_count += 1
             new_content = new_content.replace(tp02, rp02)
+
+        lines = new_content.splitlines()
+        updated_lines = []
+        current_species_inserted = False
+        
+        for line in lines:
+            line_stripped = line.strip()
+            if line_stripped.lower().startswith("base species:") and not current_species_inserted:
+                updated_lines.append(line)
+                line_next = lines[lines.index(line) + 1]
+                line_next_stripped = line_next.strip()
+                if not line_next_stripped.lower().startswith("{% if current_species.name"):
+                    updated_lines.append("{% if current_species.name != \"N/A\" && current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}")
+                    current_species_inserted = True
+                    cleaned_count += 1
+                continue
+            
+            updated_lines.append(line)
+        
+        # Reassemble the file content safely with correct line breaks
+        new_content = "\n".join(updated_lines) + "\n"
+        
         file_path.write_text(new_content, encoding="utf-8")
             
     print(f"Run complete: cleaned {cleaned_count} files of bad formatting patterns.")
@@ -224,42 +247,102 @@ def pageedit(firstAttempt = True, doEditCheck = False, IID = None):
             print(f"    NICKNAMES: {nicks_value}")
             edit_nicks = get_bool_from_input(valuEditQuery, input(valuEditQuery).strip())
             if edit_nicks:
-                new_content = new_content.replace(f"nicknames: {nicks_value}", "nicknames: " + input("What to? ").strip())
+                new_content = new_content.replace(f"nicknames: {nicks_value}", "nicknames: " + input("  What to? ").strip())
             print("")
                 
             alias_value = read_frontmatter_value(file_path, "online_aliases")
             print(f"    ALIASES: {alias_value}")
             edit_alias = get_bool_from_input(valuEditQuery, input(valuEditQuery).strip())
             if edit_alias:
-                new_content = new_content.replace(f"online_aliases: {alias_value}", f"online_aliases: " + input("What to? ").strip())
+                new_content = new_content.replace(f"online_aliases: {alias_value}", f"online_aliases: " + input("   What to? ").strip())
             print("")
                 
             dob_value = read_frontmatter_value(file_path, "dob")
+            dob_ao_value = read_frontmatter_value(file_path, "age_offset")
             print(f"    DOB: {dob_value}")
             edit_dob = get_bool_from_input(valuEditQuery, input(valuEditQuery).strip())
             if edit_dob:
-                new_content = new_content.replace(f"dob: {dob_value}", f"dob: " + input("What to? ").strip())
+                new_dob_val = input("   What to? ").strip()
+                new_content = new_content.replace(f"dob: {dob_value}", f"dob: {new_dob_val}")
+                
+                dob_match = re.match(r"^(\d{4})-(\d{2})-(\d{2})$",new_dob_val)
+                date_of = date.today()
+
+                age = 0
+                if dob_match:
+                    birth_year = int(dob_match.group(1))
+                    birth_month = int(dob_match.group(2))
+                    birth_day = int(dob_match.group(3))
+
+                    try:
+                        birth_date = date(birth_year, birth_month, birth_day)
+                    except ValueError:
+                        sys.exit("Error: date could not be parsed. Terminating to be safe.")
+
+                    # Calculate precise age by checking if their birthday has occurred yet this year
+                    age = date_of.year - birth_date.year
+                    if (date_of.month, date_of.day) < (birth_date.month, birth_date.day):
+                        age -= 1
+                
+                dob_ao_value_safe = int(dob_ao_value) if dob_ao_value is not None else 0
+                print(f"    AGE OFFSET: {dob_ao_value_safe}")
+                print(f"    (This makes for an age of {age + dob_ao_value_safe} as of today.)")
+                edit_dob_ao = get_bool_from_input(valuEditQuery, input(valuEditQuery).strip())
+                if edit_dob_ao:
+                    new_age_offset_val = input("    What to? (Use a negative value to decrease age.) ").strip()
+                    
+                    # Split content into lines to safely handle structural insertion
+                    lines = new_content.splitlines()
+                    updated_lines = []
+                    note_inserted = False
+                    
+                    for line in lines:
+                        line_stripped = line.strip()
+                        
+                        # Update the species name line
+                        if line_stripped.lower().startswith("dob:"):
+                            # Preserve the original key formatting/spacing
+                            key_prefix = line.split(":", 1)[0]
+                            updated_lines.append(f"{key_prefix}: {new_dob_val}")
+                            continue
+                        
+                        # If we hit height, check if we need to drop in our warning note right above it
+                        if line_stripped.lower().startswith("height:") and not note_inserted:
+                            updated_lines.append(f"age_offset: {new_age_offset_val}")
+                            note_inserted = True
+                            updated_lines.append(line)
+                            continue
+                        elif line_stripped.lower().startswith("age_offset:") and not note_inserted:
+                            updated_lines.append(f"age_offset: {new_age_offset_val}")
+                            note_inserted = True
+                            continue
+                        
+                        updated_lines.append(line)
+                    
+                    # Reassemble the file content safely with correct line breaks
+                    new_content = "\n".join(updated_lines) + "\n"
+                    print(f"        (This value makes the biological age {int(age) + int(new_age_offset_val)}.)")
             print("")
                 
             height_value = read_frontmatter_value(file_path, "height")
             print(f"    HEIGHT: {height_value}")
             edit_height = get_bool_from_input(valuEditQuery, input(valuEditQuery).strip())
             if edit_height:
-                new_content = new_content.replace(f"height: {height_value}", f"height: " + input("What to? ").strip())
+                new_content = new_content.replace(f"height: {height_value}", f"height: " + input("  What to? ").strip())
             print("")
                 
             sex_value = read_frontmatter_value(file_path, "sex")
             print(f"    SEX: {sex_value}")
             edit_sex = get_bool_from_input(valuEditQuery, input(valuEditQuery).strip())
             if edit_sex:
-                new_content = new_content.replace(f"sex: {sex_value}", f"sex: " + input("What to? ").strip())
+                new_content = new_content.replace(f"sex: {sex_value}", f"sex: " + input("   What to? ").strip())
             print("")
 
             species_value = read_frontmatter_value(file_path, "species.name")
             print(f"    SPECIES: {species_value}")
             edit_species = get_bool_from_input(valuEditQuery, input(valuEditQuery).strip())
             if edit_species:
-                new_species_val = input("What to? ").strip()
+                new_species_val = input("   What to? ").strip()
                 
                 # Split content into lines to safely handle structural insertion
                 lines = new_content.splitlines()
@@ -285,10 +368,56 @@ def pageedit(firstAttempt = True, doEditCheck = False, IID = None):
                 
                 # Reassemble the file content safely with correct line breaks
                 new_content = "\n".join(updated_lines) + "\n"
+
+                current_species_value = read_frontmatter_value(file_path, "current_species.name")
+                print(f"    CURRENT SPECIES: {current_species_value}")
+                edit_current_species = get_bool_from_input(valuEditQuery, input(valuEditQuery).strip())
+                if edit_current_species:
+                    new_current_species_val = input("   What to? ").strip()
+                    
+                    # Split content into lines to safely handle structural insertion
+                    lines = new_content.splitlines()
+                    updated_lines = []
+                    note_inserted = False
+                    
+                    for line in lines:
+                        line_stripped = line.strip()
+                        
+                        # Update the species name line
+                        if line_stripped.lower().startswith("current_species.name:"):
+                            # Preserve the original key formatting/spacing
+                            key_prefix = line.split(":", 1)[0]
+                            updated_lines.append(f"{key_prefix}: {new_current_species_val}")
+                            continue
+
+                        if not line_stripped.lower().startswith("---"):
+                            line_previous = lines[lines.index(line) - 1]
+                            line_previous_stripped = line_previous.strip()
+
+                            if line_previous_stripped.lower().startswith("species.url:"):
+                                if not "current_species.name:" in new_content.lower():
+                                    updated_lines.append(f"current_species.name: {new_current_species_val}")
+                                    
+                                if not line_stripped.lower().startswith("current_species.url:") and not note_inserted:
+                                    updated_lines.append("current_species.note: 'WARNING: URL NEEDS CHECKING'")
+                                    updated_lines.append("current_species.url: N/A")
+                                    note_inserted = True
+                                    continue
+                                # If we hit species.url, check if we need to drop in our warning note right above it
+                                elif line_stripped.lower().startswith("current_species.url:") and not note_inserted:
+                                    updated_lines.append("current_species.note: 'WARNING: URL NEEDS CHECKING'")
+                                    note_inserted = True
+                        
+                        updated_lines.append(line)
+                    
+                    # Reassemble the file content safely with correct line breaks
+                    new_content = "\n".join(updated_lines) + "\n"
             print("")
             
             file_path.write_text(new_content, encoding="utf-8")
         print(f"--- CLOSING: {name_value.upper()} [#{id_padded_internal}] ---")
+        print("")
+        print("")
 
 if __name__ == "__main__":
     pageAddQuery = "Do you want to add a page? Answer true or false. "

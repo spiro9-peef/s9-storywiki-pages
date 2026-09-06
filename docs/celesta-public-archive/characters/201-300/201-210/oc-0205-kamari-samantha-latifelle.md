@@ -1,14 +1,15 @@
 ---
 title: Kamari Samantha Latifelle
 sidebar: 205 - Kamari Samantha Latifelle
-nicknames: N/A
+nicknames: Sprocket, Kam, Mary
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2004-07-07
+height: 6'11"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Rabbit
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 205
 ---
@@ -24,6 +25,7 @@ Biological Age: { age }
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
+{% if current_species.name != "N/A" && current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
 Base Hair Color: Brown  
 Base Eye Color: Brown  

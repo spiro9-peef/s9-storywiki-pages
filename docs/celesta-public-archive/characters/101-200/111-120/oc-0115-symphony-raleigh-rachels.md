@@ -1,12 +1,12 @@
 ---
 title: Symphony Raleigh Rachels
 sidebar: 115 - Symphony Raleigh Rachels
-nicknames: N/A
+nicknames: Symphi
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2000-11-10
+height: 5'5"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
@@ -24,6 +24,7 @@ Biological Age: { age }
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
+{% if current_species.name != "N/A" && current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
 Base Hair Color: Brown  
 Base Eye Color: Brown  

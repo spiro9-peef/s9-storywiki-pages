@@ -1,14 +1,15 @@
 ---
 title: 2-SK1 (Gloria Brae Whitney)
 sidebar: 202 - 2-SK1 (Gloria Brae Whitney)
-nicknames: N/A
+nicknames: Brae, Twos
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2002-02-13
+height: 5'6"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Cyborg (Aviline (Generic))
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 202
 ---
@@ -24,6 +25,7 @@ Biological Age: { age }
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
+{% if current_species.name != "N/A" && current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
 Base Hair Color: Brown  
 Base Eye Color: Brown  
