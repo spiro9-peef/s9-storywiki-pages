@@ -4,9 +4,9 @@ sidebar: 238 - Avery Cammi Kohne
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2010-09-08
+height: 4'11"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

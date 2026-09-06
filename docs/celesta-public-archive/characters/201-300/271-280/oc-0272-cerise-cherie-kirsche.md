@@ -1,14 +1,15 @@
 ---
 title: Cerise Cherie Kirsche
 sidebar: 272 - Cerise Cherie Kirsche
-nicknames: N/A
+nicknames: Cherry
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-08-16
+height: 6'7"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Slime (Cherry Ice Cream)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 272
 ---

@@ -4,11 +4,12 @@ sidebar: 304 - Morelia Tracy Gage
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1984-09-21
+height: 6'2"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Capybara
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 304
 ---

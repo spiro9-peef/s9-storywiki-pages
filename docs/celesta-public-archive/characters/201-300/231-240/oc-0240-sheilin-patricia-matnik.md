@@ -1,14 +1,15 @@
 ---
 title: Sheilin Patricia Matnik
 sidebar: 240 - Sheilin Patricia Matnik
-nicknames: N/A
+nicknames: Shay
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-06-15
+height: 6'3"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Panda
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 240
 ---

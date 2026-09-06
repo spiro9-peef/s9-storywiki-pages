@@ -1,12 +1,12 @@
 ---
 title: Daniel Porter Feynmann
 sidebar: 244 - Daniel Porter Feynmann
-nicknames: N/A
+nicknames: Danny
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1982-08-07
+height: 5'11"
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

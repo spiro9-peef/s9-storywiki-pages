@@ -4,11 +4,12 @@ sidebar: 241 - Noboru Kanachi
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-08-15
+height: 5'8"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Red Panda
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 241
 ---

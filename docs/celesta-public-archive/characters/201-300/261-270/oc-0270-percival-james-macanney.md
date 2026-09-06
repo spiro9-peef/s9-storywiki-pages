@@ -1,14 +1,15 @@
 ---
 title: Percival James MacAnney
 sidebar: 270 - Percival James MacAnney
-nicknames: N/A
+nicknames: Percy
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2007-07-18
+height: 4'4"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Parakeet
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 270
 ---

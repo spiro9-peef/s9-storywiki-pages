@@ -1,14 +1,15 @@
 ---
 title: Honoka Sara Halley
 sidebar: 326 - Honoka Sara Halley
-nicknames: N/A
+nicknames: Hallow
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2004-12-23
+height: 6'4"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Cat
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 326
 ---

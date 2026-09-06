@@ -4,11 +4,12 @@ sidebar: 330 - Kalina May Katko
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
+dob: 2000-01-15
 height: 5'10"
-sex: N
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Cat
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 330
 ---

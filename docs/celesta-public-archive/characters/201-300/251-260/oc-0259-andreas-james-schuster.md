@@ -1,14 +1,15 @@
 ---
 title: Andreas James Schuster
 sidebar: 259 - Andreas James Schuster
-nicknames: N/A
+nicknames: Andre
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-05-06
+height: 11'10"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Dragon (Electric)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 259
 ---

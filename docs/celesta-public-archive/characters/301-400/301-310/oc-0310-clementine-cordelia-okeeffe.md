@@ -1,12 +1,12 @@
 ---
 title: Clementine Cordelia O'Keeffe
 sidebar: 310 - Clementine Cordelia O'Keeffe
-nicknames: N/A
+nicknames: Clem, Cordy, Delia
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1999-09-04
+height: 6'3"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

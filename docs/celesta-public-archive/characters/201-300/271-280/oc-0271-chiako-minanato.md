@@ -1,16 +1,19 @@
 ---
 title: Chiako Minanato
 sidebar: 271 - Chiako Minanato
-nicknames: N/A
+nicknames: Chi-Chi
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2002-06-19
+height: 6'5"
+sex: F
 maiden_name: N/A
 species.name: Human
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
-ID: 271
+current_species.name: Fennec Fox
+current_species.note: 'WARNING: URL NEEDS CHECKING'
+current_species.url: N/A
 ---
 # #{ ID } - { title }
 

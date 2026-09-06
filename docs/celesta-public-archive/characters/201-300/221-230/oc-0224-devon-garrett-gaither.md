@@ -1,12 +1,12 @@
 ---
 title: Devon Garrett Gaither
 sidebar: 224 - Devon Garrett Gaither
-nicknames: N/A
+nicknames: Quickfoot
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-09-16
+height: 5'9"
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

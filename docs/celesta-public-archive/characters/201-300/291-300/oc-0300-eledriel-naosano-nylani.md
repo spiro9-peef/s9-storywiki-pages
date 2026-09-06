@@ -1,14 +1,15 @@
 ---
 title: Eledriel Naosano Nylani
 sidebar: 300 - Eledriel Naosano Nylani
-nicknames: N/A
+nicknames: Nyla, Nyla I
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2004-04-06
+height: 4'8"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Rhylian
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 300
 ---

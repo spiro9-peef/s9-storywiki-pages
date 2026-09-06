@@ -1,12 +1,12 @@
 ---
 title: Kirstyn Aubrey Ortiz
 sidebar: 228 - Kirstyn Aubrey Ortiz
-nicknames: N/A
+nicknames: Kiki, Aubrey
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2003-04-14
+height: 4'9"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

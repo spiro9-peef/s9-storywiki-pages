@@ -4,9 +4,9 @@ sidebar: 264 - Hugo Donald Bailey
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2003-09-14
+height: 6'1"
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

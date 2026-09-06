@@ -4,11 +4,12 @@ sidebar: 232 - Taya Elizabyth Maher
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-05-08
+height: 4'11"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Fox
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 232
 ---

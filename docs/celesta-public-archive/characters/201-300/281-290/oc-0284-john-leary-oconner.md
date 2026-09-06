@@ -4,11 +4,12 @@ sidebar: 284 - John Leary O'Conner
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2002-11-09
+height: 7'4"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Dog (Bernese)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 284
 ---

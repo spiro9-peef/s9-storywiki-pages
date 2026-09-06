@@ -4,11 +4,12 @@ sidebar: 231 - Ellen Brittney Mokoto
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1989-09-17
+height: 7'2"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Bat
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 231
 ---

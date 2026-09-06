@@ -4,11 +4,12 @@ sidebar: 283 - Vivi Kate Knowles
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1989-08-11
+height: 5'1"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Avinine (Wolf + Barn Owl)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 283
 ---

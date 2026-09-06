@@ -1,12 +1,12 @@
 ---
 title: Isabella Mariana Stetkova
 sidebar: 276 - Isabella Mariana Stetkova
-nicknames: N/A
+nicknames: Dreamer, Izzy, Mary
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-01-18
+height: 5'2"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

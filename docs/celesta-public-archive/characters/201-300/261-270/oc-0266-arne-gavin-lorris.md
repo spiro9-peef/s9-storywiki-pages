@@ -4,11 +4,12 @@ sidebar: 266 - Arne Gavin Lorris
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2000-12-29
+height: 9'4"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Orca
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 266
 ---

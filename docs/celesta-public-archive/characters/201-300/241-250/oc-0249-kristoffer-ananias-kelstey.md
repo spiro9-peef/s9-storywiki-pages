@@ -1,14 +1,15 @@
 ---
 title: Kristoffer Ananias Kelstey
 sidebar: 249 - Kristoffer Ananias Kelstey
-nicknames: N/A
+nicknames: Kristoff, Kris
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2005-10-03
+height: 5'8"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Tiger
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 249
 ---

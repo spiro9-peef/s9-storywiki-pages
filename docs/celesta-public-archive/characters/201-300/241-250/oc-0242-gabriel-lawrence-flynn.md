@@ -1,12 +1,12 @@
 ---
 title: Gabriel Lawrence Flynn
 sidebar: 242 - Gabriel Lawrence Flynn
-nicknames: N/A
+nicknames: Gabe
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2006-01-21
+height: 6'4"
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

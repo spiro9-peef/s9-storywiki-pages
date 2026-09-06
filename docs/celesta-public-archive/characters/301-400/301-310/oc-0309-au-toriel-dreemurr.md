@@ -1,14 +1,15 @@
 ---
 title: Toriel Dreemurr
 sidebar: 309 - Toriel Dreemurr
-nicknames: N/A
+nicknames: Tori
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1989-05-19
+height: 5'9"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Goat
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 309
 ---

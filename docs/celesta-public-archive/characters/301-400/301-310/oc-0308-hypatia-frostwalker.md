@@ -1,14 +1,15 @@
 ---
 title: Hypatia Frostwalker
 sidebar: 308 - Hypatia Frostwalker
-nicknames: N/A
+nicknames: Patie
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-06-06
+height: 6'10"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Norlander
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 308
 ---

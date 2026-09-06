@@ -1,14 +1,15 @@
 ---
 title: Atsudoku Takanachi
 sidebar: 219 - Atsudoku Takanachi
-nicknames: N/A
+nicknames: Atsudo, Sudoku, Sudo, Doku, Atsu
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1999-10-08
+height: 6'8"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Tanuki
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 219
 ---

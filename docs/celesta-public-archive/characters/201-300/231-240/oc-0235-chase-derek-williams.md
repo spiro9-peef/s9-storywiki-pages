@@ -4,12 +4,12 @@ sidebar: 235 - Chase Derek Williams
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2002-09-19
+height: 3'11"
+sex: M
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Honeybee
+species.url: https://en.wikipedia.org/wiki/Honeybee
 ID: 235
 ---
 # #{ ID } - { title }

@@ -4,11 +4,12 @@ sidebar: 295 - Sandra Jane Scotts
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2002-09-19
+height: 5'2"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Avipine (Generic)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 295
 ---

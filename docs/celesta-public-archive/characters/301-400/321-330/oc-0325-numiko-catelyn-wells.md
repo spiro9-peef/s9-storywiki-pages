@@ -1,14 +1,15 @@
 ---
 title: Numiko Catelyn Wells
 sidebar: 325 - Numiko Catelyn Wells
-nicknames: N/A
-online_aliases: N/A
+nicknames: Numi, Miko
+online_aliases: TheNumi
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2003-10-20
+height: 7'1"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Tanuki
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 325
 ---

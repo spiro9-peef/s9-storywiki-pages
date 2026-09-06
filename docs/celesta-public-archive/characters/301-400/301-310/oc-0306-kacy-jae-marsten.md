@@ -1,14 +1,15 @@
 ---
 title: Kacy Jae Marsten
 sidebar: 306 - Kacy Jae Marsten
-nicknames: N/A
+nicknames: Flickerflame
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-03-09
+height: 4'6"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Cabbit
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 306
 ---

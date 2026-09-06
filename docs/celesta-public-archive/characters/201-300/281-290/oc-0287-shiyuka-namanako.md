@@ -1,14 +1,15 @@
 ---
 title: Shiyuka Namanako
 sidebar: 287 - Shiyuka Namanako
-nicknames: N/A
+nicknames: Shiyu
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-09-08
+height: 9'
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Fox
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 287
 ---

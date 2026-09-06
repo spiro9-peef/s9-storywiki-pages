@@ -1,14 +1,15 @@
 ---
 title: Ekaterina Aleksis Shand
 sidebar: 311 - Ekaterina Aleksis Shand
-nicknames: N/A
+nicknames: Alex, Kate, Kat, Shand
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2003-02-18
+height: 5'3"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Cat
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 311
 ---

@@ -1,14 +1,15 @@
 ---
 title: Ceres Kora van Eischer
 sidebar: 277 - Ceres Kora van Eischer
-nicknames: N/A
+nicknames: Torrent
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-06-19
+height: 6'1"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Cat
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 277
 ---

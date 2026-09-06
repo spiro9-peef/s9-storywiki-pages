@@ -1,12 +1,12 @@
 ---
 title: Anna Leigh Watson-Moore
 sidebar: 227 - Anna Leigh Watson-Moore
-nicknames: N/A
+nicknames: Fireforce
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2003-10-19
+height: 7'1"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

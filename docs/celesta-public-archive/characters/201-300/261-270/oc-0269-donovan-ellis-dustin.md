@@ -4,11 +4,12 @@ sidebar: 269 - Donovan Ellis Dustin
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2003-04-16
+height: 7'5"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: African Elephant
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 269
 ---

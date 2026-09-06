@@ -4,9 +4,9 @@ sidebar: 288 - Yuri Alexandrovich Breznev
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2003-04-19
+height: 7'2"
+sex: M
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

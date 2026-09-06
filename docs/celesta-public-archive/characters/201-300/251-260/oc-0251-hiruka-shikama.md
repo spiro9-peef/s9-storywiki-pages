@@ -1,14 +1,15 @@
 ---
 title: Hiruka Shikama
 sidebar: 251 - Hiruka Shikama
-nicknames: N/A
+nicknames: Hiru
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1994-04-02
+height: 3'2"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Red Panda
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 251
 ---

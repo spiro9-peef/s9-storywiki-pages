@@ -1,15 +1,15 @@
 ---
 title: Sparkle Sparks
 sidebar: 314 - Sparkle Sparks
-nicknames: N/A
+nicknames: Sparks, Spark
 online_aliases: N/A
 universe: rotc
 dob: 1999-01-01
 height: 5'10"
-sex: N
+sex: F
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Dog (Chihuahua)
+species.url: https://en.wikipedia.org/wiki/Chihuahua
 ID: 314
 ---
 # #{ ID } - { title }
@@ -77,3 +77,9 @@ Aliquam convallis sapien mauris, vitae vestibulum nulla pharetra vel. Suspendiss
 ### Section 5
 
 Vestibulum nulla orci, elementum sit amet dignissim ac, pretium tincidunt urna. Sed molestie arcu sit amet odio sagittis, nec fringilla justo feugiat. Maecenas sed turpis non massa fringilla luctus. Aliquam posuere orci at est pellentesque, pellentesque convallis mauris vehicula. Cras id nisi risus. Ut nunc arcu, elementum sit amet porta quis, auctor sed magna. Proin at finibus metus. Vestibulum aliquam consequat mollis. Etiam vel purus venenatis, feugiat lectus nec, lobortis ipsum. Phasellus efficitur, magna non pretium euismod, orci justo malesuada ante, vel gravida purus ex at purus. Aenean fermentum neque quis ligula auctor, et lacinia sem luctus. Sed auctor ante sed dignissim auctor. Etiam eu auctor dui.
+
+
+
+<sub>USED WITH PERMISSION, CHARACTER IS <a href="https://bsky.app/profile/sparklenyaswaffles.bsky.social">@sparklenyaswaffles.bsky.social</a>
+</sub>
+

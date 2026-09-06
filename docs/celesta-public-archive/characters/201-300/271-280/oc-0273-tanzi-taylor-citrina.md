@@ -4,11 +4,12 @@ sidebar: 273 - Tanzi Taylor Citrina
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2002-08-08
+height: 3'6"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Manifestant (Tangerine)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 273
 ---

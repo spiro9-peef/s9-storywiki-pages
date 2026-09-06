@@ -4,11 +4,12 @@ sidebar: 294 - Y'raya Alesis Bright
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-04-14
+height: 4'2"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Folf
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 294
 ---

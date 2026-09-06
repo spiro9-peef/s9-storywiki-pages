@@ -1,14 +1,15 @@
 ---
 title: Mikaela Aubrey Briars
 sidebar: 329 - Mikaela Aubrey Briars
-nicknames: N/A
+nicknames: Mika, Miki, Kayla
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2005-03-14
+height: 5'6"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Rabbit
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 329
 ---

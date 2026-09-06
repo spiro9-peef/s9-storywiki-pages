@@ -1,14 +1,15 @@
 ---
 title: Cynthia May Talandra
 sidebar: 278 - Cynthia May Talandra
-nicknames: N/A
+nicknames: Earthshaker
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
+dob: 1992-06-15
 height: 5'10"
-sex: N
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Dog (Labrador Retriever)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 278
 ---

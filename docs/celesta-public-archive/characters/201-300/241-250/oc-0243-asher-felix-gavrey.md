@@ -4,11 +4,12 @@ sidebar: 243 - Asher Felix Gavrey
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1999-03-04
+height: 4'11"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Cat
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 243
 ---

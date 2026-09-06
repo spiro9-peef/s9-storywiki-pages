@@ -1,14 +1,15 @@
 ---
 title: Ichika Kagerou
 sidebar: 298 - Ichika Kagerou
-nicknames: N/A
+nicknames: Chika
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-06-04
+height: 4'11"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Barn Owl
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 298
 ---

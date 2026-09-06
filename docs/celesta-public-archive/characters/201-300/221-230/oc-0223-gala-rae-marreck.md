@@ -1,14 +1,15 @@
 ---
 title: Gala Rae Marreck
 sidebar: 223 - Gala Rae Marreck
-nicknames: N/A
+nicknames: Firebomb
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-11-15
+height: 5'8"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Fox
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 223
 ---

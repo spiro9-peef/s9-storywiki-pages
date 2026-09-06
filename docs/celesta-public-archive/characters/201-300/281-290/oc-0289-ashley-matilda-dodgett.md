@@ -1,12 +1,12 @@
 ---
 title: Ashley Matilda Dodgett
 sidebar: 289 - Ashley Matilda Dodgett
-nicknames: N/A
+nicknames: Ash, Dodge
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-09-12
+height: 5'6"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

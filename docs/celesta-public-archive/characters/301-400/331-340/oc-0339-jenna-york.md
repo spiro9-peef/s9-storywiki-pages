@@ -1,12 +1,12 @@
 ---
 title: Jenna York
 sidebar: 339 - Jenna York
-nicknames: N/A
+nicknames: Jen
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2002-06-12
+height: 5'2"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

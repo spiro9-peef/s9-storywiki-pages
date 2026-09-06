@@ -1,14 +1,15 @@
 ---
 title: Daphne Mari Braun
 sidebar: 279 - Daphne Mari Braun
-nicknames: N/A
+nicknames: Daph
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2004-09-02
+height: 6'7"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Manifestant (Saltwater Taffy)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 279
 ---

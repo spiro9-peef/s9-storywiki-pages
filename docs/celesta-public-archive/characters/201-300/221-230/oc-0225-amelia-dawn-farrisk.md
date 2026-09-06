@@ -1,14 +1,15 @@
 ---
 title: Amelia Dawn Farrisk
 sidebar: 225 - Amelia Dawn Farrisk
-nicknames: N/A
+nicknames: Herald
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2003-04-14
+height: 6'2"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Aviline (Generic)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 225
 ---

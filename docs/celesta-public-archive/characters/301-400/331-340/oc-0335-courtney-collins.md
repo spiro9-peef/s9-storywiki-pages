@@ -1,12 +1,12 @@
 ---
 title: Courtney Collins
 sidebar: 335 - Courtney Collins
-nicknames: N/A
+nicknames: Court
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2005-04-18
+height: 5'8"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

@@ -1,14 +1,15 @@
 ---
 title: Camille Vanelle Cappucci
 sidebar: 221 - Camille Vanelle Cappucci
-nicknames: N/A
+nicknames: Cammy, Cam, Millie
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2000-05-13
+height: 6'5"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Slime (Coffee)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 221
 ---

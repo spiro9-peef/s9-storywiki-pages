@@ -4,11 +4,13 @@ sidebar: 312 - April Tamara Peifer-Rachels
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2019-11-04
+age_offset: 15
+height: 4'11"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Dog (Goldador)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 312
 ---

@@ -1,14 +1,15 @@
 ---
 title: Celanna Christeana Colbert
 sidebar: 340 - Celanna Christeana Colbert
-nicknames: N/A
+nicknames: Cel, Chell
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2004-03-13
+height: 4'5"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Cheetah
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 340
 ---

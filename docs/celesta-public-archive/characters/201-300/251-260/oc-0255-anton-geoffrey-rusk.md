@@ -4,11 +4,12 @@ sidebar: 255 - Anton Geoffrey Rusk
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1998-01-12
+height: 6'2"
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Slime (Chocolate Milk)
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 255
 ---

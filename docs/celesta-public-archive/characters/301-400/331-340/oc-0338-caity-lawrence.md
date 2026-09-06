@@ -1,12 +1,12 @@
 ---
 title: Caity Lawrence
 sidebar: 338 - Caity Lawrence
-nicknames: N/A
+nicknames: Cait
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2005-02-09
+height: 5'4"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

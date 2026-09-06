@@ -4,9 +4,9 @@ sidebar: 333 - Keiko Calypso Morris
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
+dob: 1996-07-12
 height: 5'10"
-sex: N
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human

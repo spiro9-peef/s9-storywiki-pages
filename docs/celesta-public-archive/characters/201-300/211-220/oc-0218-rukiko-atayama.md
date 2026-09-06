@@ -1,14 +1,15 @@
 ---
 title: Rukiko Atayama
 sidebar: 218 - Rukiko Atayama
-nicknames: N/A
+nicknames: Ruki, Kiko, Kiki, Koko, Ruko
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2001-08-06
+height: 5'11"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Tanuki
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 218
 ---

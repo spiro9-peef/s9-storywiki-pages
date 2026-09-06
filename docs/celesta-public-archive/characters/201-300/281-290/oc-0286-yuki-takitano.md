@@ -4,11 +4,12 @@ sidebar: 286 - Yuki Takitano
 nicknames: N/A
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2005-07-17
+height: 6'8"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Weasel
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 286
 ---

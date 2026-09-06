@@ -1,14 +1,15 @@
 ---
 title: K4-C3Y (Casey Joseph Kirby)
 sidebar: 222 - K4-C3Y (Casey Joseph Kirby)
-nicknames: N/A
+nicknames: Brink
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
+dob: 2002-03-28
 height: 5'10"
-sex: N
+sex: M
 maiden_name: N/A
-species.name: Human
+species.name: Synthetic
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 222
 ---

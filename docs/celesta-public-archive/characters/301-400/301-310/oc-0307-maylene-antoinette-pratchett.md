@@ -1,12 +1,12 @@
 ---
 title: Maylene Antoinette Pratchett
 sidebar: 307 - Maylene Antoinette Pratchett
-nicknames: N/A
+nicknames: May, Grandma May, Grandma Pratchett, Aunt May
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 1965-07-19
+height: 5'7"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
