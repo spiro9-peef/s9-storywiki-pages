@@ -3,12 +3,14 @@ title: Addison von Wolff
 sidebar: 102 - Addison von Wolff
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 1823-05-07
+age_offset: "-180"
+height: 6'8"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Dog (Siberian Husky)
+species.note: "WARNING: URL NEEDS CHECKING"
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 102
 ---
@@ -19,7 +21,7 @@ ID: 102
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif %}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif %}
+{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif -%}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif -%}
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

@@ -3,12 +3,13 @@ title: Eliana Marie Flores
 sidebar: 086 - Eliana Marie Flores
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2003-04-03
+height: 29'8" (normal) | 6'3" (social)
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Cirran
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 86
 ---
@@ -19,7 +20,7 @@ ID: 86
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif %}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif %}
+{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif -%}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif -%}
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

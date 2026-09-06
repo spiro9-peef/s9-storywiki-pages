@@ -1,14 +1,15 @@
 ---
 title: Samantha Kay Riley
 sidebar: 088 - Samantha Kay Riley
-nicknames: N/A
+nicknames: Sammi, Sam, Annie
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 2003-03-18
+height: 5'5"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Skunk
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 88
 ---
@@ -19,7 +20,7 @@ ID: 88
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif %}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif %}
+{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif -%}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif -%}
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

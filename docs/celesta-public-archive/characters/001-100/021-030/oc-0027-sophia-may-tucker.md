@@ -3,7 +3,7 @@ title: Sophia May Tucker
 sidebar: 027 - Sophia May Tucker
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
+universe: rotc
 dob: 2002-09-20
 height: 5'2"
 sex: F
@@ -19,7 +19,7 @@ ID: 27
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif %}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif %}
+{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif -%}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif -%}
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

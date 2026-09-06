@@ -3,12 +3,13 @@ title: Maci Lea Riley
 sidebar: 091 - Maci Lea Riley
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
-dob: 1999-01-01
-height: 5'10"
-sex: N
+universe: rotc
+dob: 1983-09-22
+height: 6'4"
+sex: F
 maiden_name: N/A
-species.name: Human
+species.name: Slime
+species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 ID: 91
 ---
@@ -19,7 +20,7 @@ ID: 91
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif %}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif %}
+{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif -%}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif -%}
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  

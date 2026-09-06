@@ -3,7 +3,7 @@ title: Minerva Ava Skye
 sidebar: 026 - Minerva Ava Skye
 nicknames: N/A
 online_aliases: N/A
-universe: rotc or tsr
+universe: rotc
 dob: 2004-03-02
 height: 5'9"
 sex: F
@@ -19,7 +19,7 @@ ID: 26
 ### Biology
 
 Name: { title } {% if maiden_name != "N/A" %} (md. { maiden_name }) {% endif %}   
-{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif %}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif %}
+{% if nicknames != "N/A" %}Nickname(s): { nicknames }<br>{% endif -%}{% if online_aliases != "N/A" %}Alias(es): { online_aliases }<br>{% endif -%}
 Biological Age: { age }  
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
