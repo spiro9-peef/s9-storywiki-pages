@@ -117,6 +117,10 @@ def batch_clean_all():
 
     tp02 = "universe: rotc or tsr"
     rp02 = "universe: rotc"
+    
+    tp03 = "{% if current_species.name != \"N/A\" && current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
+    rp03 = "{% if current_species.name != \"N/A\" and current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
+    
     base_dir = Path("docs/celesta-public-archive/characters")
     
     cleaned_count = 0
@@ -134,7 +138,14 @@ def batch_clean_all():
         lines = new_content.splitlines()
         updated_lines = []
         current_species_inserted = False
-        
+
+        if tp03 in new_content:
+            if tp01 not in content and tp02 not in content:
+                cleaned_count += 1
+            new_content = new_content.replace(tp03, rp03)
+            lines = new_content.splitlines() # Sanity check
+            current_species_inserted = True
+
         for line in lines:
             line_stripped = line.strip()
             if line_stripped.lower().startswith("base species:") and not current_species_inserted:
@@ -142,7 +153,7 @@ def batch_clean_all():
                 line_next = lines[lines.index(line) + 1]
                 line_next_stripped = line_next.strip()
                 if not line_next_stripped.lower().startswith("{% if current_species.name"):
-                    updated_lines.append("{% if current_species.name != \"N/A\" && current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}")
+                    updated_lines.append(rp03)
                     current_species_inserted = True
                     cleaned_count += 1
                 continue
