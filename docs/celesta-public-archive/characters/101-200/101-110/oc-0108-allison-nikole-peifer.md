@@ -1,12 +1,12 @@
 ---
 title: Allison Nikole Peifer
 sidebar: 108 - Allison Nikole Peifer
-nicknames: N/A
+nicknames: Alli, Al, Issy
 online_aliases: N/A
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
-sex: N
+dob: 2000-10-30
+height: 5'9"
+sex: F
 maiden_name: N/A
 species.name: Human
 species.url: https://en.wikipedia.org/wiki/Human
@@ -26,31 +26,32 @@ Base Height: { height }
 Base Species: [{ species.name }]({ species.url })   
 Sex: { sex }  
 Base Hair Color: Brown  
-Base Eye Color: Brown  
+Base Eye Color: Blue  
 Base Fur/Skin Color or Pattern: White  
 Country/Place of Birth/Primary Heritage: United States  
   
 Disabilities & Conditions  
-N/A  
+[CVCS](/celesta-public-archive/science/medical/cvcs.md) Type Normal-High, Bottom-Heavy  
+Slight nearsightedness  
   
 Additional Notes  
 N/A
 
 ### Psyche
 
-Intellectual Quotient: TBD  
-Emotional Quotient: TBD  
-Temperament: TBD  
-Cognitive Style: TBD  
+Intellectual Quotient: ~125-135  
+Emotional Quotient: Not tested  
+Temperament: Silly, hyperactive  
+Cognitive Style: Chaotic, disorganized  
   
 Disabilities & Conditions  
-N/A
+Asperger's Syndrome, General Anxiety-Depression
 
 ### Personal Style
 
-Main/Preferred Outfit: TBD  
-Preferred Fashion Choices: TBD  
-Preferred Color Schemes: TBD  
+Main/Preferred Outfit: Black polo dress & torn blue jeans  
+Preferred Fashion Choices: Dressy, Pretty  
+Preferred Color Schemes: Black  
   
 Additional Outfits  
 N/A

@@ -332,7 +332,30 @@ if __name__ == "__main__":
                 pageedit()
         else:
             pageset = get_pages()
+            print(f"There are {len(pageset)} pages to be iterated upon.")
+            try:
+                trystart_in = input("What character ID do you want to start on? ").strip()
+                trystart = int(trystart_in)
+            except ValueError:
+                print("Error: Invalid count. Please enter a whole number.")
+                startFullSetQuery = "Alternatively, would you like to start from zero? "
+                startFullSet = get_bool_from_input(startFullSetQuery, input(startFullSetQuery).strip())
+                if startFullSet:
+                    trystart = 0
+                else:
+                    trystart = -1
+                    while trystart == -1 and not startFullSet:    
+                        try:
+                            trystart_in = input("What character ID do you want to start on? ").strip()
+                            trystart = int(trystart_in)
+                        except ValueError:
+                            print("Error: Invalid count. Please enter a whole number.")
+                            startFullSet = get_bool_from_input(startFullSetQuery, input(startFullSetQuery).strip())
+            
             for x in range(len(pageset)):
-                pageedit(doEditCheck = True, IID = pageset[x])
+                if trystart in pageset:
+                    compare = pageset.index(trystart)
+                    if compare <= x:
+                        pageedit(doEditCheck = True, IID = pageset[x])
 
     batch_clean_all()
