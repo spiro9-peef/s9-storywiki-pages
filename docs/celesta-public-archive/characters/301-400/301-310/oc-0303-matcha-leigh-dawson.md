@@ -9,8 +9,7 @@ height: 8'2"
 sex: F
 maiden_name: N/A
 species.name: Dragon (Wind)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/dragons/index.md
 ID: 303
 ---
 # #{ ID } - { title }

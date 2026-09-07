@@ -9,8 +9,7 @@ height: 4'9"
 sex: M
 maiden_name: N/A
 species.name: Bald Eagle
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Bald_eagle
 ID: 252
 ---
 # #{ ID } - { title }

@@ -10,8 +10,7 @@ height: 4'1"
 sex: F
 maiden_name: N/A
 species.name: Wren
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Wren
 ID: 197
 ---
 # #{ ID } - { title }

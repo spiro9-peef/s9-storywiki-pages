@@ -8,8 +8,8 @@ dob: 1999-01-01
 height: 5'10"
 sex: N
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Entity
+species.url: https://en.wikipedia.org/wiki/Entity
 ID: 208
 ---
 # #{ ID } - { title }

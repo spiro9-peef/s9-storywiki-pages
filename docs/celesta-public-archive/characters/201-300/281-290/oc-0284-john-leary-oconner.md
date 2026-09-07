@@ -9,8 +9,7 @@ height: 7'4"
 sex: M
 maiden_name: N/A
 species.name: Dog (Bernese)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Bernese_mountain_dog
 ID: 284
 ---
 # #{ ID } - { title }

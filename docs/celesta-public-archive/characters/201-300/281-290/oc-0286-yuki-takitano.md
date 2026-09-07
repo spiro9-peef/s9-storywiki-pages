@@ -9,8 +9,7 @@ height: 6'8"
 sex: F
 maiden_name: N/A
 species.name: Weasel
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Weasel
 ID: 286
 ---
 # #{ ID } - { title }

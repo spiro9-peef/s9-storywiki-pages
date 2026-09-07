@@ -10,8 +10,7 @@ height: 59'5" (normal) | 6'5" (social)
 sex: F
 maiden_name: N/A
 species.name: Manifestant (State/Territory)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 157
 ---
 # #{ ID } - { title }

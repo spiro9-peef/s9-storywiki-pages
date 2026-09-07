@@ -9,8 +9,7 @@ height: 4'1"
 sex: M
 maiden_name: N/A
 species.name: Tanager
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Tanager
 ID: 268
 ---
 # #{ ID } - { title }

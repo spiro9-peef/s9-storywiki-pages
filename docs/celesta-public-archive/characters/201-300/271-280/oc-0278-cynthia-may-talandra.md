@@ -9,8 +9,7 @@ height: 5'10"
 sex: F
 maiden_name: N/A
 species.name: Dog (Labrador Retriever)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Labrador_Retriever
 ID: 278
 ---
 # #{ ID } - { title }

@@ -9,7 +9,6 @@ height: 8'9"
 sex: M
 maiden_name: N/A
 species.name: Cyborg (Cat)
-species.note: "WARNING: URL NEEDS CHECKING"
 species.url: https://en.wikipedia.org/wiki/Cat
 ID: 166
 ---

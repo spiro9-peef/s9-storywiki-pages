@@ -9,8 +9,7 @@ height: 7'2"
 sex: M
 maiden_name: N/A
 species.name: Dog (Harrier)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Harrier_(dog_breed)
 ID: 248
 ---
 # #{ ID } - { title }

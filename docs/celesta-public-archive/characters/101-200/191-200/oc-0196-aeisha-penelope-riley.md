@@ -9,8 +9,7 @@ height: 5'4"
 sex: F
 maiden_name: N/A
 species.name: Skunk
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Skunk
 ID: 196
 ---
 # #{ ID } - { title }

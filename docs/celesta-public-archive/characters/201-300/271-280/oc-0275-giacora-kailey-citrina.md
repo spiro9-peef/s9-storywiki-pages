@@ -9,8 +9,7 @@ height: 4'8"
 sex: F
 maiden_name: N/A
 species.name: Manifestant (Grapefruit)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 275
 ---
 # #{ ID } - { title }

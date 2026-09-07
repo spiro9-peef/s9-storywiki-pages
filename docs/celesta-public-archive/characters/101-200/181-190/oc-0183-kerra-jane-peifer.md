@@ -9,8 +9,7 @@ height: 5'6"
 sex: F
 maiden_name: N/A
 species.name: Slime
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/slimes/index.md
 ID: 183
 ---
 # #{ ID } - { title }

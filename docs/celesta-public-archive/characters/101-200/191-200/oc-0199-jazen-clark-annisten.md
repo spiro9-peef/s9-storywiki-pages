@@ -9,7 +9,7 @@ height: 6'1"
 sex: M
 maiden_name: N/A
 species.name: Aviline (Generic)
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/hybrids/aviabrids/avilines.md
 ID: 199
 ---
 # #{ ID } - { title }

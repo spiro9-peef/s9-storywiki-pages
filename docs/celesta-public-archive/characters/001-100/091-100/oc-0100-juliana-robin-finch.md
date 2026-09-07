@@ -9,8 +9,7 @@ height: 5'6"
 sex: F
 maiden_name: N/A
 species.name: Robin
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/American_robin
 ID: 100
 ---
 # #{ ID } - { title }

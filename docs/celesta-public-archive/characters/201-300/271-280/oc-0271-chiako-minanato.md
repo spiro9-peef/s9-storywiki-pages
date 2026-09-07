@@ -9,11 +9,10 @@ height: 6'5"
 sex: F
 maiden_name: N/A
 species.name: Human
-species.note: 'WARNING: URL NEEDS CHECKING'
 species.url: https://en.wikipedia.org/wiki/Human
 current_species.name: Fennec Fox
-current_species.note: 'WARNING: URL NEEDS CHECKING'
-current_species.url: N/A
+current_species.url: https://en.wikipedia.org/wiki/Fennec_fox
+ID: 271
 ---
 # #{ ID } - { title }
 

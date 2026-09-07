@@ -9,8 +9,7 @@ height: 47'4" (normal) | 7'4" (social)
 sex: F
 maiden_name: N/A
 species.name: Dog (Australian Shepherd)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Australian_shepherd
 ID: 94
 ---
 # #{ ID } - { title }

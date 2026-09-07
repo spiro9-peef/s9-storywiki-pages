@@ -9,8 +9,7 @@ height: 11'10"
 sex: M
 maiden_name: N/A
 species.name: Dragon (Electric)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/dragons/index.md
 ID: 259
 ---
 # #{ ID } - { title }

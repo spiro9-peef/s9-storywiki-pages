@@ -9,8 +9,7 @@ height: 5'4"
 sex: F
 maiden_name: N/A
 species.name: Dog (Cocker Spaniel)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Cocker_spaniel
 ID: 99
 ---
 # #{ ID } - { title }

@@ -8,8 +8,10 @@ dob: 2002-08-30
 height: 5'6"
 sex: F
 maiden_name: N/A
-species.name: Slime (fm. Human)
-species.url: /celesta-public-archive/science/biology/slimes/index.md
+species.name: Human
+species.url: https://en.wikipedia.org/wiki/Human
+current_species.name: Slime
+current_species.url: /celesta-public-archive/science/biology/slimes/index.md
 ID: 67
 ---
 # #{ ID } - { title }

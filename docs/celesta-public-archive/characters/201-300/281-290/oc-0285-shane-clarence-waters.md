@@ -9,8 +9,7 @@ height: 3'8"
 sex: M
 maiden_name: N/A
 species.name: Mouse
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Mouse
 ID: 285
 ---
 # #{ ID } - { title }

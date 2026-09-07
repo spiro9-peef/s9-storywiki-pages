@@ -9,8 +9,7 @@ height: 6'4"
 sex: M
 maiden_name: N/A
 species.name: Polar Bear
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Polar_bear
 ID: 144
 ---
 # #{ ID } - { title }

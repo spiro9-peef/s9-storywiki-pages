@@ -9,8 +9,7 @@ height: 9'4"
 sex: F
 maiden_name: N/A
 species.name: Fox
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Red_fox
 ID: 293
 ---
 # #{ ID } - { title }

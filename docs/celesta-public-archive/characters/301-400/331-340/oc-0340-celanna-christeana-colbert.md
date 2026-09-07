@@ -9,8 +9,7 @@ height: 4'5"
 sex: F
 maiden_name: N/A
 species.name: Cheetah
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Cheetah
 ID: 340
 ---
 # #{ ID } - { title }

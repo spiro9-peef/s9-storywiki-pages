@@ -9,8 +9,7 @@ height: 4'9"
 sex: F
 maiden_name: N/A
 species.name: Aviline (Cat + Bluebird)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/hybrids/aviabrids/avilines.md
 ID: 152
 ---
 # #{ ID } - { title }

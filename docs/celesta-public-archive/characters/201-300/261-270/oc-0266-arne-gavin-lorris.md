@@ -9,8 +9,7 @@ height: 9'4"
 sex: M
 maiden_name: N/A
 species.name: Orca
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Orca
 ID: 266
 ---
 # #{ ID } - { title }

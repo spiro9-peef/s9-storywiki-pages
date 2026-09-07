@@ -9,8 +9,7 @@ height: 7'8"
 sex: F
 maiden_name: N/A
 species.name: Manifestant (Apple Pie)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 281
 ---
 # #{ ID } - { title }

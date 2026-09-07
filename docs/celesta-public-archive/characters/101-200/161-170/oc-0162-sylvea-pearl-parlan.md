@@ -9,8 +9,7 @@ height: 6'
 sex: F
 maiden_name: N/A
 species.name: Snake
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Snake
 ID: 162
 ---
 # #{ ID } - { title }

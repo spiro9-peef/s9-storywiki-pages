@@ -10,8 +10,7 @@ height: 858964'9" (normal) | 8'2" (social)
 sex: F
 maiden_name: N/A
 species.name: Manifestant (Star)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 160
 ---
 # #{ ID } - { title }

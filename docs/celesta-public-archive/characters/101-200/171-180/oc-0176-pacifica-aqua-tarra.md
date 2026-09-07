@@ -10,8 +10,7 @@ height: 2447'10" (normal) | 5'7" (social)
 sex: F
 maiden_name: N/A
 species.name: Manifestant (Ocean)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 176
 ---
 # #{ ID } - { title }

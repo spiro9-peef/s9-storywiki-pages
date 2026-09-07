@@ -9,8 +9,7 @@ height: 6'5"
 sex: M
 maiden_name: N/A
 species.name: Lion
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Lion
 ID: 143
 ---
 # #{ ID } - { title }

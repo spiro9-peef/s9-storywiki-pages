@@ -9,8 +9,7 @@ height: 4'11"
 sex: F
 maiden_name: N/A
 species.name: Barn Owl
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Barn_owl
 ID: 298
 ---
 # #{ ID } - { title }

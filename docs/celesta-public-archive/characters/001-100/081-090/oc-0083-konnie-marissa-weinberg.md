@@ -9,8 +9,7 @@ height: 6'8"
 sex: F
 maiden_name: N/A
 species.name: Squirrel
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Squirrel
 ID: 83
 ---
 # #{ ID } - { title }

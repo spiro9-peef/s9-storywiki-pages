@@ -9,8 +9,7 @@ height: 8'8"
 sex: F
 maiden_name: N/A
 species.name: Giraffe
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Giraffe
 ID: 203
 ---
 # #{ ID } - { title }

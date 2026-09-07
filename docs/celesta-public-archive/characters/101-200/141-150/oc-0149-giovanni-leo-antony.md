@@ -9,8 +9,7 @@ height: 5'3"
 sex: M
 maiden_name: N/A
 species.name: Coyote
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Coyote
 ID: 149
 ---
 # #{ ID } - { title }

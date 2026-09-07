@@ -9,8 +9,7 @@ height: 5'8"
 sex: M
 maiden_name: N/A
 species.name: Tiger
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Tiger
 ID: 249
 ---
 # #{ ID } - { title }

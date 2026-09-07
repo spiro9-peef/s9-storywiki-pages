@@ -9,8 +9,7 @@ height: 6'2"
 sex: F
 maiden_name: N/A
 species.name: Capybara
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Capybara
 ID: 304
 ---
 # #{ ID } - { title }

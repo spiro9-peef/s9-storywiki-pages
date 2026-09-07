@@ -9,8 +9,7 @@ height: 5'8"
 sex: M
 maiden_name: N/A
 species.name: Tanuki
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Japanese_raccoon_dog
 ID: 256
 ---
 # #{ ID } - { title }

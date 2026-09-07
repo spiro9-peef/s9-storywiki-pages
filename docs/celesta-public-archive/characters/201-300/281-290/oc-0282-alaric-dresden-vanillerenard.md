@@ -9,8 +9,7 @@ height: 5'11"
 sex: M
 maiden_name: N/A
 species.name: Slime (Vanilla Ice Cream)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/slimes/index.md
 ID: 282
 ---
 # #{ ID } - { title }

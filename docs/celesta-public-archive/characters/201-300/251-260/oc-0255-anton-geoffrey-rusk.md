@@ -9,8 +9,7 @@ height: 6'2"
 sex: M
 maiden_name: N/A
 species.name: Slime (Chocolate Milk)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/slimes/index.md
 ID: 255
 ---
 # #{ ID } - { title }

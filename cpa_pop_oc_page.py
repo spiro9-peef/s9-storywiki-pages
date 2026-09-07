@@ -172,7 +172,7 @@ def batch_clean_all():
                 updated_lines.append(line)
                 line_next = lines[lines.index(line) + 1]
                 line_next_stripped = line_next.strip()
-                if not line_next_stripped.lower().startswith("{% if current_species.name"):
+                if not line_next_stripped.lower().startswith("{% if current_species"):
                     updated_lines.append(rp03C)
                     current_species_inserted = True
                     cleaned_count += 1
@@ -228,7 +228,10 @@ def get_pages():
     page_set = []
     for file_path in base_dir.glob("**/*.md"):
         iid = read_frontmatter_value(file_path, "ID")
-        page_set.append(int(iid))
+        if iid is not None:
+            page_set.append(int(iid))
+        else:
+            sys.exit(f"IID was {iid} for some reason. Sad! Here is the problem file: {file_path}")
 
     return page_set
 
@@ -450,10 +453,41 @@ def pageedit(firstAttempt = True, doEditCheck = False, IID = None):
         print("")
         print("")
 
+def page_error_check(pageset):
+    pagecount = len(pageset)
+    pagedata = []
+    
+    for page in range(pagecount):
+        IID = int(pageset[page])
+        errorcount = 0
+        
+        # Formatting
+        id_padded_internal = f"{IID:04d}"
+
+        base_dir = Path("docs/celesta-public-archive/characters")
+        for file_path in base_dir.glob(f"**/oc-{id_padded_internal}*.md"):
+            if read_frontmatter_value(file_path, "species.note") is not None:
+                errorcount += 1
+            if read_frontmatter_value(file_path, "current_species.note") is not None:
+                errorcount += 1
+
+            if errorcount != 0:
+                pagedata.append(f"{file_path.name}: {errorcount} \n")
+                print(f"Found {errorcount} errors in {file_path.name}.")
+
+        internal_dir = Path.cwd() / "internal"
+        internal_dir.mkdir(parents=True, exist_ok=True)
+        internal_log = internal_dir / "audit_log.txt"
+
+        with open(internal_log, "w", encoding="utf-8") as f:
+            for l in pagedata:
+                f.write(l)
+
 if __name__ == "__main__":
     pageAddQuery = "Do you want to add a page? Answer true or false. "
     pageChangeQuery = "Do you want to edit a page? Answer true or false. "
     allPageChangeQuery = "Do you want to edit all pages? Answer true or false. "
+    pageCheckQuery = "Do you want to check all pages for error notes? Answer true or false. "
     
     try:
         tryflag1 = get_bool_from_input(pageAddQuery, input(pageAddQuery).strip())
@@ -469,6 +503,8 @@ if __name__ == "__main__":
 
         for x in range(trycount):
             pagemake()
+
+    pageset = get_pages()
             
     try:
         tryflag2 = get_bool_from_input(pageChangeQuery, input(pageChangeQuery).strip())
@@ -491,7 +527,6 @@ if __name__ == "__main__":
             for x in range(trycount):
                 pageedit()
         else:
-            pageset = get_pages()
             print(f"There are {len(pageset)} pages to be iterated upon.")
             try:
                 trystart_in = input("What character ID do you want to start on? ").strip()
@@ -517,5 +552,13 @@ if __name__ == "__main__":
                     compare = pageset.index(trystart)
                     if compare <= x:
                         pageedit(doEditCheck = True, IID = pageset[x])
+
+    try:
+        tryflag3 = get_bool_from_input(pageCheckQuery, input(pageCheckQuery).strip())
+    except ValueError:
+        print("Error: True or False value not provided. Please try again.")
+
+    if tryflag3:
+        page_error_check(pageset)
 
     batch_clean_all()

@@ -10,8 +10,7 @@ height: 4'11"
 sex: F
 maiden_name: N/A
 species.name: Dog (Goldador)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/List_of_dog_crossbreeds#Goldador
 ID: 312
 ---
 # #{ ID } - { title }

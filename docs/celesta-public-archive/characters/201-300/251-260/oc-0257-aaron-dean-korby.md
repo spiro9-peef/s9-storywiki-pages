@@ -9,8 +9,7 @@ height: 4'3"
 sex: M
 maiden_name: N/A
 species.name: Manifestant (Snowman)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 257
 ---
 # #{ ID } - { title }

@@ -9,8 +9,7 @@ height: 5'9"
 sex: F
 maiden_name: N/A
 species.name: Goat
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Goat
 ID: 309
 ---
 # #{ ID } - { title }

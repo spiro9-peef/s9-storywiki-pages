@@ -9,8 +9,7 @@ height: 6'7"
 sex: F
 maiden_name: N/A
 species.name: Manifestant (Bread)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 156
 ---
 # #{ ID } - { title }

@@ -9,8 +9,7 @@ height: 5'1"
 sex: F
 maiden_name: N/A
 species.name: Dog (Shiba Inu)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Shiba_Inu
 ID: 302
 ---
 # #{ ID } - { title }

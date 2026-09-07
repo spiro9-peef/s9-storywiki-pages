@@ -9,9 +9,8 @@ age_offset: 13
 height: 5'6"
 sex: F
 maiden_name: N/A
-species.name: Dog (Labrador Retriever)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Dog (Goldador)
+species.url: https://en.wikipedia.org/wiki/List_of_dog_crossbreeds#Goldador
 ID: 145
 ---
 # #{ ID } - { title }

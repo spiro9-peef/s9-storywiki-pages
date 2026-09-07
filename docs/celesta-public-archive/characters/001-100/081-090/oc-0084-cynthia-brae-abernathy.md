@@ -9,8 +9,7 @@ height: 5'10"
 sex: F
 maiden_name: N/A
 species.name: Bat (Flying Fox)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Flying_fox
 ID: 84
 ---
 # #{ ID } - { title }

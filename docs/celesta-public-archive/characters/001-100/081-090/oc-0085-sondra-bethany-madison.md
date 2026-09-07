@@ -9,8 +9,7 @@ height: 7'6"
 sex: F
 maiden_name: N/A
 species.name: Glaceon
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon)
 ID: 85
 ---
 # #{ ID } - { title }

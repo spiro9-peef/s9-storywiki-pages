@@ -10,8 +10,7 @@ height: 7'1"
 sex: F
 maiden_name: N/A
 species.name: Manifestant (City)
-species.note: "WARNING: URL NEEDS CHECKING"
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 138
 ---
 # #{ ID } - { title }

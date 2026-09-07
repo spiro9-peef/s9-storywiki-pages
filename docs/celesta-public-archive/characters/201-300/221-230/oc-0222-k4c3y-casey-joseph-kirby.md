@@ -9,8 +9,7 @@ height: 5'10"
 sex: M
 maiden_name: N/A
 species.name: Synthetic
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/synthetics.md
 ID: 222
 ---
 # #{ ID } - { title }

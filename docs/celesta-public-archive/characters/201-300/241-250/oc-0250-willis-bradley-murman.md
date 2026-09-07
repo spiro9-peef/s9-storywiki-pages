@@ -9,8 +9,7 @@ height: 7'
 sex: M
 maiden_name: N/A
 species.name: Brown Bear
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Brown_bear
 ID: 250
 ---
 # #{ ID } - { title }

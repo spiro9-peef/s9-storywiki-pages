@@ -8,9 +8,8 @@ dob: 2019-11-23
 height: 3'8" (as adult)
 sex: F
 maiden_name: N/A
-species.name: American Robin
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Robin
+species.url: https://en.wikipedia.org/wiki/American_robin
 ID: 194
 ---
 # #{ ID } - { title }

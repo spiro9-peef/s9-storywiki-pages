@@ -9,8 +9,7 @@ height: 5'4"
 sex: F
 maiden_name: N/A
 species.name: Avipine (Fox + Generic Bird)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/hybrids/aviabrids/avipines/index.md
 ID: 175
 ---
 # #{ ID } - { title }

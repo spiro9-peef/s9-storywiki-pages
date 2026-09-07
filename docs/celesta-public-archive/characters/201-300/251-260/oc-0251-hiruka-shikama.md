@@ -9,8 +9,7 @@ height: 3'2"
 sex: F
 maiden_name: N/A
 species.name: Red Panda
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Red_panda
 ID: 251
 ---
 # #{ ID } - { title }

@@ -9,8 +9,7 @@ height: 6'3"
 sex: F
 maiden_name: N/A
 species.name: Rabbit
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Rabbit
 ID: 174
 ---
 # #{ ID } - { title }

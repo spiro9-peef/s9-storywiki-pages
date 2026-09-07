@@ -9,8 +9,7 @@ height: 6'10"
 sex: F
 maiden_name: N/A
 species.name: Merfolk
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/merfolk.md
 ID: 204
 ---
 # #{ ID } - { title }

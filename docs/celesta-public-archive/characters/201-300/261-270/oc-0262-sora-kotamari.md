@@ -9,8 +9,7 @@ height: 6'4"
 sex: F
 maiden_name: N/A
 species.name: Cougar
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Cougar
 ID: 262
 ---
 # #{ ID } - { title }

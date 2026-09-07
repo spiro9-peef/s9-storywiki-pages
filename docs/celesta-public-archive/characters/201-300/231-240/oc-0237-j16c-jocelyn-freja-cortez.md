@@ -9,8 +9,7 @@ height: 6'2"
 sex: F
 maiden_name: N/A
 species.name: Synthetic (Cat)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/synthetics.md
 ID: 237
 ---
 # #{ ID } - { title }

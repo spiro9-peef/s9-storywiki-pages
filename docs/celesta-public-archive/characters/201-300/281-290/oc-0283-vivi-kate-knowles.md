@@ -9,8 +9,7 @@ height: 5'1"
 sex: F
 maiden_name: N/A
 species.name: Avinine (Wolf + Barn Owl)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/hybrids/aviabrids/avinines.md
 ID: 283
 ---
 # #{ ID } - { title }

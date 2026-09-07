@@ -9,8 +9,7 @@ height: 8'4"
 sex: M
 maiden_name: N/A
 species.name: Slime (Flan)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/slimes/index.md
 ID: 254
 ---
 # #{ ID } - { title }

@@ -9,8 +9,7 @@ height: 4'9"
 sex: F
 maiden_name: N/A
 species.name: Chicken
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Chicken
 ID: 164
 ---
 # #{ ID } - { title }

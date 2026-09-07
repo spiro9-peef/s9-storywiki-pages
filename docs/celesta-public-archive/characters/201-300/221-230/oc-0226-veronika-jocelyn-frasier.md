@@ -9,8 +9,7 @@ height: 5'9"
 sex: F
 maiden_name: N/A
 species.name: Dragon (Crystal)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/dragons/index.md
 ID: 226
 ---
 # #{ ID } - { title }

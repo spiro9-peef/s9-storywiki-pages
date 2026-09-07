@@ -9,8 +9,7 @@ height: 3'5"
 sex: M
 maiden_name: N/A
 species.name: Okinawa Woodpecker
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Okinawa_woodpecker
 ID: 246
 ---
 # #{ ID } - { title }

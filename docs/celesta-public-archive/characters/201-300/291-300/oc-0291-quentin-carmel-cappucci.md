@@ -9,8 +9,7 @@ height: 8'1"
 sex: M
 maiden_name: N/A
 species.name: Slime (Coffee)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/slimes/index.md
 ID: 291
 ---
 # #{ ID } - { title }

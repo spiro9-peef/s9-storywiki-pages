@@ -9,8 +9,7 @@ height: 2'7"
 sex: M
 maiden_name: N/A
 species.name: Kobold
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/dragons/kobolds.md
 ID: 267
 ---
 # #{ ID } - { title }

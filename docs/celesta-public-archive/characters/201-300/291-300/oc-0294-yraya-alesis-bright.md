@@ -8,9 +8,8 @@ dob: 1998-04-14
 height: 4'2"
 sex: F
 maiden_name: N/A
-species.name: Folf
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Foxwolf
+species.url: /celesta-public-archive/science/biology/hybrids/foxwolves.md
 ID: 294
 ---
 # #{ ID } - { title }

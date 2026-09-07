@@ -9,8 +9,7 @@ height: 5'2"
 sex: M
 maiden_name: N/A
 species.name: Owl
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Owl
 ID: 247
 ---
 # #{ ID } - { title }

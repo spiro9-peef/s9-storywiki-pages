@@ -9,8 +9,7 @@ height: 7'2"
 sex: F
 maiden_name: N/A
 species.name: Cataram
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/hybrids/catarams.md
 ID: 313
 ---
 # #{ ID } - { title }

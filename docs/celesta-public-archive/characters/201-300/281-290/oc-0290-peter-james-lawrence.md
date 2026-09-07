@@ -9,8 +9,7 @@ height: 5'5"
 sex: M
 maiden_name: N/A
 species.name: Wolf
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Wolf
 ID: 290
 ---
 # #{ ID } - { title }

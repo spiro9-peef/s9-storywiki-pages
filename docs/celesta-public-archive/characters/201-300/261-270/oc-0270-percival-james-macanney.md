@@ -9,8 +9,7 @@ height: 4'4"
 sex: M
 maiden_name: N/A
 species.name: Parakeet
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Parakeet
 ID: 270
 ---
 # #{ ID } - { title }

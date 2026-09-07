@@ -9,8 +9,7 @@ height: 4'8"
 sex: F
 maiden_name: N/A
 species.name: Rhylian
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/hybrids/aviabrids/avipines/rhylians.md
 ID: 300
 ---
 # #{ ID } - { title }

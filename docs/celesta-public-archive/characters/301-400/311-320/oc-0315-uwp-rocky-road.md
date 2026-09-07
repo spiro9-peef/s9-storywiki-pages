@@ -8,8 +8,8 @@ dob: 1999-01-01
 height: 5'10"
 sex: M
 maiden_name: N/A
-species.name: Human
-species.url: https://en.wikipedia.org/wiki/Human
+species.name: Cat
+species.url: https://en.wikipedia.org/wiki/Cat
 ID: 315
 ---
 # #{ ID } - { title }

@@ -9,8 +9,7 @@ height: 6'3"
 sex: F
 maiden_name: N/A
 species.name: Cinderace
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://bulbapedia.bulbagarden.net/wiki/Cinderace_(Pok%C3%A9mon)
 ID: 98
 ---
 # #{ ID } - { title }

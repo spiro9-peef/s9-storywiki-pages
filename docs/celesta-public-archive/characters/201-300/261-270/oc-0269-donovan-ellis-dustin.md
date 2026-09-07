@@ -9,8 +9,7 @@ height: 7'5"
 sex: M
 maiden_name: N/A
 species.name: African Elephant
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/African_elephant
 ID: 269
 ---
 # #{ ID } - { title }

@@ -9,8 +9,7 @@ height: 4'11"
 sex: M
 maiden_name: N/A
 species.name: Cat
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Cat
 ID: 243
 ---
 # #{ ID } - { title }

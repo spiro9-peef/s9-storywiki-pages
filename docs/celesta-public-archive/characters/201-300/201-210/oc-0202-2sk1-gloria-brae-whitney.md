@@ -9,8 +9,7 @@ height: 5'6"
 sex: F
 maiden_name: N/A
 species.name: Cyborg (Aviline (Generic))
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/hybrids/aviabrids/avilines.md
 ID: 202
 ---
 # #{ ID } - { title }

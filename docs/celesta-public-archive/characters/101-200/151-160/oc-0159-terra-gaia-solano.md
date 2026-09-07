@@ -10,8 +10,7 @@ height: 8359'11" (normal) | 7'2" (social)
 sex: F
 maiden_name: N/A
 species.name: Manifestant (Celestial Body)
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/manifestants.md
 ID: 159
 ---
 # #{ ID } - { title }

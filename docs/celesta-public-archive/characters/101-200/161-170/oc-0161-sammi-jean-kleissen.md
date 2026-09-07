@@ -9,8 +9,7 @@ height: 8'3"
 sex: F
 maiden_name: N/A
 species.name: Shark
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: https://en.wikipedia.org/wiki/Shark
 ID: 161
 ---
 # #{ ID } - { title }

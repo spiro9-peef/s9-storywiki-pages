@@ -9,8 +9,7 @@ height: 32'4" (normal) | 6'2" (social)
 sex: F
 maiden_name: N/A
 species.name: Cirran
-species.note: 'WARNING: URL NEEDS CHECKING'
-species.url: https://en.wikipedia.org/wiki/Human
+species.url: /celesta-public-archive/science/biology/changed/cirrans.md
 ID: 147
 ---
 # #{ ID } - { title }
