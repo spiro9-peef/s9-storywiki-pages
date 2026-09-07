@@ -121,6 +121,7 @@ def batch_clean_all():
     tp03 = "{% if current_species.name != \"N/A\" && current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
     rp03 = "{% if current_species.name != \"N/A\" and current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
     rp03B = "{% if current_species.name is defined and current_species.url is defined and if current_species.name != \"N/A\" and current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
+    rp03C = "{% if current_species.name is defined and current_species.url is defined and current_species.name != \"N/A\" and current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
     base_dir = Path("docs/celesta-public-archive/characters")
     
     cleaned_count = 0
@@ -151,6 +152,12 @@ def batch_clean_all():
                 cleaned_count += 1
             new_content = new_content.replace(rp03, rp03B)
             lines = new_content.splitlines() # Sanity check
+        if rp03B in new_content:
+            if tp01 not in content and tp02 not in content and not current_species_inserted:
+                current_species_inserted = True
+                cleaned_count += 1
+            new_content = new_content.replace(rp03B, rp03C)
+            lines = new_content.splitlines() # Sanity check
 
         for line in lines:
             line_stripped = line.strip()
@@ -159,7 +166,7 @@ def batch_clean_all():
                 line_next = lines[lines.index(line) + 1]
                 line_next_stripped = line_next.strip()
                 if not line_next_stripped.lower().startswith("{% if current_species.name"):
-                    updated_lines.append(rp03B)
+                    updated_lines.append(rp03C)
                     current_species_inserted = True
                     cleaned_count += 1
                 continue

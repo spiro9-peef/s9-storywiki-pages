@@ -25,7 +25,7 @@ Biological Age: { age }
 Chronological Age: { chronological_age } (b. { dob })  
 Base Height: { height }  
 Base Species: [{ species.name }]({ species.url })   
-{% if current_species.name is defined and current_species.url is defined and if current_species.name != "N/A" and current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
+{% if current_species.name is defined and current_species.url is defined and current_species.name != "N/A" and current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
 Base Hair Color: Ginger  
 Base Eye Color: Heterochromia - Blue | Hazel  
