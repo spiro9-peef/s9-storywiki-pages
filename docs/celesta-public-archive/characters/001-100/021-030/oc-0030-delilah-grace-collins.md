@@ -9,7 +9,7 @@ height: 5'3"
 sex: F
 maiden_name: N/A
 species.name: Merfolk
-species.url: /celesta-public-archive/science/biology/merfolk.md
+species.url: /celesta-public-archive/science/biology/hybrids/merfolk.md
 ID: 30
 ---
 # #{ ID } - { title }

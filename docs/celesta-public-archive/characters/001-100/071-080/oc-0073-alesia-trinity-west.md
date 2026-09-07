@@ -9,7 +9,7 @@ height: 4'7"
 sex: F
 maiden_name: N/A
 species.name: Faerie (Cat)
-species.url: /celesta-public-archive/science/biology/faerie.md
+species.url: /celesta-public-archive/science/biology/hybrids/faerie.md
 ID: 73
 ---
 # #{ ID } - { title }

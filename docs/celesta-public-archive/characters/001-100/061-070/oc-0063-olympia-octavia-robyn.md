@@ -9,7 +9,7 @@ height: 6'2"
 sex: F
 maiden_name: N/A
 species.name: Faerie
-species.url: /celesta-public-archive/science/biology/faerie.md
+species.url: /celesta-public-archive/science/biology/hybrids/faerie.md
 ID: 63
 ---
 # #{ ID } - { title }
