@@ -8,7 +8,7 @@ dob: 2002-08-28
 height: 6'3"
 sex: F
 maiden_name: N/A
-species.name: Gardevoir
+species.name: Pokémon, Gardevoir
 species.url: https://bulbapedia.bulbagarden.net/wiki/Gardevoir_(Pok%C3%A9mon)
 ID: 61
 ---

@@ -8,7 +8,7 @@ dob: 2002-08-05
 height: 5'2"
 sex: F
 maiden_name: N/A
-species.name: Lopunny
+species.name: Pokémon, Lopunny
 species.url: https://bulbapedia.bulbagarden.net/wiki/Lopunny_(Pok%C3%A9mon)
 ID: 34
 ---

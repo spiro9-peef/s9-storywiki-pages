@@ -8,7 +8,7 @@ dob: 2002-07-18
 height: 4'6"
 sex: F
 maiden_name: N/A
-species.name: Lilligant
+species.name: Pokémon, Lilligant
 species.url: https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon)
 ID: 62
 ---

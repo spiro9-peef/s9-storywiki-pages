@@ -8,7 +8,7 @@ dob: 2003-01-22
 height: 5'1"
 sex: F
 maiden_name: N/A
-species.name: Eevee
+species.name: Pokémon, Eevee
 species.url: https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)
 ID: 33
 ---

@@ -8,7 +8,7 @@ dob: 2000-12-20
 height: 7'6"
 sex: F
 maiden_name: N/A
-species.name: Glaceon
+species.name: Pokémon, Glaceon
 species.url: https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon)
 ID: 85
 ---
