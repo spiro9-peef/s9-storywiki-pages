@@ -2,10 +2,10 @@
 title: Rocky Road
 sidebar: 315 - Rocky Road
 nicknames: N/A
-online_aliases: N/A
+online_aliases: RockyRawrs
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
+dob: 2003-06-03
+height: 5'9"
 sex: M
 maiden_name: N/A
 species.name: Cat

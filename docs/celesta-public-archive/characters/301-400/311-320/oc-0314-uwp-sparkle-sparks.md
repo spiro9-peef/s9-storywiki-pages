@@ -1,11 +1,11 @@
 ---
 title: Sparkle Sparks
 sidebar: 314 - Sparkle Sparks
-nicknames: Sparks, Spark
-online_aliases: N/A
+nicknames: Sparks, Spark, Nyakemi
+online_aliases: SparkleNyas, Sparkle, SparkleNyasWaffles
 universe: rotc
-dob: 1999-01-01
-height: 5'10"
+dob: 2004-04-27
+height: 4'11"
 sex: F
 maiden_name: N/A
 species.name: Dog (Chihuahua)
