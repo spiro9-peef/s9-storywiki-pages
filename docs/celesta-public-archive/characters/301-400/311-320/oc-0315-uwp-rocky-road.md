@@ -4,7 +4,7 @@ sidebar: 315 - Rocky Road
 nicknames: N/A
 online_aliases: RockyRawrs
 universe: rotc
-dob: 2003-06-03
+dob: 2003-12-05
 height: 5'9"
 sex: M
 maiden_name: N/A
