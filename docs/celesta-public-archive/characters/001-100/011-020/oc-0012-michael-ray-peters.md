@@ -26,32 +26,32 @@ Base Height: { height }
 Base Species: [{ species.name }]({ species.url })   
 {% if current_species is defined and current_species.name is defined and current_species.url is defined and current_species.name != "N/A" and current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
-Base Hair Color: Brown  
-Base Eye Color: Brown  
+Base Hair Color: Blonde  
+Base Eye Color: Blue  
 Base Fur/Skin Color or Pattern: White  
-Country/Place of Birth/Primary Heritage: United States  
+Country/Place of Birth/Primary Heritage: [United States](/celesta-public-archive/locations/americas/north-america/usa/index.md)  
   
 Disabilities & Conditions  
-N/A  
+Slight farsightedness  
   
 Additional Notes  
-N/A
+Slightly muscular
 
 ### Psyche
 
-Intellectual Quotient: TBD  
-Emotional Quotient: TBD  
-Temperament: TBD  
-Cognitive Style: TBD  
+Intellectual Quotient: 125  
+Emotional Quotient: 118  
+Temperament: Calm, confident  
+Cognitive Style: Organized  
   
 Disabilities & Conditions  
 N/A
 
 ### Personal Style
 
-Main/Preferred Outfit: TBD  
-Preferred Fashion Choices: TBD  
-Preferred Color Schemes: TBD  
+Main/Preferred Outfit: Button-up, slacks, and tie, optionally an Irish cap  
+Preferred Fashion Choices: Formal/dress clothes  
+Preferred Color Schemes: White, brown, gray and black  
   
 Additional Outfits  
 N/A
