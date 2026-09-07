@@ -3,7 +3,7 @@ title: Celestium
 ---
 # Celestium
 #### Mineral Element
-
+![Periodic Table Visual|368](https://raw.githubusercontent.com/spiro9-peef/s9-storywiki-assets/refs/heads/main/celestium/ptel_2026.png) 
 ## Synopsis
 
 **Celestium (Cx)** is a mineral element that serves as a central concept in the ROTC universe. It does not have a standard mapping on the periodic table and therefore must be placed to one side. It has few standard properties, making it an extremely enigmatic and often unpredictable element for engineers and researchers to work with. However, common to celestium is a high concentration of reons (aka "reality particles"), subatomic particles capable of altering or manipulating reality, as well as being thrown as radiation. When celestium throws off reons, the resulting radiation is known as **celestium radiation, celerad(iation), or C-RAD**.
