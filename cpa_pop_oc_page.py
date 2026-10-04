@@ -8,6 +8,19 @@ from datetime import date
 TEMPLATE_PATH = Path("_Templates/oc-xxxx-first-middle-last.md")
 BASE_CHAR_DIR = Path("docs/celesta-public-archive/characters")
 
+# --- UTILITY ---
+# Your target HTML layout template (using raw.githubusercontent links or relative paths)
+# We can use regex to dynamically insert the correct character ID into the image URL if needed
+TEMPLATE_CHAR_PORT = """
+<div align="right" style="float: right; width: 300px; margin-left: 20px; margin-bottom: 15px;">
+  <img src="https://raw.githubusercontent.com/spiro9-peef/s9-storywiki-assets/cpa/oc/portraits/{char_id}.png" 
+       alt="Character Portrait" 
+       style="width: 100%; border-radius: 4px;" 
+       onerror="this.src='https://raw.githubusercontent.com/spiro9-peef/s9-storywiki-assets/cpa/oc/portraits/placeholder.png'" />
+  <div style="text-align: center; font-size: 0.85em; opacity: 0.8; margin-top: 5px;">Portrait</div>
+</div>
+"""
+
 def ensure_nav_file(folder_path: Path, title_text: str):
     #Ensures a nav.yml file exists inside the given directory.
     nav_file = folder_path / "nav.yml"
@@ -111,7 +124,31 @@ def pagemake(firstAttempt = True):
     file_path.write_text(new_content, encoding="utf-8")
     print(f"\n[Success] Created new page: {file_path.resolve()}")
 
+def read_frontmatter_value(file_path: Path, target_key: str):
+    # Reads a specific frontmatter key from a markdown file.
+    in_frontmatter = False
+    
+    with open(file_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line_stripped = line.strip()
+            
+            # Check for frontmatter boundaries
+            if line_stripped == "---":
+                if in_frontmatter:
+                    break # We passed the end of the frontmatter block
+                in_frontmatter = True
+                continue
+            
+            if in_frontmatter and ":" in line_stripped:
+                key, value = line_stripped.split(":", 1)
+                if key.strip() == target_key:
+                    return value.strip()
+                    
+    return None
+
 def batch_clean_all():
+    base_dir = Path("docs/celesta-public-archive/characters")
+    
     tp01 = "{% if nicknames != \"N/A\" %}Nickname(s): { nicknames }<br>{% endif %}{% if online_aliases != \"N/A\" %}Alias(es): { online_aliases }<br>{% endif %}"
     rp01 = "{% if nicknames != \"N/A\" %}Nickname(s): { nicknames }<br>{% endif -%}{% if online_aliases != \"N/A\" %}Alias(es): { online_aliases }<br>{% endif -%}"
 
@@ -123,11 +160,18 @@ def batch_clean_all():
     rp03B = "{% if current_species.name is defined and current_species.url is defined and if current_species.name != \"N/A\" and current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
     rp03C = "{% if current_species.name is defined and current_species.url is defined and current_species.name != \"N/A\" and current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
     rp03D = "{% if current_species is defined and current_species.name is defined and current_species.url is defined and current_species.name != \"N/A\" and current_species.url != \"N/A\" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}"
-    base_dir = Path("docs/celesta-public-archive/characters")
     
     cleaned_count = 0
     for file_path in base_dir.glob("**/*.md"):
         content = file_path.read_text(encoding="utf-8")
+
+        raw_id = read_frontmatter_value(file_path, "ID")
+        if raw_id and str(raw_id).strip() != "N/A":
+            idX = int(raw_id)
+            tp04 = TEMPLATE_CHAR_PORT.strip().format(char_id=idX)
+        else:
+            tp04 = TEMPLATE_CHAR_PORT.strip().format(char_id=0)
+        
         new_content = content
         if tp01 in new_content:
             cleaned_count += 1
@@ -140,6 +184,7 @@ def batch_clean_all():
         lines = new_content.splitlines()
         updated_lines = []
         current_species_inserted = False
+        has_portrait = False
 
         if tp03 in new_content:
             if tp01 not in content and tp02 not in content:
@@ -166,8 +211,16 @@ def batch_clean_all():
             new_content = new_content.replace(rp03C, rp03D)
             lines = new_content.splitlines() # Sanity check
 
+        if tp04 in new_content:
+            has_portrait = True # Skip this change
+
         for line in lines:
             line_stripped = line.strip()
+            if line_stripped.lower().startswith("# #{ id } - { title }") and not has_portrait:
+                updated_lines.append(line)
+                updated_lines.append(tp04)
+                has_portrait = True
+                cleaned_count += 1
             if line_stripped.lower().startswith("base species:") and not current_species_inserted:
                 updated_lines.append(line)
                 line_next = lines[lines.index(line) + 1]
@@ -199,28 +252,6 @@ def get_bool_from_input(prompt, input_str):
         flag = get_bool_from_input(prompt, input(prompt))
 
     return flag
-
-def read_frontmatter_value(file_path: Path, target_key: str):
-    # Reads a specific frontmatter key from a markdown file.
-    in_frontmatter = False
-    
-    with open(file_path, "r", encoding="utf-8") as f:
-        for line in f:
-            line_stripped = line.strip()
-            
-            # Check for frontmatter boundaries
-            if line_stripped == "---":
-                if in_frontmatter:
-                    break # We passed the end of the frontmatter block
-                in_frontmatter = True
-                continue
-            
-            if in_frontmatter and ":" in line_stripped:
-                key, value = line_stripped.split(":", 1)
-                if key.strip() == target_key:
-                    return value.strip()
-                    
-    return None
 
 def get_pages():
     base_dir = Path("docs/celesta-public-archive/characters")
