@@ -221,6 +221,7 @@ def batch_clean_all():
                 updated_lines.append(tp04)
                 has_portrait = True
                 cleaned_count += 1
+                continue 
             if line_stripped.lower().startswith("base species:") and not current_species_inserted:
                 updated_lines.append(line)
                 line_next = lines[lines.index(line) + 1]

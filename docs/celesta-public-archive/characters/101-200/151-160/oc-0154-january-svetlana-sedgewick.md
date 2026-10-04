@@ -13,6 +13,13 @@ species.url: https://en.wikipedia.org/wiki/Owl
 ID: 154
 ---
 # #{ ID } - { title }
+<div align="right" style="float: right; width: 300px; margin-left: 20px; margin-bottom: 15px;">
+  <img src="https://raw.githubusercontent.com/spiro9-peef/s9-storywiki-assets/cpa/oc/portraits/154.png" 
+       alt="Character Portrait" 
+       style="width: 100%; border-radius: 4px;" 
+       onerror="this.src='https://raw.githubusercontent.com/spiro9-peef/s9-storywiki-assets/cpa/oc/portraits/placeholder.png'" />
+  <div style="text-align: center; font-size: 0.85em; opacity: 0.8; margin-top: 5px;">Portrait</div>
+</div>
 
 ## Biometrics
 
