@@ -20,6 +20,8 @@ TEMPLATE_CHAR_PORT = """
   <div style="text-align: center; font-size: 0.85em; opacity: 0.8; margin-top: 5px;">Portrait</div>
 </div>
 """
+TEMPLATE_CHAR_PORT_FIX_CHECK = "cpa/oc/portraits/"
+TEMPLATE_CHAR_PORT_FIX = "refs/heads/main/cpa/oc/portraits/"
 
 def ensure_nav_file(folder_path: Path, title_text: str):
     #Ensures a nav.yml file exists inside the given directory.
@@ -211,7 +213,11 @@ def batch_clean_all():
             new_content = new_content.replace(rp03C, rp03D)
             lines = new_content.splitlines() # Sanity check
 
-        if tp04 in new_content:
+        if tp04 in new_content or TEMPLATE_CHAR_PORT_FIX in new_content:
+            if TEMPLATE_CHAR_PORT_FIX_CHECK in new_content and TEMPLATE_CHAR_PORT_FIX not in new_content:
+                new_content = new_content.replace(TEMPLATE_CHAR_PORT_FIX_CHECK, TEMPLATE_CHAR_PORT_FIX)
+                lines = new_content.splitlines() # Sanity check
+                cleaned_count += 1
             has_portrait = True # Skip this change
 
         for line in lines:
