@@ -33,32 +33,33 @@ Base Height: { height }
 Base Species: [{ species.name }]({ species.url })   
 {% if current_species is defined and current_species.name is defined and current_species.url is defined and current_species.name != "N/A" and current_species.url != "N/A" %}Current Species: [{ current_species.name }]({ current_species.url })<br>{% endif -%}
 Sex: { sex }  
-Base Hair Color: Brown  
-Base Eye Color: Brown  
-Base Fur/Skin Color or Pattern: White  
-Country/Place of Birth/Primary Heritage: United States  
+Base Hair Color: Blonde  
+Base Eye Color: Blue  
+Base Fur/Skin Color or Pattern: Black w/ white stripe, single-stripe rounded-edge tail marking  
+Country/Place of Birth/Primary Heritage: [United States](/celesta-public-archive/locations/americas/north-america/usa/index.md)  
   
 Disabilities & Conditions  
-N/A  
+[CVCS](/celesta-public-archive/science/medical/cvcs.md) Type B2, Generic  
+Slight farsightedness  
   
 Additional Notes  
 N/A
 
 ### Psyche
 
-Intellectual Quotient: TBD  
-Emotional Quotient: TBD  
-Temperament: TBD  
-Cognitive Style: TBD  
+Intellectual Quotient: 127  
+Emotional Quotient: 129  
+Temperament: Bubbly  
+Cognitive Style: Focused  
   
 Disabilities & Conditions  
 N/A
 
 ### Personal Style
 
-Main/Preferred Outfit: TBD  
-Preferred Fashion Choices: TBD  
-Preferred Color Schemes: TBD  
+Main/Preferred Outfit: Red blazer & red slacks over cream-color turtleneck sweater, sometimes w/ press tag  
+Preferred Fashion Choices: Cozy and professional  
+Preferred Color Schemes: Warm colors  
   
 Additional Outfits  
 N/A
