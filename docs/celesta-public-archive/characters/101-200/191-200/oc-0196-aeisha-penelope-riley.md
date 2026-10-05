@@ -55,6 +55,13 @@ Cognitive Style: Focused
 Disabilities & Conditions  
 N/A
 
+<div align="right" style="float: right; width: 300px; margin-left: 20px; margin-bottom: 15px;">
+  <img src="https://raw.githubusercontent.com/spiro9-peef/s9-storywiki-assets/refs/heads/main/cpa/oc/portraits/196-pressbadge.png" 
+       alt="Press Badge" 
+       style="width: 100%; border-radius: 4px;" 
+       onerror="this.src='https://raw.githubusercontent.com/spiro9-peef/s9-storywiki-assets/refs/heads/main/cpa/oc/portraits/placeholder.png'" />
+  <div style="text-align: center; font-size: 0.85em; opacity: 0.8; margin-top: 5px;">Press Badge</div>
+</div>
 ### Personal Style
 
 Main/Preferred Outfit: Red blazer & red slacks over cream-color turtleneck sweater, sometimes w/ press tag  
