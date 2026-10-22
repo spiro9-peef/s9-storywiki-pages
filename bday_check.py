@@ -2,7 +2,6 @@ import os
 import yaml
 import requests
 from datetime import datetime, date
-from cryptography.fernet import Fernet
 
 # --- CONFIGURATION HUB ---
 CHARACTER_DIR = "docs/celesta-public-archive"
@@ -10,63 +9,17 @@ PUBLIC_CELEBRATION_WEBHOOK = "https://discord.com/api/webhooks/14764735376811623
 YOUR_NAME = "Jeremy David Peifer"
 SITE_BASE_URL = "https://spiro9-peef.github.io/s9-storywiki-pages/"  # Your automated site deployment base URL
 
-KEY_FILE = "wiki_secret.key"
-TOKEN_FILE = "token.enc"
-
-def get_or_create_token(initial_input_token=None):
-    """
-    Decrypts the existing token, rotates the key, and re-encrypts.
-    If no encrypted token file exists yet, it encrypts the provided initial token.
-    """
-    if not os.path.exists(KEY_FILE) or not os.path.exists(TOKEN_FILE):
-        if not initial_input_token:
-            raise ValueError("No token files found and no initial token provided!")
-        
-        # First-time setup: Generate key and encrypt the raw token
-        key = Fernet.generate_key()
-        f = Fernet(key)
-        encrypted_token = f.encrypt(initial_input_token.encode())
-        
-        with open(KEY_FILE, "wb") as kf:
-            kf.write(key)
-        with open(TOKEN_FILE, "wb") as tf:
-            tf.write(encrypted_token)
-        
-        return initial_input_token
-
-    # Standard run: Read key and current ciphertext
-    with open(KEY_FILE, "rb") as kf:
-        current_key = kf.read()
-    with open(TOKEN_FILE, "rb") as tf:
-        current_encrypted_token = tf.read()
-
-    # Decrypt to get the plain-text token for the API call
-    f_old = Fernet(current_key)
-    plain_token = f_old.decrypt(current_encrypted_token).decode()
-
-    # Rotation: Generate a fresh key, wrap the token again, and save
-    new_key = Fernet.generate_key()
-    f_new = Fernet(new_key)
-    new_encrypted_token = f_new.encrypt(plain_token.encode())
-
-    with open(KEY_FILE, "wb") as kf:
-        kf.write(new_key)
-    with open(TOKEN_FILE, "wb") as tf:
-        tf.write(new_encrypted_token)
-
-    return plain_token
-
 def update_site():
     # Replace these variables with your actual repository details
     OWNER = "spiro9-peef"
     REPO = "s9-storywiki-pages"
     WORKFLOW_FILE = "deploy.yml"  # Match your exact filename in .github/workflows/
     
-    # On the very first run, pass your raw token here. 
-    # After that, leave it empty/None and it will handle everything internally.
-    RAW_INITIAL_TOKEN = "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"  # e.g., "ghp_xxxxxxxxxxxx" only for run #1
+    # Pulls the secret securely from the GitHub Actions environment
+    token = os.environ.get("MY_WIKI_PAT")
     
-    token = get_or_create_token(RAW_INITIAL_TOKEN)
+    if not token:
+        raise ValueError("Token not found in environment variables.")
 
     url = f"https://api.github.com/repos/{OWNER}/{REPO}/actions/workflows/{WORKFLOW_FILE}/dispatches"
 
