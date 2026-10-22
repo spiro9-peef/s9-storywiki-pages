@@ -9,6 +9,33 @@ PUBLIC_CELEBRATION_WEBHOOK = "https://discord.com/api/webhooks/14764735376811623
 YOUR_NAME = "Jeremy David Peifer"
 SITE_BASE_URL = "https://spiro9-peef.github.io/s9-storywiki-pages/"  # Your automated site deployment base URL
 
+def update_site():
+    # Replace these variables with your actual repository details
+    OWNER = "spiro9-peef"
+    REPO = "s9-storywiki-pages"
+    WORKFLOW_FILE = "deploy.yml"  # Match your exact filename in .github/workflows/
+    GITHUB_TOKEN = "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"  # Requires repo or workflow scope
+
+    url = f"https://api.github.com/repos/{OWNER}/{REPO}/actions/workflows/{WORKFLOW_FILE}/dispatches"
+
+    headers = {
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+
+    # The ref can be a branch name like "main"
+    data = {
+        "ref": "main"
+    }
+
+    response = requests.post(url, headers=headers, json=data)
+
+    if response.status_code == 204:
+        print("Deployment workflow triggered successfully!")
+    else:
+        print(f"Failed to trigger workflow: {response.status_code} - {response.text}")
+
 def parse_date(date_input):
     if not date_input: return None
     if isinstance(date_input, str):
@@ -96,6 +123,7 @@ def execute_anniversary_run():
     if public_embeds:
         payload = {"content": "🎊 **Archive Anniversary Detected!**", "embeds": public_embeds}
         requests.post(PUBLIC_CELEBRATION_WEBHOOK, json=payload)
+        update_site()
 
 if __name__ == "__main__":
     execute_anniversary_run()
