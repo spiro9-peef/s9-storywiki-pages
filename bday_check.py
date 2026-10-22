@@ -16,7 +16,7 @@ def update_site():
     WORKFLOW_FILE = "deploy.yml"  # Match your exact filename in .github/workflows/
     
     # Pulls the secret securely from the GitHub Actions environment
-    token = os.environ.get("MY_WIKI_PAT")
+    token = os.environ.get("ACCESSOR_TOKEN")
     
     if not token:
         raise ValueError("Token not found in environment variables.")
@@ -132,4 +132,3 @@ def execute_anniversary_run():
 
 if __name__ == "__main__":
     execute_anniversary_run()
-    update_site() # Test
