@@ -132,3 +132,4 @@ def execute_anniversary_run():
 
 if __name__ == "__main__":
     execute_anniversary_run()
+    update_site() # Test
