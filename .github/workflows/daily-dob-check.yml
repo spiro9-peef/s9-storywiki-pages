@@ -22,4 +22,6 @@ jobs:
         run: pip install pyyaml requests
 
       - name: Run Birthday Script
+        env:
+            ACCESSOR_TOKEN: ${{ secrets.ACCESSOR_TOKEN }}
         run: python bday_check.py
